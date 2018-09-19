@@ -264,7 +264,7 @@
         </news>
 	</extension>
 </addon>
-<addon id="skin.titan.mod.beta.leia" version="18.1.5" name="T i t a n - M O D (BETA)" provider-name="marduk,cartmandos,marcelveldt,mgonzales">
+<addon id="skin.titan.mod.beta.leia" version="18.1.6" name="T i t a n - M O D (BETA)" provider-name="mardukl,cartman.dos,marcelveldt,mgonzales">
 	<requires>
 		<import addon="xbmc.gui" version="5.13.0" />		
 		<import addon="script.skinshortcuts" version="0.6.5"/>
@@ -342,4 +342,5 @@
         </news>
 	</extension>
 </addon>
+
 </addons>
