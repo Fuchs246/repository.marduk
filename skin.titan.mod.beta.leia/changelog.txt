@@ -1,12 +1,12 @@
 
 
-## Marduk : in progress  version	~	xx.1.6		(xx-09-2018)	
-	- add play / wath button for PVR info
-	- fixed var for duration
+## Marduk : in progress  version	~	18.1.6 / 17.1.3		(xx-09-2018)	, now available via repo / updates via git
+	- add play / wath button for PVR info (Laia Only)
+	- fixed var for duration (Laia Only)
 	- clean up some variables , removed useless tags and variables
-	- add n/a entry if missing mpaa (over all, =var)
-	- add total seasons (singular/plural formats) for focused TV shows in netflix home2 / Netflix dialog
-	- temporally fixed label for spotlight details row (pvr times, removed date from the time from date [hhhh:mm]) ,LEIA BUG
+	- add n/a entry if missing mpaa (over all, =var) (Laia Only)
+	- add total seasons (singular/plural formats) for focused TV shows in netflix home2 / Netflix dialog (Laia Only)
+	- temporally fixed label for spotlight details row (pvr times, removed date from the time from date [hhhh:mm]) ,LEIA BUG (Laia Only)
 						-> https://forum.kodi.tv/showthread.php?tid=330994&pid=2768212#pid2768212
 	- fixed a typo in studio logo var (double ">">)
 
