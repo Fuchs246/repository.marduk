@@ -1,18 +1,40 @@
 
-## Marduk : in progress	~	18.1.7(Leia)	(19-09-2018)	
-	- fixed missing contidion for mpaa - show just n/a for missing - movie,tvshow,episode,musicvideo
-
+## Marduk : in progress	~	18.1.7	(##-09-2018)	
+	
+	# '' all versions ''
+		- netflix videoinfo : always prefer locally stored trailers, fallback is scraped trailer-infostring
+		- netflix videoinfo : fixed close trailer playback for tv shows, if try go fullscreen
+		- netflix videoinfo : fixed, missing trailer button for tv shows in info
+		- netflix videoinfo : fixed trailer behaviour (running in bg), via fadeanimations and code cleanup
+		- netflix videoinfo : removed custom fs button, use a var and conditions instead, since its not an togglebotton
+	
+		''K R Y P T O N ''
+		
+	
+		'' L E I A ''
+		- fixed missing contidion for mpaa - show just n/a for missing - movie,tvshow,episode,musicvideo, unsure if i should use just an seperotor " | " instead of an n/a with image, like i did in krypton version
+		
 
 ## Marduk : in progress  (repo udate test version) / 	~	18.1.6 / 17.1.3		(19-09-2018)	, now available via repo / updates via git
-	- add play / wath button for PVR info (Laia Only)
-	- fixed var for duration (Laia Only)
+	
 	- clean up some variables , removed useless tags and variables
-	- add n/a entry if missing mpaa (over all, =var) (Laia Only)
-	- add total seasons (singular/plural formats) for focused TV shows in netflix home2 / Netflix dialog (Laia Only)
+	- fixed a typo in studio logo var (double ">">)
+	
+	'' L E I A ''
+	- add "play" / "watch now" button for PVR info
+	- fixed var for duration
+	- add n/a entry if missing mpaa (over all, =var)	
+	- add total seasons (singular/plural formats) for focused TV shows in netflix home2 / Netflix dialog
 	- temporally fixed label for spotlight details row (pvr times, removed date from the time from date [hhhh:mm]) ,LEIA BUG (Laia Only)
 						-> https://forum.kodi.tv/showthread.php?tid=330994&pid=2768212#pid2768212
-	- fixed a typo in studio logo var (double ">">)
 
+
+	
+
+	
+	
+	- reomoved unused scrollbar in netflix videoinfo
+	- add missing Skinsetting (Netflix views-> use same color for text audio/video codec frames )
 	
 ## Marduk : released version	~	18.1.5(Leia) / 17.1.4(Krypton)		(14-09-2018)		
 	
