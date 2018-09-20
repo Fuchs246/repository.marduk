@@ -24,11 +24,13 @@
 	#reported 	by USER=nonJon				- elif is_int:
 											+ elif not is_int:	
 
-1.1.25 
-- fixed playtrailer method (and also ignoring dirs on youtube)
+1.1.25
+*cartman.dos
+- fixed playtrailer method (and also ignoring dirs on youtube) 
 - added new method: playtraileryoutube
-- added new listitem property - CastListing.
-- replaced all IsEmpty with String.IsEmpty
+- added new listitem property - CastListing
+*marduk
+- replaced remaining IsEmpty with String.IsEmpty
 
 API:
 CastListing -
