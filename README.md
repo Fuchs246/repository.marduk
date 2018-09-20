@@ -8,7 +8,7 @@
 > - updated version  of **marcelveldt's** busyspinners.basic just to have some new busyloader images
 >
 > - updated version  of **Martijn's** artwork.downloader , updated by **burekas**
->           Entering the API keys is done now through the addon's settings "API Keys" category
+>      - Entering the API keys is done now through the addon's settings "API Keys" category
 >
 > - included "Rector Stuff Repo" - from **rmrector**
 >
