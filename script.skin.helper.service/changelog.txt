@@ -1,7 +1,34 @@
-1.1.25
+1.1.26~alpha
+- 	fix wrong/double id lang strings 
+	*strings.po, line 128: 	( fix double entry )
+				#reported by USER=pdf	- msgctxt "#32025" 
+										+ msgctxt "#32026"
+										
+- 	fix Don't refresh player properties after un-pausing playback)	
+	* kodi.monitor.py, line 62:						
+				#reported 	by USER=mistervee 			- if not self.monitoring_stream:
+														+ if not self.monitoring_stream and not getCondVisibility("Player.DisplayAfterSeek"):
+														
+-	fix (Not able to set anything other than booleans with this functionality.	
+								RunScript(script.skin.helper.service,action=setkodisetting,setting=[NAME OF THE SETTING IN GUISETTINGS],value=[VALUE FOR THE SETTING])
+
+								For example, this works:
+								<onload>RunScript(script.skin.helper.service,action=setkodisetting,setting=myvideos.extractchapterthumbs,value=false)</onload>
+
+								This does not:
+								<onload>RunScript(script.skin.helper.service,action=setkodisetting,setting=myvideos.selectaction,value=3)</onload>
+
+								Cannot set ints or strings. Tested on Krypton and Leia.
+
+
+	#reported 	by USER=nonJon				- elif is_int:
+											+ elif not is_int:	
+
+1.1.25 
 - fixed playtrailer method (and also ignoring dirs on youtube)
 - added new method: playtraileryoutube
 - added new listitem property - CastListing.
+- replaced all IsEmpty with String.IsEmpty
 
 API:
 CastListing -
