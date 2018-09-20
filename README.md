@@ -16,6 +16,6 @@
 
 
 ## actual skin files
-    - [skin.titan - krypton](https://github.com/marduklev/skin.titan.krypton.mod/)
-	
-	- [skin.titan - leia](https://github.com/marduklev/skin.titan.mod.beta.leia/)
+> [skin.titan - krypton](https://github.com/marduklev/skin.titan.krypton.mod/)
+> 	
+> [skin.titan - leia](https://github.com/marduklev/skin.titan.mod.beta.leia/)
