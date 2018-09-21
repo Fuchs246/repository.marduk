@@ -202,7 +202,7 @@
 		<source>https://github.com/marcelveldt/script.skin.helper.skinbackup</source>
 	</extension>
 </addon>
-<addon id="skin.titan.krypton.mod" version="17.1.3" name="Titan BETA MOD for Kodi KRYPTON" provider-name="marcelveldt,mgonzales,marduk,cartmandos">
+<addon id="skin.titan.krypton.mod" version="17.1.7" name="T i t a n - M O D (BETA) for KRYPTON" provider-name="marcelveldt,mgonzales,marduk,cartmandos">
 	<requires>
 		<import version="5.12.0" addon="xbmc.gui"/>		
 		<import addon="script.skinshortcuts" version="0.6.5"/>
@@ -210,7 +210,6 @@
         <import addon="script.skin.helper.widgets" version="1.0.0"/>
         <import addon="script.skin.helper.backgrounds" version="1.0.0"/>
         <import addon="resource.uisounds.titan.modern" version="1.0.0"/>
-		<import addon="script.user.rating" version="1.0.3"/>
         <import addon="resource.images.studios.coloured" version="0.0.9"/>
 		<import addon="resource.images.studios.white" version="0.0.15"/>
 		<import addon="resource.images.languageflags.colour" version="0.0.4"/>
@@ -280,14 +279,13 @@
         </news>
 	</extension>
 </addon>
-<addon id="skin.titan.mod.beta.leia" version="18.1.6" name="T i t a n - M O D (BETA)" provider-name="mardukl,cartman.dos,marcelveldt,mgonzales">
+<addon id="skin.titan.mod.beta.leia" version="18.1.7" name="T i t a n - M O D (BETA) for LEIA" provider-name="mardukl,cartman.dos,marcelveldt,mgonzales">
 	<requires>
 		<import addon="xbmc.gui" version="5.13.0" />		
 		<import addon="script.skinshortcuts" version="0.6.5"/>
 		<import addon="script.skin.helper.service" version="1.0.0"/>
         <import addon="script.skin.helper.widgets" version="1.0.0"/>
         <import addon="script.skin.helper.backgrounds" version="1.0.0"/>
-		<import addon="script.user.rating" version="1.0.3"/>
         <import addon="resource.images.studios.coloured" version="0.0.9"/>
 		<import addon="resource.images.studios.white" version="0.0.15"/>
 		<import addon="resource.images.languageflags.colour" version="0.0.4"/>
@@ -358,5 +356,4 @@
         </news>
 	</extension>
 </addon>
-
 </addons>
