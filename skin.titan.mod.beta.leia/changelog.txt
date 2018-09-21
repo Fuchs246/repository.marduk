@@ -1,12 +1,11 @@
-				## actual skin files
-					> [skin.titan - krypton]	https://github.com/marduklev/skin.titan.krypton.mod/
- 	
-					> [skin.titan - leia]		https://github.com/marduklev/skin.titan.mod.beta.leia/
+	## actual skin files
+		> [skin.titan - krypton]	**=17	https://github.com/marduklev/skin.titan.krypton.mod/
+ 		> [skin.titan - leia]		**=18	https://github.com/marduklev/skin.titan.mod.beta.leia/
 
 
 
 
-## Marduk : in progress	~	18.1.7	(##-09-2018)	
+## Marduk : ~ **.1.7 (21-09-2018)	
 	
 	# '' all versions ''
 		- videoinfo : fixed close trailer playback for tv shows, if try go fullscreen
@@ -17,15 +16,16 @@
 		- netflix videoinfo : removed custom fs button, use a var and conditions instead, to imitate a toggle button
 		- footer : sometimes title is missing in footer if some flags are missing and studio logo empty (non netflix views)
 		- media flags"classic" layout : fixed overlay
+		- media flags : size for netflix views (just shrink large media flag  styles)
 		
 		''K R Y P T O N ''
-		
+		- bump version from 3 to 7 to be in line with leia / version
 	
 		'' L E I A ''
 		- fixed missing contidion for mpaa - show just n/a for missing - movie,tvshow,episode,musicvideo, unsure if i should use just an seperotor " | " instead of an n/a with image, like i did in krypton version
 		- fixed no "Display Info" e.g. "z", time shift , ratio switch OSD, switch is working , ( f**king typo )
 
-## Marduk : in progress  (repo udate test version) / 	~	18.1.6 / 17.1.3		(19-09-2018)	, now available via repo / updates via git
+## Marduk : (repo udate test version) / 	~	18.1.6 / 17.1.3		(19-09-2018)	, now available via repo / updates via git
 	
 	- clean up some variables , removed useless tags and variables
 	- fixed a typo in studio logo var (double ">">)
