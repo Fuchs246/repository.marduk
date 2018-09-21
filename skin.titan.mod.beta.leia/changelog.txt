@@ -9,14 +9,19 @@
 	
 	# '' all versions ''
 		- videoinfo : fixed close trailer playback for tv shows, if try go fullscreen
+		
 		- netflix videoinfo : always prefer locally stored trailers, fallback is scraped trailer-infostring
 		- netflix videoinfo : fixed, missing trailer button for tv shows in info
 		- netflix videoinfo : fixed trailer behaviour (running in bg), via fadeanimations and code cleanup
 		- netflix videoinfo : fixed loose button focuson trailer playback
 		- netflix videoinfo : removed custom fs button, use a var and conditions instead, to imitate a toggle button
+		- netflix videoinfo : remove visibility, and choose default rating dialog for music videos
+		
 		- footer : sometimes title is missing in footer if some flags are missing and studio logo empty (non netflix views)
-		- media flags"classic" layout : fixed overlay
+		
+		- media flags : "classic" layout : fixed overlay
 		- media flags : size for netflix views (just shrink large media flag  styles)
+		
 		
 		''K R Y P T O N ''
 		- bump version from 3 to 7 to be in line with leia / version

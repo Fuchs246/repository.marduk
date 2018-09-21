@@ -6,7 +6,7 @@ TO DO LIST :
 	- add audio flags for music
 	- no true fallback image for musicvideo in spotlight, - netflix views, (var=netflixhumb)spotlight image ,if empty its fallback, change to a fixed image if empty( instead of last focus or whatever)	
 	- music info : full witdh dialog, album thumbs dicography and some other layout improvements
-	- remove visibility, and choose default rating dialog for music videos in includesdialog"netflix"movieinfo
+	
 	
 	
 	
