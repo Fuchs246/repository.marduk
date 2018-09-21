@@ -39,14 +39,12 @@ TO DO LIST :
 			a) Shortcuts, not working add funcition, switch somewhat
 		
 		OSD :
-			
 			a) music/PVR, long named title(s) -> width to high cause overlay, [maybe set to autoscroll>true< ?,] rare issue 
 			
 				https://forum.kodi.tv/showthread.php?tid=330749&pid=2767474#pid2767474 -> https://kodi.wiki/view/Skip_steps
 			
 		- general titan bugs:
 			a)  seekslider not working in music
-			b)  mediaflag sty "classic ??" not working correct ->overlay,- use media flags with controlcoords
 
 		- LEIA ISSUES
 			a) PVRListItemProperty Bug date [hhhh:mm]) ,LEIA BUG
@@ -56,7 +54,7 @@ TO DO LIST :
 
 		- strange footer behaviours:
 			a) Studio Logos not visible for Movie-Sets in Netflix View, but in default Footer of other views everything is good 
-			b) sometimes title is missing in footer if some flags are missing and studio logo empty (non netflix views)
+			
 
 		
 	Clean Up :
