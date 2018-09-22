@@ -1,8 +1,16 @@
 	## actual skin files
 		> [skin.titan - krypton]	**=17	https://github.com/marduklev/skin.titan.krypton.mod/
  		> [skin.titan - leia]		**=18	https://github.com/marduklev/skin.titan.mod.beta.leia/
-
-
+		
+## Marduk : in progress ~ **.1.8 (xx-09-2018)	
+# ``all versions ''
+   - add new colortheme "titan nightshift"
+   - update colortheme  "default titan MOD"
+   - Window(movieinformation)
+	- able to use monochrome ratings color 
+         ( default mod same as text color, non netflix use rating flag colors)
+	- fix bugs related to missing ratings
+	- code clean up / bug fixes
 
 
 ## Marduk : ~ **.1.7 (21-09-2018)	
