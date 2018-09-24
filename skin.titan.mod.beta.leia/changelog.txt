@@ -7,11 +7,13 @@
    - add new colortheme "titan nightshift"
    - update colortheme  "default titan MOD"
    - Window(movieinformation)
-	- able to use monochrome ratings color 
+		- able to use monochrome ratings color 
          ( default mod same as text color, non netflix use rating flag colors)
-	- fix bugs related to missing ratings
-	- code clean up / bug fixes
-
+		- fix bugs related to missing ratings, bugs related to custom colors, 
+		- generell clean up code clean up / bug fixes (prefer scraped rating if available, excerp tomato/metacr)
+	- bugfix : script user rating, for use custom colors (most textures always white)
+	- temporally fix overlay of different windows , when extendetinfo window is open, also removed setting to toggle panel
+	- ???
 
 ## Marduk : ~ **.1.7 (21-09-2018)	
 	
