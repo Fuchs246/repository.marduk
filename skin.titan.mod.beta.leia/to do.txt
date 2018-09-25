@@ -1,39 +1,52 @@
 TO DO LIST : 
 
-	- 81813 - diifuse lyrics, missing in lrypton, will fix BG??
-	
-	- if someone want use details widget in netflix home screens, than i need a var, for details panel bg (home , netflix), but using deatils in netflix could be obsolte since info is in spotlight
+	- 81813 - diifuse lyrics, missing in krypton, will fix BG??
+       - add skinnsetting hommenu section - hide panel 
+	- if someone want use details widget in netflix home screens, than i need a var, for details panel bg (home 
+	netflix), but using deatils in netflix could be obsolte since info is in spotlight
 	- sh NOTE : double openings of dialogs
 	- investigate -> bg / overlay behaviour, maybe also re switch to view(50) list behaviuor
-	- bg hardcoded color (blck)atm, need revisit when time
-	- widget - details (landsc.d, posterd) - use list item fraes instead widget frames, looks not bad but irritating
+	- extended info dialog bg hardcoded color (blck)atm, need revisit when time
+	- widget - details (landsc.d, posterd) - default use list item frames color instead widget frames, looks 
+	not bad but 
+	irritating
 	- adjust global search script and textures
 	- investigate spotlight refresh (1508, bingie)
 	- need check -> Director missing in dialogvideoinfo tv shows? 
 	- add audio flags for music
-	- no true fallback image for musicvideo in spotlight, - netflix views, (var=netflixhumb)spotlight image ,if empty its fallback, change to a fixed image if empty( instead of last focus or whatever)	
+	- no true fallback image for musicvideo in spotlight, - netflix views, (var=netflixhumb)spotlight image ,if 
+	empty its fallback, change to a fixed image if empty( instead of last focus or whatever)	
 	- music info : full witdh dialog, album thumbs dicography and some other layout improvements
 	- finish header vars for secondary header color
-	- finish 3d view option and layout (https://streamable.com/4kn7g , ), later focus a viewtype for albums/artists ()
+	- finish 3d view option and layout (https://streamable.com/4kn7g , ), later focus a viewtype for 
+	albums/artists ()
 	- cutom color needs revisit 31829
-	- slide menu needs custom focuspanle/focus text color ?, depending to skinbutton, + extra slide menu color causing issues	IF: SideBladePanelColor(31601) near same as ButtonFocusColor(31233	
+	- slide menu needs custom focuspanle/focus text color ?, depending to skinbutton, + extra slide menu color 
+	causing issues	IF: SideBladePanelColor(31601) near same as ButtonFocusColor(31233	
 	
-	- PVR STUFF -  	https://forum.kodi.tv/showthread.php?tid=298565&pid=2762100#pid2762100 ; pull-request: https://github.com/xbmc/xbmc/pull/14316
-					https://forum.kodi.tv/showthread.php?tid=298565&pid=2762799#pid2762799
+	- PVR STUFF -  	
+        
+	https://forum.kodi.tv/showthread.php?tid=298565&pid=2762100#pid2762100 ; pull-request: 
+	https://github.com/xbmc/xbmc/pull/14316
+	https://forum.kodi.tv/showthread.php?tid=298565&pid=2762799#pid2762799
 
 					
-					Checklist:
-					- OSD BUTTONS , all working, also epg grid,switch channels trough up / down working again ( switch channels need further investigate, not working on MY win7, but working on win10,android,linux)
+			Checklist:
+			- OSD BUTTONS , all working, also epg grid,switch channels trough up / down 
+			working again ( switch channels need further investigate, not working on MY 
+			win7, but working on win10,android,linux)
 	
-	- BUGS OPEN  :	
-		
-		- MISC : 
-			- <variable name="AudioChannelsVar"> - causing unwanted result in <!-- audo codec group --> of netflix views(Bingie Home when using 
-				Skin.String(mediaflagsstyle,classic) ;  Skin.String(mediaflagsstyle,classic) ;  Skin.String(osdmediaflagsstyle,classic); Skin.String(osdmediaflagsstyle,classic) 
+        - BUGS OPEN  :	
+         - MISC : 
+			- <variable name="AudioChannelsVar"> - causing unwanted result in <!-- audo codec group --> 
+			of netflix views(Bingie Home when using 
+				Skin.String(mediaflagsstyle,classic) ;  Skin.String(mediaflagsstyle,classic) ;  
+				Skin.String(osdmediaflagsstyle,classic); Skin.String(osdmediaflagsstyle,classic) 
 			- krypton : TV Shows have an duration -> check the var
 			- check need of 41633, should 41633 always set ?, check 31710 sh, 31796 yt lookup, 
-		Media Flag layouts : 
-			a) need re adjust for netflix (523,527)- need to check each, e.g classic, get overlay in seasons if next episode strings available
+			Media Flag layouts : 
+			a) need re adjust for netflix (523,527)- need to check each, e.g classic, get overlay in 
+			seasons if next episode strings available
 		PVR :					
 			a) home menu (dialogcontextmenu.xml -> has to high <height> , ) https://imgur.com/a/L8FPSd6 - use smallContextMenu instead till fix
 			b) PVR/Live TV OSD -> switch channel (up/Down) custom id"206"/"201", working on android , not on (my)windows7, further test (leia)
