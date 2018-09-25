@@ -4,22 +4,27 @@
 		
 ## Marduk : in progress ~ **.1.8 (xx-09-2018)	
 # ``all versions ''
-   - add new colortheme "titan nightshift"
+   - add new colortheme "titan MOD NightShift"
    - update colortheme  "default titan MOD"
    - Window(movieinformation)
 		- able to use monochrome ratings color 
          ( default mod same as text color, non netflix use rating flag colors)
 		- fix bugs related to missing ratings, bugs related to custom colors, 
 		- generell code clean up / bug fixes (prefer scraped rating if available, except tomato/metacr)
-	- bugfix : script user rating, for use custom colors (most textures was always white,bad if bg white), need rework (variable colors due to visible windows, def revisit)
-	- temporally fix overlay of different windows , when extendetinfo window is open, also removed setting to toggle panel, need revisit (also section ng setting dependencie)
+	- bugfix : script user rating, for use custom colors (most textures was always white,bad if bg white), need rework   
+	(variable colors due to visible windows, def revisit)
+	- temporally fix overlay of different windows , when extendetinfo window is open, also removed setting to toggle 
+	panel, need revisit (also section ng setting dependencie)
 	
 	
 	- CUSTOM COLORS(Library) for View Types:
-		* imortant to not confuse : unfocused panel color = ViewDetailsPanelColor (Titan Default), focused panel=colorViewDetailsFocusColor in xml
-		that means you have a better overview to choose a panel color for list views, the color was long time in, but not added to work in all view types , now they did
+		* imortant to not confuse : unfocused panel color = ViewDetailsPanelColor (Titan Default), focused 
+		panel=colorViewDetailsFocusColor in xml
+		that means you have a better overview to choose a panel color for list views, the color was long time in, but 
+		not added to work in all view types , now they did
 	
-	- View Extended List(506) - Correction of Colors (Focus Media now uses ViewDetailsHighlightTextColor Color For Title/Header)
+	- View Extended List(506) - Correction of Colors (Focus Media now uses ViewDetailsHighlightTextColor Color For 
+	Title/Header)
 		
 		
 ## Marduk : ~ **.1.7 (21-09-2018)	
@@ -34,7 +39,8 @@
 		- netflix videoinfo : removed custom fs button, use a var and conditions instead, to imitate a toggle button
 		- netflix videoinfo : remove visibility, and choose default rating dialog for music videos
 		
-		- footer : sometimes title is missing in footer if some flags are missing and studio logo empty (non netflix views)
+		- footer : sometimes title is missing in footer if some flags are missing and studio logo empty (non netflix 
+		views)
 		
 		- media flags : "classic" layout : fixed overlay
 		- media flags : size for netflix views (just shrink large media flag  styles)
@@ -44,7 +50,8 @@
 		- bump version from 3 to 7 to be in line with leia / version
 	
 		'' L E I A ''
-		- fixed missing contidion for mpaa - show just n/a for missing - movie,tvshow,episode,musicvideo, unsure if i should use just an seperotor " | " instead of an n/a with image, like i did in krypton version
+		- fixed missing contidion for mpaa - show just n/a for missing - movie,tvshow,episode,musicvideo, unsure if i 
+		should use just an seperotor " | " instead of an n/a with image, like i did in krypton version
 		- fixed no "Display Info" e.g. "z", time shift , ratio switch OSD, switch is working , ( f**king typo )
 
 ## Marduk : (repo udate test version) / 	~	18.1.6 / 17.1.3		(19-09-2018)	, now available via repo / updates via git
@@ -57,7 +64,8 @@
 	- fixed var for duration
 	- add n/a entry if missing mpaa (over all, =var)	
 	- add total seasons (singular/plural formats) for focused TV shows in netflix home2 / Netflix dialog
-	- temporally fixed label for spotlight details row (pvr times, removed date from the time from date [hhhh:mm]) ,LEIA BUG (Laia Only)
+	- temporally fixed label for spotlight details row (pvr times, removed date from the time from date [hhhh:mm]) ,LEIA 
+	BUG (Laia Only)
 						-> https://forum.kodi.tv/showthread.php?tid=330994&pid=2768212#pid2768212
 
 
@@ -70,7 +78,8 @@
 	
 ## Marduk : released version	~	18.1.5(Leia) / 17.1.4(Krypton)		(14-09-2018)		
 	
-	- added Language Color Flags for Dialog Video Infos (Netflix and Defaults) as a Label Replacement , maybe later as an Optional Setting (Label or Flag)	if unwanted
+	- added Language Color Flags for Dialog Video Infos (Netflix and Defaults) as a Label Replacement , maybe later as an 
+	Optional Setting (Label or Flag)	if unwanted
 		
 	- Bug Fix : 
 		- View_506_ExtendedList(506) - Label Issue on Focsed Item (Genre) is also in Var Details
@@ -82,7 +91,8 @@
 	- View Types :
 		- NEW Viewtype - Netflix Landscape(525) - also uniquie Slide Menu Settings (e.g. Cast and Trailer)
 		- NEW Viewtype - Netflix Wide(526) for Seasons, and Episodes at Once, also uniquie Slide Menu Settings
-		- NEW Viewtype - 3 in 1 (for TV Shows,Seasons and Episodes at once) - also uniquie Slide Menu Settings (e.g. change TV Show Art Layout)
+		- NEW Viewtype - 3 in 1 (for TV Shows,Seasons and Episodes at once) - also uniquie Slide Menu Settings (e.g. 
+		change TV Show Art Layout)
 		- Improve Viewtype - Netflix(523) - e.g. use Titan Default Layout, Cast and Trailer,
 	
 	- OSD : 	
@@ -96,16 +106,20 @@
 				
 	- 	SkinSettings :
 		- choose between hard edge  or round edge frames for Netflix video/audio codec in Netflix Views / Bingie Home
-		- choose if Audio/Video Codec Info Labels (inside frames ) should have same color as frames , or use (default) NetflixTextColor for Netflix Views / Bingie Home
+		- choose if Audio/Video Codec Info Labels (inside frames ) should have same color as frames , or use 
+		(default) NetflixTextColor for Netflix Views / Bingie Home
 		- add Color Options for Spotlight Buttons (Info/Play)
-		- added / impoved (Cartman.Dos) Option for Thumb Ratings - choose if you refer Stars Rating or Thumbs Rating (<1-6,>6-10) , added fallback image if Rating IsEmpty/0
+		- added / impoved (Cartman.Dos) Option for Thumb Ratings - choose if you refer Stars Rating or Thumbs Rating 
+		(<1-6,>6-10) , added fallback image if Rating IsEmpty/0
 			- added possibility to choose colors for thumbs up/down if you eneble thumbs rating
 		
 		- several new Color Settings  
 			e.g. - Netflix View Types got their own Section
 				-> Netflix(523), Netflix Landscape(525), 3 in 1(527)
-				-> Netflix Wide(526) will use Netflix Colors if Fanart Disabled, and Default Library Colors If Fanart Visible
-		- re ordered the color Sections with new Headers for better overview (Common, Home, Header, Footer, Library...)
+				-> Netflix Wide(526) will use Netflix Colors if Fanart Disabled, and Default Library Colors 
+				If Fanart Visible
+		- re ordered the color Sections with new Headers for better overview (Common, Home, Header, Footer, 
+		Library...)
 		- deleted big button styles (osd button layout)	
 	- 	Bingie Home Menu
 		- slight changes to Fontstyles/Size
@@ -114,26 +128,32 @@
 	
 	- 	BUG FIX: 
 		- show small seek panel just if enebleds, if off, show nothing(like it should be) (Titan default issue)
-		- Slide Menu Panel in Netflix View (Poster & Landscape) is Achievable trough press "down" key (achieve slidemenu(m) trough slidepanel (view525,view523))
+		- Slide Menu Panel in Netflix View (Poster & Landscape) is Achievable trough press "down" key (achieve 
+		slidemenu(m) trough slidepanel (view525,view523))
 		- several OSD Layout Issues 
-		- width corrections vertical Home menu (artwork Cut Up, and last focused if non-fixed widget was not visible issue)
+		- width corrections vertical Home menu (artwork Cut Up, and last focused if non-fixed widget was not visible 
+		issue)
 		- fixed 2row overlay in netflixview(523)
 		- View(523) :  removed posibility to use it for Episodes , use Netflix Landscape instead, fits better
-		- fixed Button Stuck trough 2 Video Info-Layouts	-> Option setting to choose between NETFLIX Style (by @Cartman.Dos) or default MOD Video Info
+		- fixed Button Stuck trough 2 Video Info-Layouts	-> Option setting to choose between NETFLIX Style (by 
+		@Cartman.Dos) or default MOD Video Info
 
 			
 	* marduk : merged ~ alpha 16~18.1.3  (03-09-2018)
 
 		- add monochrome options for white flags
-		- re arrange / and added new custom color options (better overview for custom color set up, (generell, home, header, footer, osd, )) (- NETFLIX VIEWS and HOME have its own Custom Colors, espeacialy background)
-		- adjust new view type(527) (actual just TV-show,Seasons,Episodes in one View), will add Music-,maybe movie set- support later
+		- re arrange / and added new custom color options (better overview for custom color set up, (generell, home, 
+		header, footer, osd, )) (- NETFLIX VIEWS and HOME have its own Custom Colors, espeacialy background)
+		- adjust new view type(527) (actual just TV-show,Seasons,Episodes in one View), will add Music-,maybe movie 
+		set- support later
 		- merged Cartman.dos Netflix2 Layout
 		- faster show up of clear logo
 		- removed posibility episode contet in Netflix Poster view (523), use Netflix Landscape(525) instead 	
 		- re-arrenged some skin settings (better overview)
 		- removed footer visibility on netflix view(523,525,527)
 		- removed header visibility on netflix view(523,525,526,527)
-		- add a second color for header values (labels = main color , values depending to labels = secondary color) (not finished)
+		- add a second color for header values (labels = main color , values depending to labels = secondary color) 
+		(not finished)
 		- add slide animation for netflix2 home , also some navigation adjustments
 		- removed large OSD buttons, add images for setting (slim/rounded style)
 	
@@ -163,7 +183,8 @@
 				- Disable Logo on Main Menu: will show profile details and switch profile button instead
 				- Disable Icons in Main Menu Items
 		- Custom hubs 	<!-- need check -->
-			- New settings option: under customize shortcuts tab - Lock Widgets will hide unassigned widgets & lock the option re-assign (button -> label) so scrolling will not focus on widget TITLES.
+			- New settings option: under customize shortcuts tab - Lock Widgets will hide unassigned widgets & 
+			lock the option re-assign (button -> label) so scrolling will not focus on widget TITLES.
 			- Added spotlight support - seperate spotlight content for each hub
 
 	* Cartman.Dos :	~ alpha17
@@ -176,25 +197,33 @@
 	* marduk :	alpha 16~18.1.3 (21-08-2018)
 		   
 		- rewrite footer (simpler and cleaner) - https://pastebin.com/NQcRtgL4 , 
-			-> i take out vd & AltRatingNoStudio and put them into other xml for further edit , not finished rewrite
-		- add new images (white logos https://imgur.com/a/AHHITlP, frames https://imgur.com/a/KsSn4kG) - https://i.imgur.com/MxIamQo.jpg
+			-> i take out vd & AltRatingNoStudio and put them into other xml for further edit , not finished 
+			rewrite
+		- add new images (white logos https://imgur.com/a/AHHITlP, frames https://imgur.com/a/KsSn4kG) - 
+		https://i.imgur.com/MxIamQo.jpg
 		- add new view type (in progress) -> https://streamable.com/no5in
-		- slightly increase fontzize for netflix home2, and adjusted labels wich have textuers	(	https://i.imgur.com/8HuL6Ei.jpg ) PS did'nt chnaged color in xml, in pic its just custom colorsetting of skin itself
+		- slightly increase fontzize for netflix home2, and adjusted labels wich have textuers	(	
+		ttps://i.imgur.com/8HuL6Ei.jpg ) PS did'nt chnaged color in xml, in pic its just custom colorsetting of skin 
+		itself
 		- add translation for en and de for the new tag in deatails 
 			-> msgctxt "#31900" ; msgid "New" ; msgstr "Neu"
 		- Added frames images in details row	
 	
 	* marduk :	alpha 12 ~ 18.1.3 (13-08-2018)  
-		-	changed some hardcoded labels to existing localize strings, eg. cast in dialog info netflix , some other i forget, but will see again	
-		- 	Netflix Poster view523	- fixed width-use of episodes 
+		- changed some hardcoded labels to existing localize strings, eg. cast in dialog info netflix , some 
+		other i forget, but will see again	
+		- Netflix Poster view523	- fixed width-use of episodes 
 									- its now always fixed list																											
-		- 	small adjustment of OSD slim
-		- 	view(526)fixed invisible panel on focus behind landscape image if image is less than 16:9
-		- 	deleted setting  "disable rating + logo on netflix home2" id="131766", rating is depending to skinsetting-media library views setting by default
-		- 	revert the exclude of defult skinsetting Skin.SetBool(View526_DisableFanArt)
-		- 	added latest episode/ next aired img and label to 526, if footer off
-		- 	changed frame color (audio,videores)  of netflix details row  to $INFO[Skin.String(NetflixSecondaryTextColor)]
-		-	make rating var just use in dialog info, outside of it just skinhelper working (Rating(*foo)- always fall back to deafault scraped Rating, wich gives incorrect results(outside of infodialog)
+		- small adjustment of OSD slim
+		- view(526)fixed invisible panel on focus behind landscape image if image is less than 16:9
+		- deleted setting  "disable rating + logo on netflix home2" id="131766", rating is depending to skinsetting-
+		media library views setting by default
+		- revert the exclude of defult skinsetting Skin.SetBool(View526_DisableFanArt)
+		- added latest episode/ next aired img and label to 526, if footer off
+		- changed frame color (audio,videores)  of netflix details row  to 
+		$INFO[Skin.String(NetflixSecondaryTextColor)]
+		-make rating var just use in dialog info, outside of it just skinhelper working (Rating(*foo)- always 
+		fall back to deafault scraped Rating, wich gives incorrect results(outside of infodialog)
 																									*=tdvb
 																									*=imdb
 																									*=metacritic
@@ -203,27 +232,34 @@
 																									*=tomatometerallcritics
 																									*=tomatometeravgaudiance
 																									*=tomatometeravgcritics
-		- 	add glowing buttons for slim on focus, add glow fade effect for netflix osd (play,pause,rewinding,forwarding symbols left bottom)																							
-		- 	fixed some conditions depending to special tvdb/tmdb ratings option (footer.xml ; header.xml , netflix(523,525).xml)
-		- 	small adjustment of OSD slim (50pixels to right)
-		- 	view(526)fixed invisible panel on focus behind landscape image if image is less than 16:9
-		- 	make use of addon user rating [should add to addon.xml  <import addon="script.user.rating" version="1.0.3"/>]
+		- add glowing buttons for slim on focus, add glow fade effect for netflix osd 
+		(play,pause,rewinding,forwarding symbols left bottom)																							
+		- fixed some conditions depending to special tvdb/tmdb ratings option (footer.xml ; header.xml , 
+		netflix(523,525).xml)
+		- small adjustment of OSD slim (50pixels to right)
+		- view(526)fixed invisible panel on focus behind landscape image if image is less than 16:9
+		- make use of addon user rating [should add to addon.xml  <import addon="script.user.rating" 
+		version="1.0.3"/>]
 			-> dialog videoinfo -> rate 3 (thumb down)/ rate 10 ( thumb up) auto open on focus
 			-> outside videoinfo -> centered thumbs up/down
 			-> create some new textures for rating dialog
-		- 	create a new netflix/border_netflix.png texture	(previous was in wrong reso, so that it cut up on stretch left side)
-		- 	fixed: toggle osd setting (slim / default): on fresh install booth were off	
-		- 	upadte spinner addon, to get use of netflix spinners
+		- create a new netflix/border_netflix.png texture	(previous was in wrong reso, so that it cut up on 
+		stretch left side)
+		- fixed: toggle osd setting (slim / default): on fresh install booth were off	
+		- upadte spinner addon, to get use of netflix spinners
 					
 	* merged alpha 11~18.1.3 ( 28-07-2018)
 		~ marduk
 			- change skin name : Titan B I N G I E   M O D(e)
 			- change year with premiered for episodes, in netflixhomedetail row (mod_progress_netflix.xml)
-			- use default setting "disable fanart" for view(526).xml, but use custom overlay/bg $var(netflix2backgroundcolor) if enabled
+			- use default setting "disable fanart" for view(526).xml, but use custom overlay/bg 
+			$var(netflix2backgroundcolor) if enabled
 			- add audio flag/frame to details list
 			- change base code with includes (netflixhome2,dialogvideoinfo)
-			- create new includes and variables Viewtypes & Widgets (Mod_Progress_Variables_Netflix.xml), to get label and images in 1 row for netflix details, include cause, its needed in 3-4 layouts
-			- bug fix : limit autoplay trailer Homescreen - to netflix home (cause othe homelayouts, didnt have depending kodi setting and / or preview window)
+			- create new includes and variables Viewtypes & Widgets (Mod_Progress_Variables_Netflix.xml), to get 
+			label and images in 1 row for netflix details, include cause, its needed in 3-4 layouts
+			- bug fix : limit autoplay trailer Homescreen - to netflix home (cause othe homelayouts, didnt have 
+			depending kodi setting and / or preview window)
 			- Improvement dont stop trailer when leaving dialog info (unsure if i done it really, again)
 			- put all new textures in correct places/ also changed paths inside the files
 			- re to 100% again for netflix dialog info videopreviewvindow (better visibility of plot and video)
@@ -242,11 +278,13 @@
 
 	* Marduk :	merged alpha 10 ~18.1.3
 		- bug fix 	(526):	specials, all seasons wasnt visible on focus
-		- improved 	(526):	change if disable fanart, you get black background like netflix -> Skin.HasSetting(NoFanart) -> includecontextmeu.xml, +  image control in wide_netflix.xml
+		- improved 	(526):	change if disable fanart, you get black background like netflix -> 
+		Skin.HasSetting(NoFanart) -> includecontextmeu.xml, +  image control in wide_netflix.xml
 
 		- improved 	(526): 	on episode level, click back for go to season button
 		- bug fix	(526):	panel color not visible when lost focus
-		- bug fix	(526):	limit to seasons (its side load episodes)	<view id="Wide Netflix" value="526" languageid="31827" type="seasons" />, no issues with dialoginfo to me
+		- bug fix	(526):	limit to seasons (its side load episodes)	<view id="Wide Netflix" value="526" 
+		languageid="31827" type="seasons" />, no issues with dialoginfo to me
 		- improved	(526):	add option to disable footer in slide menu (includesfooter.xml), need also tweak in ...
 		- improved 	(526):	disabled header for 526/5026 (includesheader.xml)
 		- bug fix OSD ModernSlim, Modern : fixed overlay on seek/pasuing
@@ -260,18 +298,29 @@
 				netflix osdpanel large osd seeking label center position + and bit down
 				netflix osdpanel seeking label just visible if large osd seeking off
 				slighlty change to the OSDlabel8 code , use language files for Sxx, Exx
-				netflix osdpanel some conditional fixes (weather), its always bottom right atm - cause removed include right left align -> cause i removed the whole info group (large, netflix) - its one setting for all = show info or not
-				netflix osdpanel - adjust clear art to center, inside panel, conditional pos if large seeking labels active (still not perfect, maybe disable...)
-				OSDInfoPanelNetflix - adjust and edit poster layout (it uses  a var fallback, so i adjust it to aligny top, cause if no poster found image will not be in center)
-				netflix osdpanel - chanhe clear logo aligny to bottom, this ways sxex tag can aligny top and met each other better (only "ugly" is the differentresolution size of of images)
-				OSDPanelModernSlim(id"401"), OSDPanelModern(id"401"), SeekBar_Slim, SeekBar_normal, SeekBar_Netflix, - changed to rounded seek slider		
-						- unsure and not changed but, should netlfix use like VideoPlayerClearArt,  <variable name="OSDInfoImage">, or extend <variable name="VideoPlayerClearLogo">??
-				rename the new seeklsider.png, to seekslider_ball (cause there is a default in diffuse/seeklsider.png)
-				netflix osdpanel ~ OSDInfoPanelNetflix : did a change, so that year,mppa, durations will be visible on pause if info enabled(movie), also did some position adjust ments,cause i came accross some issues if no fanart available
+				netflix osdpanel some conditional fixes (weather), its always bottom right atm - cause 
+				removed include right left align -> cause i removed the whole info group (large, netflix) - 
+				its one setting for all = show info or not
+				netflix osdpanel - adjust clear art to center, inside panel, conditional pos if large seeking 
+				labels active (still not perfect, maybe disable...)
+				OSDInfoPanelNetflix - adjust and edit poster layout (it uses  a var fallback, so i adjust it 
+				to aligny top, cause if no poster found image will not be in center)
+				netflix osdpanel - chanhe clear logo aligny to bottom, this ways sxex tag can aligny top and 
+				met each other better (only "ugly" is the differentresolution size of of images)
+				OSDPanelModernSlim(id"401"), OSDPanelModern(id"401"), SeekBar_Slim, SeekBar_normal, 
+				SeekBar_Netflix, - changed to rounded seek slider		
+						- unsure and not changed but, should netlfix use like VideoPlayerClearArt,  
+					<variable name="OSDInfoImage">, or extend <variable name="VideoPlayerClearLogo">??
+				rename the new seeklsider.png, to seekslider_ball (cause there is a default in 
+				diffuse/seeklsider.png)
+				netflix osdpanel ~ OSDInfoPanelNetflix : did a change, so that year,mppa, durations will be 
+				visible on pause if info enabled(movie), also did some position adjust ments,cause i came 
+				accross some issues if no fanart available
 				Label 7+8, give custom skin colors
 				slim and default OSD - adjust layout ()
 		- netflix home 2 - add slide animation when focus/no focus home
-		- include global search script for further editing, put textures in a seperate folder - gs(new) & globalsearch-flags(default), script has also correct/new paths to new location
+		- include global search script for further editing, put textures in a seperate folder - gs(new) & 
+		globalsearch-flags(default), script has also correct/new paths to new location
 			
 	* Cartman.dos :
 		- right align widgets fixed position
@@ -317,8 +366,10 @@
 		 
 		~ Cartman.dos :
 			+progress bar - currently only for ep. that are in progress.
-			+new info db related - watch now in spotlight, watch season 1 for unwatched tvshow, continue watching...
-			+more details in netflixmoredetails with pseudo-random var changing between genres/awards/imdb250/director
+			+new info db related - watch now in spotlight, watch season 1 for unwatched tvshow, continue 
+			watching...
+			+more details in netflixmoredetails with pseudo-random var changing between 
+			genres/awards/imdb250/director
 			+fade-in trailers
 			+some other minor stuff
 		 
@@ -333,103 +384,114 @@
 		 
 		~ Marduk :
 			- use rounded slider, always visible, netflix osd
-			- add a new color ViewDetailsPanelColor2, can be used by $INFO[Skin.String(ViewDetailsPanelColor2)] 	->	inculdesskinsettings.xml
-			- downsizing some textures (for lower performance machines) -> media folder (i had backup of originals)
+			- add a new color ViewDetailsPanelColor2, can be used by $INFO[Skin.String(ViewDetailsPanelColor2)] 	
+			-> inculdesskinsettings.xml
+			- downsizing some textures (for lower performance machines) -> media folder (i had backup of 
+			originals)
 			- add another oscar image, oscarbw.png	 , renamed old to oscarbw(or).png	
-			- make TVDB/TMDB ratings optional, also some bug fixes terms rating (formating, id issues solved)	->	includesfooter.xml, includesskinsetting.xml
-			- did some tweaks for navigations through spotlight widgets and its bttons, !!! deactivate your modifiacation in home.xml, !!! it has break enhanced universal home !!! , needs tweaking terms auto trailers, navigate adjustments in includename="netflixhome2" in includesnetflix.xml
+			- make TVDB/TMDB ratings optional, also some bug fixes terms rating (formating, id issues solved)
+			->	includesfooter.xml, includesskinsetting.xml
+			- did some tweaks for navigations through spotlight widgets and its bttons, !!! deactivate your 
+			modifiacation in home.xml, !!! it has break enhanced universal home !!! , needs tweaking terms auto 
+			trailers, navigate adjustments in includename="netflixhome2" in includesnetflix.xml
 			- merge all other things youve done (alpha 0.4), without any conflicts
-			- add an include Mod_Marduk_Variables_Netflix, to place some new stuff, without replacing some used stuff, wich is needed somwhere, and get bether overview, actual its just VAR for label controls
+			- add an include Mod_Marduk_Variables_Netflix, to place some new stuff, without replacing some used 
+			stuff, wich is needed somwhere, and get bether overview, actual its just VAR for label controls
 				, i will use that file to set up some testing with detail flags
 			- add artwork beef support for music(artist, album, title)	->	dialogMusicInfo.xml      
 			- add new viewtype Netflix Landscape
 			- adjustments and bugfix  to skinsetting cast on trailer -> netflixview(523/525)
 			- adjustemts to videowindow / spotlight area netflixview(523)
-			- add new widget type netflix details2, no changes , just copy of actual landscape deatils for further editing
+			- add new widget type netflix details2, no changes , just copy of actual landscape deatils for 
+			further editing
 
-				# TV/PVR implement by follow the change - 	-> also affected	includesosd.xml, includesdebug.xml
-				- please rename DialogPVRGuideOSD.xml to DialogPVRChannelGuide.xml (the window name also changed, from pvrosdguide to pvrchannelguide)
+				# TV/PVR implement by follow the change - 	-> also affected	includesosd.xml, 
+				includesdebug.xml
+				- please rename DialogPVRGuideOSD.xml to DialogPVRChannelGuide.xml (the window name also 
+				changed, from pvrosdguide to pvrchannelguide)
 					
 																	
-				# TV/PVR	use these alternatives from now on->   ListItem.ChannelNumberLabel ; MusicPlayer.ChannelNumberLabel; VideoPlayer.ChannelNumberLabel  (previuos =ChannelNumberLabel)
+				# TV/PVR	use these alternatives from now on->   ListItem.ChannelNumberLabel ; 
+				MusicPlayer.ChannelNumberLabel; VideoPlayer.ChannelNumberLabel  (previuos 
+				=ChannelNumberLabel)
 				Search "ChannelNumber" (37 hits in 8 files)
-				-> DialogPVRGroupManager.xml (6 hits) , IncludesOSDDialogs.xml (4 hits) , IncludesSkinSetings.xml (2 hits) , IncludesVariables.xml (4 hits) , IncludesViews.xml (16 hits) , View_10_SimplePVR.xml (2 hits) , View_50_List.xml (2 hits)
+				-> DialogPVRGroupManager.xml (6 hits) , IncludesOSDDialogs.xml (4 hits) , 
+				IncludesSkinSetings.xml (2 hits) , IncludesVariables.xml (4 hits) , IncludesViews.xml (16 
+				hits) , View_10_SimplePVR.xml (2 hits) , View_50_List.xml (2 hits)
 
 		 
 			- use just one column for submenu Windows10 Homemenu
-			-  removed infopanelsmall, infopanellarge, infopanelsmallorg , showmediaflag below info button in includesosd.xml, 
+			-  removed infopanelsmall, infopanellarge, infopanelsmallorg , showmediaflag below info button in 
+			includesosd.xml, 
 			- info show up is dependig to default show info setting			
 			- added setting to choose between netflix or default mod videoinfo 
 			- BUG FIXES: # told in forum
-									- fixed 2row overlay in netflixview/home
-									- adjust widget witdh confluence vertical hommenu
-									- OSD issue
-									- achieve slidemenu(m) trough slidepanel (view525,view523)         
-									- show small seek panel just if enebleds, if off, show nothing(like it should be) (Titan default issue)
-									- achieve slidemenu(m) trough slidepanel (view525,view523)
+		
+		- fixed 2row overlay in netflixview/home
+		- adjust widget witdh confluence vertical hommenu
+		- OSD issue
+		- achieve slidemenu(m) trough slidepanel (view525,view523)         
+		- show small seek panel just if enebleds, if off, show nothing(like it should be) (Titan default issue)
+		- achieve slidemenu(m) trough slidepanel (view525,view523)
                             
                                                                                                                     
 ## released version		~ xx.1.2
 
-		- Vertical Homemenu ( CONFLUENCE )
-			- slight widget positioning (move widget, panel and Main Menu more to center and a bit more to top)
-			- open submenu on left (instead of right)
-			- focus widget on right (instead of double right / move trough submenu )
-			- loop for submenu in line, instead of close sm and choose next/prev when at the last / first item
-			- hide main menu label when navigate in submenu, by
-			- disabled visibility of main menu item when navigate in non pop-up-submenu
-			- add "Back Easing InOut" Animations when choose widget/main menu, so  widget "fill" screen and main menu fade   :: enable in Setting -> Skinsetting -> 'Layout' -> 'Use Big Widget Area'  ::
-			- use larger fontsize
+   - Vertical Homemenu ( CONFLUENCE )
+        - slight widget positioning (move widget, panel and Main Menu more to center and a bit more to top)
+	- open submenu on left (instead of right)
+	- focus widget on right (instead of double right / move trough submenu )
+	- loop for submenu in line, instead of close sm and choose next/prev when at the last / first item
+	- hide main menu label when navigate in submenu, by
+	- disabled visibility of main menu item when navigate in non pop-up-submenu
+	- add "Back Easing InOut" Animations when choose widget/main menu, so  widget "fill" screen and main menu fade   :: 
+	enable in Setting -> Skinsetting -> 'Layout' -> 'Use Big Widget Area'  ::
+	- use larger fontsize
+   - View Type BIG PANEL DETAILS 59)
+	- Add Library Discart for Big Panel Details View (setup in sidemenu)
+	- Adjust Poster Layout for Discart
+   - View Type NETFLIX (523)
+	- Bigger ClearLogo
+	- Season Info and Episode info now always visible and uses ViewDetailsHighlightTextColor
+	- Textcolor for "Movie Motto" and Season / Episode Info Label changed to ViewDetailsHighlightTextColor -
+	- adjusted rating and codec info
+	- adjusted discart - seperate for focused and non focused layout
+	- less diffuse transp by using full fanart
+	- Show TV show Title and Movie Title if Clear LOGO N/A
+	- Add Consistent Stars Rating
+	- Auto Play Trailer working again
+	- add animation trough Trailer playing conditions (cast , rating, codec, discart)
+	- Play Trailer windowed when click UP, Stop Trailer by click "DOWN" or press "X"
+	- Search Trailer for TV Shows , it will open dialog, if you dont wanna watch fullscreen, press "TAB" , or "Back" 
+	utton, this way you can watch in Library
 
-		- View Type BIG PANEL DETAILS 59)
-			- Add Library Discart for Big Panel Details View (setup in sidemenu)
-			- Adjust Poster Layout for Discart
+    - Dialog Video Info
+	- rearange Artwork and Infos
+	- add Cast into the Info (click up), you can scroll and look up Cast trough without go to the Big Pic Cast View
+	- disable the Auto Play of Trailer
+	- Tariler workig again
+	- adjust Video Info for TV shows, Episodes  and Movies Seperate
+	- show ratings and Info while watch Trailer
+	- add Artworkbeef Support
+	- adjust "similiar"  Infos - enebled plot and fanart for similiar window
+	- add Labels to Cast Members wich are not on Focus
+	- Bugfix : Trailer working again (Leia Issue)
 
-		- View Type NETFLIX (523)
-			- Bigger ClearLogo
-			- Season Info and Episode info now always visible and uses ViewDetailsHighlightTextColor
-			- Textcolor for "Movie Motto" and Season / Episode Info Label changed to ViewDetailsHighlightTextColor -
-			- adjusted rating and codec info
-			- adjusted discart - seperate for focused and non focused layout
-			- less diffuse transp by using full fanart
-			- Show TV show Title and Movie Title if Clear LOGO N/A
-			- Add Consistent Stars Rating
-			- Trailer working again
-			- add animation trough Trailer playing conditions (cats , rating, codec, discart)
-			- Play Trailer windowed when click UP, Stop Trailer by click "DOWN" or press "X"
-			- Search Trailer for TV Shows , it will open dialog, if you dont wanna watch fullscreen, press "TAB" , or "Back" button, this way you can watch in Library
-
-		- Dialog Video Info
-			- rearange Artwork and Infos
-			- add Cast into the Info (click up), you can scroll and look up Cast trough without go to the Big Pic Cast View
-			- disable the Auto Play of Trailer
-			- Tariler workig again
-			- adjust Video Info for TV shows, Episodes  and Movies Seperate
-			- show ratings and Info while watch Trailer
-			- add Artworkbeef Support
-			- adjust "similiar"  Infos - enebled plot and fanart for similiar window
-			- add Labels to Cast Members wich are not on Focus
-			- Bugfix : Trailer working again (Leia Issue)
-
-		- Improvement / Bugfixes 
-			- Duration Labels -> Duration Format changed from "**":"**"   to  "**" h "**" mins 
-					(if TITAN SETTING DONT SHOW HOURS enebled it wont show booth [default was = "**":"**" (total mins)])
-			- missing premiered/ year in Dialog VideoInfo
-			- Music OSD BUG (Default Playlist starts at 0 instead of 1 in OSD )
-
-
-		- OSD 	
-			- adjusted DISCART and Album Cover
-			- add 2 Titles to OSD Playlist
-			- adjusted Infos in General
-			- modern Slim and def OSD get Discart
-
-		- add Ratings 
-			- add TMdb and Tvdb Ratings (Video Info and Footer)
+	- Improvement / Bugfixes 
+	- Duration Labels -> Duration Format changed from "**":"**"   to  "**" h "**" mins 
+		(if TITAN SETTING DONT SHOW HOURS enebled it wont show booth [default was = "**":"**
+		(total mins)])
+	- fixed missing premiered/ year in Dialog VideoInfo
+	- Music OSD BUG (Default Playlist starts at 0 instead of 1 in OSD )
 
 
-		- Skinsettings
-			- added Artworkbeef Support; available via Extras in Skinsettings
-            - removed TV-Tunes completly                                                                    
+     - OSD 	
+	- adjusted DISCART and Album Cover
+	- add 2 Titles to OSD Playlist
+	- adjusted Infos in General
+	- modern Slim and def OSD get Discart
 
- 
+     - Skinsettings
+        - add Ratings TMdb and Tvdb Ratings (Video Info and Footer)
+        - added Artworkbeef Support; available via Extras in Skinsettings
+        - removed TV-Tunes completly                                                                    
