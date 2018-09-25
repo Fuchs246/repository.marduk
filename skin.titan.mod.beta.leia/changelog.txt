@@ -10,11 +10,18 @@
 		- able to use monochrome ratings color 
          ( default mod same as text color, non netflix use rating flag colors)
 		- fix bugs related to missing ratings, bugs related to custom colors, 
-		- generell clean up code clean up / bug fixes (prefer scraped rating if available, excerp tomato/metacr)
-	- bugfix : script user rating, for use custom colors (most textures always white)
-	- temporally fix overlay of different windows , when extendetinfo window is open, also removed setting to toggle panel
-	- ???
-
+		- generell code clean up / bug fixes (prefer scraped rating if available, except tomato/metacr)
+	- bugfix : script user rating, for use custom colors (most textures was always white,bad if bg white), need rework (variable colors due to visible windows, def revisit)
+	- temporally fix overlay of different windows , when extendetinfo window is open, also removed setting to toggle panel, need revisit (also section ng setting dependencie)
+	
+	
+	- CUSTOM COLORS(Library) for View Types:
+		* imortant to not confuse : unfocused panel color = ViewDetailsPanelColor (Titan Default), focused panel=colorViewDetailsFocusColor in xml
+		that means you have a better overview to choose a panel color for list views, the color was long time in, but not added to work in all view types , now they did
+	
+	- View Extended List(506) - Correction of Colors (Focus Media now uses ViewDetailsHighlightTextColor Color For Title/Header)
+		
+		
 ## Marduk : ~ **.1.7 (21-09-2018)	
 	
 	# '' all versions ''

@@ -1,7 +1,12 @@
 TO DO LIST : 
 
+	- 81813 - diifuse lyrics, missing in lrypton, will fix BG??
+	
+	- if someone want use details widget in netflix home screens, than i need a var, for details panel bg (home , netflix), but using deatils in netflix could be obsolte since info is in spotlight
 	- sh NOTE : double openings of dialogs
-
+	- investigate -> bg / overlay behaviour, maybe also re switch to view(50) list behaviuor
+	- bg hardcoded color (blck)atm, need revisit when time
+	- widget - details (landsc.d, posterd) - use list item fraes instead widget frames, looks not bad but irritating
 	- adjust global search script and textures
 	- investigate spotlight refresh (1508, bingie)
 	- need check -> Director missing in dialogvideoinfo tv shows? 
