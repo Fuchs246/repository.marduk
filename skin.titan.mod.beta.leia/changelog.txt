@@ -38,11 +38,15 @@
 
 		- CUSTOM COLORS(Library) for View Types:
 			* imortant to not confuse : unfocused panel color = ViewDetailsPanelColor (Titan Default), focused panel=colorViewDetailsFocusColor
-			
 			that means you have a better overview to choose a panel color for list views, the color was long time in, but 
 			not added to work in all view types , now they did.
-			** All views with a list use the focused and unfocused panel color from now on. **
-		
+			
+			- All views with a list use the focused and unfocused panel color from now on
+			
+			* Netflix Wide View(526), 3 in 1 View(527) has 2 colorthemes! 
+				- if fanart is enabled it uses common library colors, if Fanart disabled it uses Netflix Library Colors
+							
+				
 		- Viewtype: Extended List(506) - Correction of Colors (Focus Media now uses ViewDetailsHighlightTextColor Color For 
 		  Title/Header)
 
