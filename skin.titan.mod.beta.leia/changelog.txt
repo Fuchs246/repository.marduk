@@ -8,7 +8,10 @@
 	
 	- `` L E I A ''	
 		- no crash when switch Homelayout (tiles,vertical, home) -> all in 1 section to choose from (removed sublevels)
-	
+		- add "watch dependencies" button (addoninfodialog)
+		- merged pr (https://forum.kodi.tv/showthread.php?tid=298565&pid=2767633#pid2767633)
+			Player.Icon (Returns the thumbnail of the currently playing item. If no thumbnail image exists, the icon will be returned, if available)
+			
 	- ``all versions ''
    
 		- HOME LAYOUT : 
