@@ -1,32 +1,47 @@
-	## actual skin files
+
+
+## actual skin files
 		> [skin.titan - krypton]	**=17	https://github.com/marduklev/skin.titan.krypton.mod/
  		> [skin.titan - leia]		**=18	https://github.com/marduklev/skin.titan.mod.beta.leia/
 		
-## Marduk : in progress ~ **.1.8 (xx-09-2018)	
-# ``all versions ''
-   - add new colortheme "titan MOD NightShift"
-   - update colortheme  "default titan MOD"
-   - Window(movieinformation)
-		- able to use monochrome ratings color 
-         ( default mod same as text color, non netflix use rating flag colors)
-		- fix bugs related to missing ratings, bugs related to custom colors, 
-		- generell code clean up / bug fixes (prefer scraped rating if available, except tomato/metacr)
-	- bugfix : script user rating, for use custom colors (most textures was always white,bad if bg white), need rework   
-	(variable colors due to visible windows, def revisit)
-	- temporally fix overlay of different windows , when extendetinfo window is open, also removed setting to toggle 
-	panel, need revisit (also section ng setting dependencie)
+## Marduk : in progress ~ **.1.8 (xx-09-2018)
 	
+	- `` L E I A ''	
+		- no crash when switch Homelayout (tiles,vertical, home) -> all in 1 section to choose from (removed sublevels)
 	
-	- CUSTOM COLORS(Library) for View Types:
-		* imortant to not confuse : unfocused panel color = ViewDetailsPanelColor (Titan Default), focused 
-		panel=colorViewDetailsFocusColor in xml
-		that means you have a better overview to choose a panel color for list views, the color was long time in, but 
-		not added to work in all view types , now they did
-	
-	- View Extended List(506) - Correction of Colors (Focus Media now uses ViewDetailsHighlightTextColor Color For 
-	Title/Header)
+	- ``all versions ''
+   
+		- HOME LAYOUT : 
+			- fix, (bigvertical), missing slide of main/suc when widgets have focus (had caused an overlay)
+			- fix, (bigvertical), missing navigation , now its open submenu on left, focus widget on right, open shutdown just on back (if enabled)
+			- add skinsetting, (all VERTICAL) -> hide bg panel
+		- MEDIAFLAGS : MPAA from media flags layouts (large,textboced etc....) dont show up on Netflix viewtypes anymore, as the are in top details row
 		
+		- COLORTHEMES
+			- add new colortheme "titan MOD NightShift"
+			- update colortheme  "default titan MOD"
 		
+		- Window(movieinformation)
+			- able to use monochrome ratings color ( default mod same as text color, non netflix use rating flag colors)
+			- fix bugs related to missing ratings, bugs related to custom colors, 
+			- generell code clean up / bug fixes (prefer scraped rating if available, except tomato/metacr)
+		
+		- SCRIPT.USER.Rating
+			- bugfix : for use custom colors (most textures was always white,bad if bg white) (need rework with , variable colors due to visible windows, def revisit)
+		
+		- EXTENDED INFO
+			- temporally fix overlay from stacked windows (was vis in BG, bad overlay), also removed setting to toggle panel (need revisit)		
+
+		- CUSTOM COLORS(Library) for View Types:
+			* imortant to not confuse : unfocused panel color = ViewDetailsPanelColor (Titan Default), focused panel=colorViewDetailsFocusColor
+			
+			that means you have a better overview to choose a panel color for list views, the color was long time in, but 
+			not added to work in all view types , now they did.
+			** All views with a list use the focused and unfocused panel color from now on. **
+		
+		- Viewtype: Extended List(506) - Correction of Colors (Focus Media now uses ViewDetailsHighlightTextColor Color For 
+		  Title/Header)
+
 ## Marduk : ~ **.1.7 (21-09-2018)	
 	
 	# '' all versions ''
