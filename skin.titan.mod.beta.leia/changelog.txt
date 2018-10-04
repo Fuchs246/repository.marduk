@@ -25,7 +25,8 @@
 			- able to use monochrome ratings color ( default mod same as text color, non netflix use rating flag colors)
 			- fix bugs related to missing ratings, bugs related to custom colors, 
 			- generell code clean up / bug fixes (prefer scraped rating if available, except tomato/metacr)
-		
+			- add stop button (stop trailer playback inside videoinfo)
+			
 		- SCRIPT.USER.Rating
 			- bugfix : for use custom colors (most textures was always white,bad if bg white) (need rework with , variable colors due to visible windows, def revisit)
 		
