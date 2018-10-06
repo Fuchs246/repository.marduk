@@ -1,4 +1,7 @@
 TO DO LIST : 
+	
+	- toggle button can have altlabel, so var in dialog info isnt needed (trailer fs toggle)
+
 
 	- if someone want use details widget in netflix home screens, than i need a var, for details panel bg (home 
 		netflix), but using deatils in netflix could be obsolte since info is in spotlight
@@ -66,7 +69,10 @@ TO DO LIST :
 			d) click epg (MyPVRGuide.xml, button "101" ; channels "100")-> switch to radio channels, click again, toggle just radio channel groups	
 					-> just if i switch to ->MyPVRChannels by click channels "100" in MyPVRGuide.xml, and click back , TV channels are present 
 					
-			e) button 400 -> switch view (timeline) -> does nothing (KRYPTON : switch view timelie (timeline, now, on next, channel views))
+			e) button 400, removed in LEIA 	-> switch view (timeline) -> does nothing (in KRYPTON : switch view timelie (timeline, now, on next, channel views))
+								
+								-	That is removed in LEIA - ...As discussed this PR will remove the different guide views "channel", "now" and "next"
+									Needs to be merged before #10795, https://github.com/xbmc/xbmc/pull/10838)
 		
 		Playlist BUG 
 			a) Shortcuts, not working add funcition, switch somewhat
@@ -74,16 +80,14 @@ TO DO LIST :
 		OSD :
 			a) music/PVR, long named title(s) -> width to high cause overlay, [maybe set to autoscroll>true< ?,] rare issue 
 			
-				https://forum.kodi.tv/showthread.php?tid=330749&pid=2767474#pid2767474 -> https://kodi.wiki/view/Skip_steps
-			
 		- general titan bugs:
 			a)  seekslider not working in music
-
+			b)	seekslider visible condtitions
+			
 		- LEIA ISSUES
 			a) PVRListItemProperty Bug date [hhhh:mm]) ,LEIA BUG
 								-> https://forum.kodi.tv/showthread.php?tid=330994&pid=2768212#pid2768212
-			b) investigate leia previevwindow bug: https://forum.kodi.tv/showthread.php?tid=330994&pid=2764126#pid2764126
-			- check some detail variables use var[listitemduration] instead info[listitem.duration] (Leia)
+			
 
 		- strange footer behaviours:
 			a) Studio Logos not visible for Movie-Sets in Netflix View, but in default Footer of other views everything is good 

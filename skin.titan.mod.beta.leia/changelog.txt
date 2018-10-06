@@ -11,7 +11,10 @@
 		- add "watch dependencies" button (addoninfodialog)
 		- merged pr (https://forum.kodi.tv/showthread.php?tid=298565&pid=2767633#pid2767633)
 			Player.Icon (Returns the thumbnail of the currently playing item. If no thumbnail image exists, the icon will be returned, if available)
-			
+		- removed switch viewtime/timeline in MyPVRGuide.xml
+			(As discussed this PR will remove the different guide views "channel", "now" and "next"Needs to be merged before #10795, https://github.com/xbmc/xbmc/pull/10838))	
+		- fixed several issues in navigation in contextmenu (mypvrguide.xml)
+		
 	- ``all versions ''
    
 		- HOME LAYOUT : 
