@@ -63,17 +63,11 @@ TO DO LIST :
 		a) a) MOVIES / EPISODES :
 		PVR Stuff L E I A     O N L Y  :					
 			a) home menu (dialogcontextmenu.xml -> has to high <height> , ) https://imgur.com/a/L8FPSd6 - use smallContextMenu instead till fix
+			
 			b) PVR/Live TV OSD -> switch channel (up/Down) custom id"206"/"201", working on android , not on (my)windows7, further test (leia)
-			c) strange navigation issues in pvr guid (cant get back from radio)	
+			
 		
-			d) click epg (MyPVRGuide.xml, button "101" ; channels "100")-> switch to radio channels, click again, toggle just radio channel groups	
-					-> just if i switch to ->MyPVRChannels by click channels "100" in MyPVRGuide.xml, and click back , TV channels are present 
-					
-			e) button 400, removed in LEIA 	-> switch view (timeline) -> does nothing (in KRYPTON : switch view timelie (timeline, now, on next, channel views))
-								
-								-	That is removed in LEIA - ...As discussed this PR will remove the different guide views "channel", "now" and "next"
-									Needs to be merged before #10795, https://github.com/xbmc/xbmc/pull/10838)
-		
+			
 		Playlist BUG 
 			a) Shortcuts, not working add funcition, switch somewhat
 		
