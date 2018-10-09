@@ -10,23 +10,33 @@
 		- no crash when switch Homelayout (tiles,vertical, home) -> all in 1 section to choose from (removed sublevels)
 		- add "watch dependencies" button (addoninfodialog)
 		
-	  * PVR
-		- merged pr (https://forum.kodi.tv/showthread.php?tid=298565&pid=2767633#pid2767633)
-			Player.Icon (Returns the thumbnail of the currently playing item. If no thumbnail image exists, the icon will be returned, if available)
-		
-		- fixed : button 400, removed in LEIA 	-> switch view (timeline) -> does nothing (in KRYPTON : switch view timelie (timeline, now, on next, channel views))							
-				-	That is removed in LEIA - ...As discussed this PR will remove the different guide views "channel", "now" and "next"
-					Needs to be merged before #10795, https://github.com/xbmc/xbmc/pull/10838)									
-		- temp fixed : click epg (MyPVRGuide.xml, button "101" ; channels "100")-> switch to radio channels, click again, toggle just radio channel groups	
-				-> just if i switch to ->MyPVRChannels by click channels "100" in MyPVRGuide.xml, and click back , TV channels are present , need further investigation
-		- fixed several issues in navigation in contextmenu (mypvrguide.xml) ( strange navigation issues in pvr guid (cant get back from radio)	)
-		
-		- add ChanneLogos, to footer and pvrinfo dialog
-				from Source (https://github.com/zag2me/TheLogoDB) , Source images from the now defunct TheLogoDB website.
-				-> if you miss some logos, you can place your channel logos in png format here Channel LOGOS, \addons\skin.titan.mod.beta.leia\media\thelogodb , 
-				-> All images are 800x450 transparent PNGs , 
+		  * PVR *
+			- merged pr (https://forum.kodi.tv/showthread.php?tid=298565&pid=2767633#pid2767633)
+				Player.Icon (Returns the thumbnail of the currently playing item. If no thumbnail image exists, the icon will be returned, if available)
+			
+			- fixed : button 400, removed in LEIA 	-> switch view (timeline) -> does nothing (in KRYPTON : switch view timelie (timeline, now, on next, channel views))							
+					-	That is removed in LEIA - ...As discussed this PR will remove the different guide views "channel", "now" and "next"
+						Needs to be merged before #10795, https://github.com/xbmc/xbmc/pull/10838)									
+			- temp fixed : click epg (MyPVRGuide.xml, button "101" ; channels "100")-> switch to radio channels, click again, toggle just radio channel groups	
+					-> just if i switch to ->MyPVRChannels by click channels "100" in MyPVRGuide.xml, and click back , TV channels are present , need further investigation
+			- fixed several issues in navigation in contextmenu (mypvrguide.xml) ( strange navigation issues in pvr guid (cant get back from radio)	)
+			
+			- add ChanneLogos, to footer and pvrinfo dialog -> All images are 800x450 transparent PNGs , from Source ( https://github.com/zag2me/TheLogoDB ) 
+				
+				https://i.imgur.com/zBmVL8G.png , https://i.imgur.com/pTsRAik.png
+				
+					-> add resource addon https://github.com/marduklev/resource.images.thelogodb/archive/master.zip , not in Repo cause exceed of filesize (>100mb)
+					
+					-> if you miss some logos, you can place your channel logos in png format, after installing this resource addon 
+					path= , \addons\resource.images.thelogodb\resources\
+				
+					- also if you miss some logos, and have png files you want to add, report in forum, or make an pr here : https://github.com/marduklev/resource.images.thelogodb
 				
 	- `` all versions ´´
+		- SKINSETTING / VIDEOINFO
+			- reduce skinseting (autoplay trailer, or not) for videoinfo
+			- fix  videoinfo wasn't able to autoplay trailer
+			- use kodi resource language for that skinsetting (maybe var for diff sys lang later)
 		
 		- FOOTER
 			- fixed missing Title for movies without clearlogo (if codecs available, befor its just shown when codec empty/disabled)

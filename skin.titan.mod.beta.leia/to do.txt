@@ -1,5 +1,12 @@
 TO DO LIST : / https://kodi.wiki/view/Kodi_v18_(Leia)_changelog
+		
 		Notes:
+			- Krypton : investigate and fix autoplay trailer behaviours (non netflixhome/netfixhome)
+			
+			- adjust some layouts for touch mode (e.g OSD overlays)
+			
+			- add "fake" toggle windowed button to osd
+			
 			- toggle button can have altlabel, so var in dialog info isnt needed (trailer fs toggle)
 			
 			- if someone want use details widget in netflix home screens, than i need a var, for details panel bg (home 
