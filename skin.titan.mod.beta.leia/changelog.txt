@@ -21,17 +21,18 @@
 					-> just if i switch to ->MyPVRChannels by click channels "100" in MyPVRGuide.xml, and click back , TV channels are present , need further investigation
 			- fixed several issues in navigation in contextmenu (mypvrguide.xml) ( strange navigation issues in pvr guid (cant get back from radio)	)
 			
-			- add ChanneLogos, to footer and pvrinfo dialog -> All images are 800x450 transparent PNGs , from Source ( https://github.com/zag2me/TheLogoDB ) 
+			- add possibility to show ChanneLogos (actual in footer and pvrinfo dialog) - requirement is the channel logo addon
+                https://i.imgur.com/zBmVL8G.png , https://i.imgur.com/pTsRAik.png
 				
-				https://i.imgur.com/zBmVL8G.png , https://i.imgur.com/pTsRAik.png
-				
-					-> add resource addon https://github.com/marduklev/resource.images.thelogodb/archive/master.zip , not in Repo cause exceed of filesize (>100mb)
-					
-					-> if you miss some logos, you can place your channel logos in png format, after installing this resource addon 
-					path= , \addons\resource.images.thelogodb\resources\
-				
-					- also if you miss some logos, and have png files you want to add, report in forum, or make an pr here : https://github.com/marduklev/resource.images.thelogodb
-				
+                    -> required resource addon for channel logos (zipped from git hub) , not in Repo cause exceed of filesize (>100mb)
+                     ( from Source ( https://github.com/zag2me/TheLogoDB ) All images are 800x450 transparent PNGs )
+
+                    -> if you miss some logos, you can place your channel logos in [channel name].png format, after installing this resource addon
+                    the path will be =  \addons\resource.images.thelogodb\resources\
+                
+                    - also if you miss some logos, and have png files you want to add it the addon -  request it in forum,
+                      or make an pr here : https://github.com/marduklev/resource.images.thelogodb
+					  
 	- `` all versions ´´
 		- SKINSETTING / VIDEOINFO
 			- reduce skinseting (autoplay trailer, or not) for videoinfo
