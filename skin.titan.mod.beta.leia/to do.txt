@@ -1,6 +1,12 @@
 TO DO LIST : / https://kodi.wiki/view/Kodi_v18_(Leia)_changelog
 		
 		Notes:
+			- 
+			https://forum.kodi.tv/showthread.php?tid=298565&pid=2553240#pid2553240 - for use in subheader, to have betteruse for secondary color ?
+			
+			
+			- gameosd.xml , need add and adjustments
+			
 			- Krypton : investigate and fix autoplay trailer behaviours (non netflixhome/netfixhome)
 			
 			- adjust some layouts for touch mode (e.g OSD overlays)
@@ -64,6 +70,7 @@ TO DO LIST : / https://kodi.wiki/view/Kodi_v18_(Leia)_changelog
 					Skin.String(mediaflagsstyle,classic) ;  Skin.String(mediaflagsstyle,classic) ;  
 					Skin.String(osdmediaflagsstyle,classic); Skin.String(osdmediaflagsstyle,classic) 
 				
+				c) MOD uniquie, choose settings from power menu  auto close settings in vertical home layouts, caused by onback instead of onleft (includeshomevertical.xml)
 			
 			[B]PVR Stuff L E I A  O N L Y  :[/B]
 			
@@ -85,8 +92,11 @@ TO DO LIST : / https://kodi.wiki/view/Kodi_v18_(Leia)_changelog
 				d) You can now add a list control with id="11" to MyPVRGuide.xml This container will allow the user to select the channel group from a list.
 					https://github.com/xbmc/xbmc/pull/13364 , https://github.com/xbmc/xbmc/pull/13364/commits/89ea0b5a080cdfddbdc78b52c95b40b02ac58df5
 				
-				
-				
+				e) PVR.ChannelNumberInput , https://forum.kodi.tv/showthread.php?tid=298565&pid=2504153#pid2504153
+				f) 2017-02-23 MyPVRRecordings.xml - watched toggle , you can add a button (id="10" / label=20367) to MyPVRRecordings.xml , https://forum.kodi.tv/showthread.php?tid=298565&pid=2533917#pid2533917
+					this will allow users to switch between all/watched/unwatched recordings.
+				g) horizontal pvr grid <!-- timeline view ID=10, check needs further test and time to have horizontal grid, mypvrguide.xml -->
+			
 			[B]OSD :[/B]
 				a) music/PVR, long named title(s) -> width to high cause overlay, [maybe set to autoscroll>true< ?,] rare issue 
 		
