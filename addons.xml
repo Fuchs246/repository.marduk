@@ -202,7 +202,7 @@
 			<source>https://github.com/marcelveldt/script.skin.helper.skinbackup</source>
 		</extension>
 	</addon>
-	<addon id="script.skinshortcuts" name="Skin Shortcuts" version="1.0.19" provider-name="BigNoid,marcelveldt">
+	<addon id="script.skinshortcuts" name="Skin Shortcuts" version="1.0.19~alpha" provider-name="BigNoid,marcelveldt">
 		<requires>
 			<import addon="xbmc.python" version="2.20.0"/>
 			<import addon="script.module.simplejson" version="3.3.0"/>
