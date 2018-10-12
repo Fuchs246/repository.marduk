@@ -38,7 +38,16 @@
 					
 					-> !! that works also as source for other skins, follow the instructions provided here - https://kodi.wiki/view/Live_TV_Artwork#Loading_Logos 
 	- `` all versions ´´
+	
+		- OSD SLIM
+			- fixed overlay (rating/time)
 		
+		- VIEW WIDE NETFLIX(526)
+			- fixed wrong sort order of episodes
+		
+		- VIEW WIDE NETFLIX(526)
+			- improved onback/return click actions -> focus last item (episode->seasons,seasons->shows,Shows->back)
+			
 		- SKINSETTING / VIDEOINFO
 			- reduce skinseting (autoplay trailer, or not) for videoinfo
 			- use kodi resource language for that skinsetting (maybe var for diff sys lang later)
