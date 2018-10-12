@@ -323,7 +323,7 @@
 			</news>
 		</extension>
 	</addon>
-	<addon id="skin.titan.mod.beta.leia" version="18.1.7" name="T i t a n - M O D (BETA) for LEIA" provider-name="mardukl,cartman.dos,marcelveldt,mgonzales">
+	<addon id="skin.titan.mod.beta.leia" version="18.1.8~alpha" name="T i t a n - M O D (BETA) for LEIA" provider-name="mardukl,cartman.dos,marcelveldt,mgonzales">
 		<requires>
 			<import addon="xbmc.gui" version="5.13.0" />		
 			<import addon="script.skinshortcuts" version="0.6.5"/>
@@ -399,5 +399,5 @@
 				Follow the forum thread about the latest news for the skin.
 			</news>
 		</extension>
-	</addon>
+</addon>
 </addons>
