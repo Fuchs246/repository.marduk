@@ -40,7 +40,7 @@
 			<disclaimer />
 		</extension>
 	</addon>
-	<addon id="resource.images.busyspinners.basic" name="Animated Busy Spinners Pack" version="1.0.3" provider-name="marcelveldt,marduk">
+	<addon id="resource.images.busyspinners.basic" name="Animated Busy Spinners Pack" version="1.0.4" provider-name="marcelveldt,marduk">
 		<extension point="kodi.resource.images" compile="false" type="busyspinners" />
 		<requires>
 			<import addon="kodi.resource" version="1.0.0"/>
@@ -399,5 +399,5 @@
 				Follow the forum thread about the latest news for the skin.
 			</news>
 		</extension>
-</addon>
+	</addon>
 </addons>
