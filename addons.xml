@@ -183,7 +183,7 @@
 			<source>https://github.com/marcelveldt/script.skin.helper.service</source>
 		</extension>
 	</addon>
-	<addon id="script.skin.helper.skinbackup" name="Skin Helper Service Skin Backup" version="1.0.20" provider-name="marcelveldt">
+	<addon id="script.skin.helper.skinbackup" name="Skin Helper Service Skin Backup" version="1.0.21~alpha" provider-name="marcelveldt">
 		<requires>
 			<import addon="xbmc.python" version="2.13.0"/>
 			<import addon="xbmc.addon" version="12.0.0"/>
