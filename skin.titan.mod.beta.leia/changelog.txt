@@ -1,4 +1,5 @@
 
+- fixed crash on load Skin Color Themes -> Update of skinhelper.backup addon
 
 ## actual skin files
 		> [skin.titan - krypton]	**=17	https://github.com/marduklev/skin.titan.krypton.mod/
