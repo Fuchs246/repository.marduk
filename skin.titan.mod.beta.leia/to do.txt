@@ -1,7 +1,8 @@
 TO DO LIST : / https://kodi.wiki/view/Kodi_v18_(Leia)_changelog
 		
 		Notes:
-			- 
+			- bug : spotlight widget issues if, dont show all widget is enabled
+			
 			https://forum.kodi.tv/showthread.php?tid=298565&pid=2553240#pid2553240 - for use in subheader, to have betteruse for secondary color ?
 			
 			- remove footer from panel wall view (520)/(519)

@@ -1,5 +1,8 @@
-
-- fixed crash on load Skin Color Themes -> Update of skinhelper.backup addon
+# Repo related Stuff wich affect skin to work properly
+	- fixed crash on load Skin Color Themes
+			-> script.skin.helper.skinbackup (Update)
+	- add an skin icon resource addon to choose icons(set thumbnail in edit shortcut menu) for bingie home main menu	
+			-> resource.images.skinicons.whitesquare (WIP ,  https://github.com/marduklev/resource.images.skinicons.whitesquare/archive/master.zip)
 
 ## actual skin files
 		> [skin.titan - krypton]	**=17	https://github.com/marduklev/skin.titan.krypton.mod/
@@ -11,33 +14,54 @@
 		- no crash when switch Homelayout (tiles,vertical, home) -> all in 1 section to choose from (removed sublevels)
 		- add "watch dependencies" button (addoninfodialog)
 		
-		  * PVR *
+			MISC
+				- kill some typos
+				- changed behaviour of a skinsetting (dont show clear logo), as it is in home section, but refer to all netflix style layouts (home,views,dialogvideoinfo)
+					-> actual just optional in netflix home, other(views,videoinfo) ,maybe optional later
 			
-			- added pr, ( https://forum.kodi.tv/showthread.php?tid=298565&pid=2578860#pid2578860 ) allow users to switch between tv channels and radio channels in the group manager dialog (https://imgur.com/a/qo4pMHJ)
-
-			- added pr, (https://forum.kodi.tv/showthread.php?tid=298565&pid=2767633#pid2767633)
-				Player.Icon (Returns the thumbnail of the currently playing item. If no thumbnail image exists, the icon will be returned, if available)
+			CASE OVERLAY (https://imgur.com/a/XYdCrDQ)
+				- change Cases Overlay Texture (Bluray DVD)
+				- change BR,4K Flag for use in Case Overlays
 			
-			- fixed : button 400, removed in LEIA 	-> switch view (timeline) -> does nothing (in KRYPTON : switch view timelie (timeline, now, on next, channel views))							
-					-	That is removed in LEIA - ...As discussed this PR will remove the different guide views "channel", "now" and "next"
-						Needs to be merged before #10795, https://github.com/xbmc/xbmc/pull/10838)									
-			- temp fixed : click epg (MyPVRGuide.xml, button "101" ; channels "100")-> switch to radio channels, click again, toggle just radio channel groups	
-					-> just if i switch to ->MyPVRChannels by click channels "100" in MyPVRGuide.xml, and click back , TV channels are present , need further investigation
-			- fixed several issues in navigation in contextmenu (mypvrguide.xml) ( strange navigation issues in pvr guid (cant get back from radio)	)
+			NETFLIXHOME/ BINGIE
+				- fixed trailer autoplay (wasnt working in spotlight widget)
+				- adjust mppa info and textures fade/position on spotlight trailer playback
+				- adjust ratings, if spotlight active/spotlight trailer playing
 			
-			- add possibility to show ChanneLogos (actual in footer and pvrinfo dialog) - requirement is the channel logo addon
-                https://i.imgur.com/zBmVL8G.png , https://i.imgur.com/pTsRAik.png
+			SKINSETTINGS (if Bingie/Netflix 1 in use)
+				- fixed/add/hide some skin settings if possible 
+				- add a Widget Category for Settings in Homemenu Section, better overview (also Spotlight Widget/Spotlight Area/Image are 2 diff things from now on)
+				- fix hide rating and media flags on trailer playback (wasnt working for booth before)
+				- fix scrolling issue if "dont show all widgets" is used
+			
+			* PVR *
 				
-                    -> required resource addon for channel logos (zipped from git hub) , not in Repo cause exceed of filesize (>100mb)
-                     ( from Source ( https://github.com/zag2me/TheLogoDB ) All images are 800x450 transparent PNGs )
+				- added pr, ( https://forum.kodi.tv/showthread.php?tid=298565&pid=2578860#pid2578860 ) allow users to switch between tv channels and radio channels in the group manager dialog (https://imgur.com/a/qo4pMHJ)
 
-                    -> if you miss some logos, you can place your channel logos in [channel name].png format, after installing this resource addon
-                    the path will be =  \addons\resource.images.thelogodb\resources\
-                
-                    -> also if you miss some logos, and have png files you want to add it the addon -  request it in forum,
-                      or make an pr here : https://github.com/marduklev/resource.images.thelogodb
+				- added pr, (https://forum.kodi.tv/showthread.php?tid=298565&pid=2767633#pid2767633)
+					Player.Icon (Returns the thumbnail of the currently playing item. If no thumbnail image exists, the icon will be returned, if available)
+				
+				- fixed : button 400, removed in LEIA 	-> switch view (timeline) -> does nothing (in KRYPTON : switch view timelie (timeline, now, on next, channel views))							
+						-	That is removed in LEIA - ...As discussed this PR will remove the different guide views "channel", "now" and "next"
+							Needs to be merged before #10795, https://github.com/xbmc/xbmc/pull/10838)									
+				- temp fixed : click epg (MyPVRGuide.xml, button "101" ; channels "100")-> switch to radio channels, click again, toggle just radio channel groups	
+						-> just if i switch to ->MyPVRChannels by click channels "100" in MyPVRGuide.xml, and click back , TV channels are present , need further investigation
+				- fixed several issues in navigation in contextmenu (mypvrguide.xml) ( strange navigation issues in pvr guid (cant get back from radio)	)
+				
+				- add possibility to show ChanneLogos (actual in footer and pvrinfo dialog) - requirement is the channel logo addon
+					https://i.imgur.com/zBmVL8G.png , https://i.imgur.com/pTsRAik.png
+					
+					-> required resource addon for channel logos (zipped from git hub) , not in Repo cause exceed of filesize (>100mb)
+					 ( from Source ( https://github.com/zag2me/TheLogoDB ) All images are 800x450 transparent PNGs )
+
+					-> if you miss some logos, you can place your channel logos in [channel name].png format, after installing this resource addon
+					the path will be =  \addons\resource.images.thelogodb\resources\
+					
+					-> also if you miss some logos, and have png files you want to add it the addon -  request it in forum,
+					  or make an pr here : https://github.com/marduklev/resource.images.thelogodb
 					
 					-> !! that works also as source for other skins, follow the instructions provided here - https://kodi.wiki/view/Live_TV_Artwork#Loading_Logos 
+		
 	- `` all versions ´´
 	
 		- OSD SLIM
