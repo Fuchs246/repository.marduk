@@ -448,13 +448,13 @@
 			<description lang="en_GB">Kodiflix for Krypton - No banned Stuff</description>
 		 <platform>all</platform>
 			<assets>
-				<icon>resources/icon.jpg</icon>
-				<fanart>resources/fanart.png</fanart>
+				<icon>icon.png</icon>
+				<fanart>fanart.jpg</fanart>
 				<screenshot>resources/screenshot000.jpg</screenshot>
 				<screenshot>resources/screenshot001.jpg</screenshot>
 				<screenshot>resources/screenshot002.jpg</screenshot>
 				<screenshot>resources/screenshot003.jpg</screenshot>
 			</assets>
-	  </extension>
+		</extension>
 	</addon>
 </addons>
