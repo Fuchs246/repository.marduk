@@ -272,7 +272,7 @@
 			</assets>
 		</extension>
 	</addon>
-	<addon id="skin.titan.krypton.mod" version="17.1.7" name="T i t a n - M O D (BETA) for KRYPTON" provider-name="marcelveldt,mgonzales,marduk,cartmandos">
+	<addon id="skin.titan.krypton.mod" version="17.1.8" name="T i t a n - M O D (BETA) for KRYPTON" provider-name="marcelveldt,mgonzales,marduk,cartmandos">
 		<requires>
 			<import version="5.12.0" addon="xbmc.gui"/>		
 			<import addon="script.skinshortcuts" version="0.6.5"/>
@@ -349,7 +349,7 @@
 			</news>
 		</extension>
 	</addon>
-	<addon id="skin.titan.mod.beta.leia" version="18.1.8~alpha" name="T i t a n - M O D (BETA) for LEIA" provider-name="mardukl,cartman.dos,marcelveldt,mgonzales">
+	<addon id="skin.titan.mod.beta.leia" version="18.1.8" name="T i t a n - M O D (BETA) for LEIA" provider-name="mardukl,cartman.dos,marcelveldt,mgonzales">
 		<requires>
 			<import addon="xbmc.gui" version="5.13.0" />
 			<import addon="script.skinshortcuts" version="0.6.5"/>

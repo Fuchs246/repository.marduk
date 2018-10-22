@@ -1,38 +1,30 @@
 # Repo related Stuff wich affect skin to work properly
+	
 	- fixed crash on load Skin Color Themes
 			-> script.skin.helper.skinbackup (Update)
+	
 	- add an skin icon resource addon to choose icons(set thumbnail in edit shortcut menu) for bingie home main menu	
 			-> resource.images.skinicons.whitesquare (WIP ,  https://github.com/marduklev/resource.images.skinicons.whitesquare/archive/master.zip)
-
+	
+	- add skin kodi flix for krypton
+	
+	- add netflix repo (just for use in leia only)
+	
+	
 ## actual skin files
 		> [skin.titan - krypton]	**=17	https://github.com/marduklev/skin.titan.krypton.mod/
  		> [skin.titan - leia]		**=18	https://github.com/marduklev/skin.titan.mod.beta.leia/
 		
-## Marduk : in progress ~ **.1.8 (xx-09-2018)
+## Marduk : in progress ~ **.1.8 (22-10-2018)
 	
 	- `` L E I A ´´	
 		- no crash when switch Homelayout (tiles,vertical, home) -> all in 1 section to choose from (removed sublevels)
 		- add "watch dependencies" button (addoninfodialog)
+		- no crash when switch / choose colorthemes (need skinhelper.backup update to latest, from marduk repo)
 		
-			MISC
-				- kill some typos
-				- changed behaviour of a skinsetting (dont show clear logo), as it is in home section, but refer to all netflix style layouts (home,views,dialogvideoinfo)
-					-> actual just optional in netflix home, other(views,videoinfo) ,maybe optional later
-			
 			CASE OVERLAY (https://imgur.com/a/XYdCrDQ)
 				- change Cases Overlay Texture (Bluray DVD)
 				- change BR,4K Flag for use in Case Overlays
-			
-			NETFLIXHOME/ BINGIE
-				- fixed trailer autoplay (wasnt working in spotlight widget)
-				- adjust mppa info and textures fade/position on spotlight trailer playback
-				- adjust ratings, if spotlight active/spotlight trailer playing
-			
-			SKINSETTINGS (if Bingie/Netflix 1 in use)
-				- fixed/add/hide some skin settings if possible 
-				- add a Widget Category for Settings in Homemenu Section, better overview (also Spotlight Widget/Spotlight Area/Image are 2 diff things from now on)
-				- fix hide rating and media flags on trailer playback (wasnt working for booth before)
-				- fix scrolling issue if "dont show all widgets" is used
 			
 			* PVR *
 				
@@ -63,7 +55,26 @@
 					-> !! that works also as source for other skins, follow the instructions provided here - https://kodi.wiki/view/Live_TV_Artwork#Loading_Logos 
 		
 	- `` all versions ´´
-	
+		
+		MISC
+				- kill some typos
+				- changed behaviour of a skinsetting (dont show clear logo), as it is in home section, but refer to all netflix style layouts (home,views,dialogvideoinfo)
+					-> actual just optional in netflix home, other(views,videoinfo) ,maybe optional later
+		
+		NETFLIXHOME/ BINGIE
+				- fixed trailer autoplay (wasnt working in spotlight widget)
+				- adjust mppa info and textures fade/position on spotlight trailer playback
+				- adjust ratings, if spotlight active/spotlight trailer playing
+			
+		SKINSETTINGS (if Bingie/Netflix 1 in use)
+				- fixed/add/hide some skin settings if possible 
+				- add a Widget Category for Settings in Homemenu Section, better overview (also Spotlight Widget/Spotlight Area/Image are 2 diff things from now on)
+				- fix hide rating and media flags on trailer playback (wasnt working for booth before)
+				- fix scrolling issue if "dont show all widgets" is used
+		
+		- OSD NETFLIX
+			- add clock, and remaining time
+			
 		- OSD SLIM
 			- fixed overlay (rating/time)
 		
