@@ -65,7 +65,8 @@
 				- fixed trailer autoplay (wasnt working in spotlight widget)
 				- adjust mppa info and textures fade/position on spotlight trailer playback
 				- adjust ratings, if spotlight active/spotlight trailer playing
-			
+				- fix "stuck in spotlight" / navigation issue, when not use "show all widgets detach from" ( no widgets are set for an main item )
+				
 		SKINSETTINGS (if Bingie/Netflix 1 in use)
 				- fixed/add/hide some skin settings if possible 
 				- add a Widget Category for Settings in Homemenu Section, better overview (also Spotlight Widget/Spotlight Area/Image are 2 diff things from now on)
