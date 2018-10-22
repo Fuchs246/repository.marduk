@@ -1,12 +1,17 @@
 TO DO LIST : / https://kodi.wiki/view/Kodi_v18_(Leia)_changelog
 		
 		Notes:
+		
+			- monochrome ratings for bingie home, option , need look at
+			
+			- autoplay trailers working in spotlight, but not for other widgets, krypton bingie home
+			
 			- bug : spotlight widget issues if, dont show all widget is enabled
 			
 			https://forum.kodi.tv/showthread.php?tid=298565&pid=2553240#pid2553240 - for use in subheader, to have betteruse for secondary color ?
 			
 			- remove footer from panel wall view (520)/(519)
-			
+			- lookup <!-- check, search for Property(TrailerPlaying)), need to set for autoplay --> , 
 			- gameosd.xml , need add and adjustments
 			
 			- Krypton : investigate and fix autoplay trailer behaviours (non netflixhome/netfixhome)
@@ -54,7 +59,7 @@ TO DO LIST : / https://kodi.wiki/view/Kodi_v18_(Leia)_changelog
 			
 			- finish 3d view option and layout (https://streamable.com/4kn7g , ), later focus a viewtype for  albums/artists ()
 			
-			- cutom color needs revisit 31829, 81813 - diifuse lyrics, missing in krypton, could be fix BG bug ??
+			- cutom color needs revisit 31829
 			
 			- slide menu needs custom focuspanle/focus text color ?, depending to skinbutton, + extra slide menu color 
 				causing issues	IF: SideBladePanelColor(31601) near same as ButtonFocusColor(31233)	??

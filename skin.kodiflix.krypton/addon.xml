@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="skin.kodiflix.krypton" version="2.10.0" name="Kodiflix for Krypton" provider-name="SchisM">
+	<requires>
+		<import addon="xbmc.gui" version="5.12.0"/>
+		<import version="0.4.0" addon="script.skinshortcuts"/>
+		<import version="0.1.0" addon="service.library.data.provider"/>
+		<import version="12.0.29" addon="script.artwork.downloader" />
+		<import version="1.0.0" addon="script.skin.helper.service" />
+		<import version="5.0.0" addon="script.globalsearch"/>
+		<import version="1.0.0" addon="script.toolbox"/>
+		<import version="1.0.1" addon="plugin.program.autocompletion"/>
+		<import addon="resource.images.studios.coloured" />
+	</requires>
+	<extension point="xbmc.gui.skin" debugging="false">
+		<res width="1920" height="1080" aspect="16:9" default="true" folder="1080i" />
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="de_DE">Kodiflix for Krypton</summary>
+		<summary lang="en_GB">Kodiflix for Krypton</summary>
+		<description lang="de_DE">Kodiflix for Krypton - No banned Stuff</description>
+		<description lang="en_GB">Kodiflix for Krypton - No banned Stuff</description>
+     <platform>all</platform>
+	 	<assets>
+			<icon>resources/icon.jpg</icon>
+			<fanart>resources/fanart.png</fanart>
+			<screenshot>resources/screenshot000.jpg</screenshot>
+			<screenshot>resources/screenshot001.jpg</screenshot>
+			<screenshot>resources/screenshot002.jpg</screenshot>
+			<screenshot>resources/screenshot003.jpg</screenshot>
+		</assets>
+  </extension>
+</addon>
