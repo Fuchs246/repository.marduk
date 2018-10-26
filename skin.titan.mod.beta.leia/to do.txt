@@ -1,13 +1,28 @@
 TO DO LIST : / https://kodi.wiki/view/Kodi_v18_(Leia)_changelog
 		
 		Notes:
-		
+			-
+			
+			- uppercase issue in title label (eg weather)
+			- pvr  - previewwindow overlay (left / right info panel ) in view (?)
+			- more buttons to navigate touch support (e.g. sidepanel, trailer) / fix overlay trough mod (e.g. osd)
+			- view 526 - make var as optional show unwatched items (season level) $season : episodes 
+			(unwatched episodes)
+			- trailers should always use system lang instead be optional
+			- osd disable info if settings dialog is visible (krypton) , leia need add osdsubtitledialog 
+			as condition
+			- fanart :  stretch (view info panel [ eg. stream thubs] ,  check fallback spotlight images var
+			if empty , spotlight image (eg stream shows other thumb than focused, need test)
+			- bingie home - rating position if not 1st row/ (widget header count into widget height)
+							
+			- sometimes still stuck in spotlight? - no way to mav out (happend on krypton android)
+				
+			- krypton : autoplay trailer issues (non spotlight)
+								
+			- ost themes manfeed or addon based ?
 			- monochrome ratings for bingie home, option , need look at
 			
-			- autoplay trailers working in spotlight, but not for other widgets, krypton bingie home
-			
-			- bug : spotlight widget issues if, dont show all widget is enabled
-			
+
 			https://forum.kodi.tv/showthread.php?tid=298565&pid=2553240#pid2553240 - for use in subheader, to have betteruse for secondary color ?
 			
 			- remove footer from panel wall view (520)/(519)
