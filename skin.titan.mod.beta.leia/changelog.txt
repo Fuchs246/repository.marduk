@@ -1,21 +1,41 @@
-# Repo related Stuff wich affect skin to work properly
-	
-	- fixed crash on load Skin Color Themes
-			-> script.skin.helper.skinbackup (Update)
-	
-	- add an skin icon resource addon to choose icons(set thumbnail in edit shortcut menu) for bingie home main menu	
-			-> resource.images.skinicons.whitesquare (WIP ,  https://github.com/marduklev/resource.images.skinicons.whitesquare/archive/master.zip)
-	
-	- add skin kodi flix for krypton
-	
-	- add netflix repo (just for use in leia only)
-	
+		
 	
 ## actual skin files
 		> [skin.titan - krypton]	**=17	https://github.com/marduklev/skin.titan.krypton.mod/
  		> [skin.titan - leia]		**=18	https://github.com/marduklev/skin.titan.mod.beta.leia/
-		
-## Marduk : in progress ~ **.1.8 (22-10-2018)
+
+
+
+## Marduk : ~ **.1.8 (22-10-2018)
+
+		''LEIA''
+			
+			
+			KODI LEIA CHANGE
+				- kodi no longer supports digital sound processing addons. these two dialogs were removed:
+				- AudioDSPManager (DialogAudioDSPManager.xml) ;  OSDAudioDSPSettings
+				- DialogMasterModeFreeSurround.xml , DialogParametricEQ.xml , DialogSpeakerDistance.xml, DialogSpeakerGain.xml
+				- this defaulticon is removed media/DefaultAddonAudioDSP.png 
+				
+			OSD SLIM
+				- make it slim again, if "Show Info on OSD" is toggled off (skinsetting /OSD Button to toggle)
+				
+
+## Marduk : ~ **.1.8 (22-10-2018)
+	
+	# Repo related Stuff wich affect skin to work properly
+			
+			- fixed crash on load Skin Color Themes
+					-> script.skin.helper.skinbackup (Update)
+			
+			- add an skin icon resource addon to choose icons(set thumbnail in edit shortcut menu) for bingie home main menu	
+					-> resource.images.skinicons.whitesquare (WIP ,  https://github.com/marduklev/resource.images.skinicons.whitesquare/archive/master.zip)
+			
+			- add skin kodi flix for krypton
+			
+			- add netflix repo (just for use in leia only)
+	
+	
 	
 	- `` L E I A ´´	
 		- no crash when switch Homelayout (tiles,vertical, home) -> all in 1 section to choose from (removed sublevels)
