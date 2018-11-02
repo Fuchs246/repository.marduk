@@ -20,7 +20,10 @@
 			OSD SLIM
 				- make it slim again, if "Show Info on OSD" is toggled off (skinsetting /OSD Button to toggle)
 				
-
+			BINGIE HOME
+				- removed Sidemenu Big layout
+				- improved focus spotlight on up, from 1st widget row
+				
 ## Marduk : ~ **.1.8 (22-10-2018)
 	
 	# Repo related Stuff wich affect skin to work properly
