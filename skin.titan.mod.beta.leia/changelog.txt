@@ -6,7 +6,7 @@
 
 
 
-## Marduk : ~ **.1.8 (22-10-2018)
+## Marduk : ~ **.1.9 (22-10-2018)
 
 		''LEIA''
 			
@@ -16,13 +16,26 @@
 				- AudioDSPManager (DialogAudioDSPManager.xml) ;  OSDAudioDSPSettings
 				- DialogMasterModeFreeSurround.xml , DialogParametricEQ.xml , DialogSpeakerDistance.xml, DialogSpeakerGain.xml
 				- this defaulticon is removed media/DefaultAddonAudioDSP.png 
+			
+			VIDEOINFO AND SKINSETTING
+				-  removed autoplay trailer option for videoinfo screen (temporally?) - beacuse playing in loop if not stop by keybord with "x"
 				
-			OSD SLIM
-				- make it slim again, if "Show Info on OSD" is toggled off (skinsetting /OSD Button to toggle)
-				
+			OSD 
+				- make it slim again, if "Show Info on OSD" is toggled off (skinsetting /OSD Button to toggle) (SLIM)
+				- conditional [CR], default OSD, no ionfo, fixed high width title overlays (DEFAULT)
+				- fixed visible slider on OSD settings (ALL)
+			
 			BINGIE HOME
-				- removed Sidemenu Big layout
+				- removed big menu layout
 				- improved focus spotlight on up, from 1st widget row
+				- fix stuck in button 53 (e.g. yt scraped trailer dleted/n/a) - click down to focus widgets again
+				- click left to focus custom shutdown (main has focus) - keept also onback/return
+				- click left to focus main (custom shutdown has focus) - keept also onback/return
+				- use custom shutdown menu
+				- user can choose items via shortcut settings
+				  (configure shortcuts -> customize powermenu)
+				- user can hide custom shutdown via skinsetting (Homescreen Layout -> Homescreen Options)
+				- removed uppercase from title , since uppercase tags inside the var is fine
 				
 ## Marduk : ~ **.1.8 (22-10-2018)
 	

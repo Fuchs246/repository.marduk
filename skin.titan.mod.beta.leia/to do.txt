@@ -4,26 +4,19 @@ TO DO LIST : / https://kodi.wiki/view/Kodi_v18_(Leia)_changelog
 		
 		
 		Notes/issues:
-		
-			- breaking bug -> sptotlight stuck on 53 (no nav possible without keyboard), (e.g. trailer na/removed...)
 			
-			- shutdown select setting through <onback> forces auto close of settings, Dialog.Close(shutdownmenu) instead of close - need set by skinshortcuts - ()
-			
-			- long title issue in osd (default, not in slim, not in netflix)
+			- autoplay trailer in videoinfo screen (play in loop if not stop with x key, lost button focus in netflix layout)- temp disabled autoplay
 			
 			- https://forum.kodi.tv/showthread.php?tid=330749&pid=2787227#pid2787227
 			
-			- pvr time remaining result 00:00 (need to look at) - https://forum.kodi.tv/showthread.php?tid=330749&pid=2787800#pid2787800
-			
 			- widget refreshing on playback, generell refresh on video/trailer playback, instead of just needed (movie,episode,....) https://forum.kodi.tv/showthread.php?tid=330749&pid=2787978#pid2787978
-			
+						(it's fine, only issue i can think off that widgets tries to change based on trailer streams (yt) -> shw)
 			- krypton (dark overlay) music OSD
-			
-			- reported overlay of multiple lines of artist info 
+			- krypton only? - reported overlay of multiple lines of artist info 
 			
 			- behaviour of play / resume in netflix info dialog
 			
-			- behaviour resume in extended info dialog 
+			- behaviour resume in extended info dialog -> seems related to extended info, failded to load /set focus on media (just uses close function)
 			
 			- uppercase issue in title label (eg weather)
 			- pvr  - previewwindow overlay (left / right info panel ) in view (?)
