@@ -6,10 +6,34 @@
 
 
 
-## Marduk : ~ **.1.9 (22-10-2018)
+## Marduk : ~ **.1.9 (22-10-2018) - WIP
 
-		''LEIA''
+		''LEIA'
+	
+	not on git: - Skinseeting related to views (Netflix,525,523) - play locally stored trailers for tv shows, need to have "-tvshowtrailer" in main directory of tvshow
+					, need add filexist vis sh, and option, actually just action is working (523)
+				- Add Previewindow for view(526) - custom currently playing info
 			
+			LOCALLY STORED TRAILERS AND FALLBACK 
+				
+				- The skin can check if local trailers exists on specific views / actual just (netflix landscape and posters)
+				, and will play them instead of yt lookup (faster playback), no online connection needed 
+				 [trailers need to be in ".mp4" format and named "(foldername)-trailer]
+				 
+				- IF Scraped or Local Trailer n/a, it will force youtube lookup in system language
+				
+						example -> [*path*/(tvshow/movietitle=FOLDERNAME)/FOLDERNAME-trailer.mp4]
+						
+						example for Shows >		\*whatever*\Bates Motel\Bates Motel-trailer.mp4
+												\*whatever*\House of Cards (US)\House of Cards (US)-trailer.mp4
+												
+						+
+						example for Movies >	\*whatever*\12 Years a Slave (2013)\12 Years a Slave (2013)-trailer.mp4
+												\*whatever*\16 Uhr 50 ab Paddington (1961)\16 Uhr 50 ab Paddington (1961)-trailer.mp4
+			OST Themes
+				- improved the theme playback (hide currently playing bar)
+				
+				* if someone doesnt know about, the skin can play themes for shows and movies if there is a "theme.mp3" audio file inside of the root e.g. [*path*/movietitle (year)/theme.mp3]
 			
 			KODI LEIA CHANGE
 				- kodi no longer supports digital sound processing addons. these two dialogs were removed:
@@ -36,7 +60,11 @@
 				  (configure shortcuts -> customize powermenu)
 				- user can hide custom shutdown via skinsetting (Homescreen Layout -> Homescreen Options)
 				- removed uppercase from title , since uppercase tags inside the var is fine
-				
+				-  add condition for circular nav (@cscott1)
+					- on down from last main menu item the custom sd get focus...
+					- on up from first custom sd item the last main menu item get focus...
+						... if using circular navigation is enebled
+						
 ## Marduk : ~ **.1.8 (22-10-2018)
 	
 	# Repo related Stuff wich affect skin to work properly
