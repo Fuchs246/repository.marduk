@@ -11,16 +11,15 @@
 >      - Entering the API keys is done now through the addon's settings "API Keys" category
 >
 > - included "Rector Stuff Repo" - from **rmrector**
->
 > - included "Marcelveldt's BETA repository" from **Marcelveldt**
-
-> - skin kodiflix by **schism**
-
-> - updated "skin info service" by **phil65** (krypton/leia compatible) -> https://forum.kodi.tv/showthread.php?tid=203196
-
-> - Aeon Nox 5 Spin by **manfeed** (need script skin.info to work properly ) -> https://forum.kodi.tv/showthread.php?tid=308624
-
+> - included "netflix repository" from **asciiDisco**
+>
 > - script TV Melody by **smitchell6879** (used now in Titan MOD, OST Theme Playback ) -> https://forum.kodi.tv/showthread.php?tid=332890
+> - updated version of "script.skin.info.service" by **phil65** (krypton/leia compatible) -> https://forum.kodi.tv/showthread.php?tid=203196
+>
+> - skin kodiflix by **schism**
+> - Aeon Nox 5 Spin by **manfeed**  -> https://forum.kodi.tv/showthread.php?tid=308624
+>
 
 
 ## actual skin files
