@@ -18,8 +18,8 @@
 > - updated version of "script.skin.info.service" by **phil65** (krypton/leia compatible) -> https://forum.kodi.tv/showthread.php?tid=203196
 >
 ### **misc**
-> - skin kodiflix by **schism**
-> - Aeon Nox 5 Spin by **manfeed**  -> https://forum.kodi.tv/showthread.php?tid=308624
+> - **skin kodiflix** by **schism**
+> - **skin Aeon Nox 5 Spin** by **manfeed**  -> https://forum.kodi.tv/showthread.php?tid=308624
 >
 
 
