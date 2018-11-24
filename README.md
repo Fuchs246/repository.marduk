@@ -14,7 +14,7 @@
 >
 > - included "Marcelveldt's BETA repository" from **Marcelveldt**
 
-> - skin kod8flix by **schism**
+> - skin kodiflix by **schism**
 
 > - updated "skin info service" by **phil65** (krypton/leia compatible) -> https://forum.kodi.tv/showthread.php?tid=203196
 
