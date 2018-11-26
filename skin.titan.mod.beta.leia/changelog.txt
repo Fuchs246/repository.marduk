@@ -9,7 +9,12 @@
 ## Marduk : ~ **.1.9 (22-10-2018) - WIP
 
 		''LEIA'
-	
+			
+			VIEW - Horizontal Panel (52) -> https://streamable.com/crna1
+				- add layout for thumbs/fanart instead special info
+				- add toggle option for booth (Info & thumbs) to show info on bottom
+				- add auto play trailer, and the new trailer check method
+			
 			SKINSEETING
 				- related to views (Netflix,525,523) - play locally stored trailers for tv shows, need to have "[TVSHOWTILTE=Foldername]-tvshowtrailer.mp4" in main directory of tvshow
 				- added addon support for "TV Melodys" (plays theme.** audia files in library for movies and TV shows), - if playing its hiding the currently playing bar
