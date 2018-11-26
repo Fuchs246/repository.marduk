@@ -10,19 +10,17 @@
 
 		''LEIA'
 	
-	not on git: - Skinseeting related to views (Netflix,525,523) - play locally stored trailers for tv shows, need to have "-tvshowtrailer" in main directory of tvshow
-					, need add filexist vis sh, and option, actually just action is working (523)
-				- Add Previewindow for view(526) - custom currently playing info
+			SKINSEETING
+				- related to views (Netflix,525,523) - play locally stored trailers for tv shows, need to have "[TVSHOWTILTE=Foldername]-tvshowtrailer.mp4" in main directory of tvshow
+				- added addon support for "TV Melodys" (plays theme.** audia files in library for movies and TV shows), - if playing its hiding the currently playing bar
 			
 			LOCALLY STORED TRAILERS AND FALLBACK 
 				
-				- The skin can check if local trailers exists on specific views / actual just (netflix landscape and posters)
-				, and will play them instead of yt lookup (faster playback), no online connection needed 
-				 [trailers need to be in ".mp4" format and named "(foldername)-trailer]
-				 
-				- IF Scraped or Local Trailer n/a, it will force youtube lookup in system language
+				- The skin can check if local trailers exists on specific views (all with a preview window) but actual just playback with "on up" in  Netflix Views(525,523)
 				
-						example -> [*path*/(tvshow/movietitle=FOLDERNAME)/FOLDERNAME-trailer.mp4]
+				 [trailers need to be in ".mp4" format and named "(foldername)-trailer]
+				
+				example -> [*path*/(tvshow/movietitle=FOLDERNAME)/FOLDERNAME-trailer.mp4]
 						
 						example for Shows >		\*whatever*\Bates Motel\Bates Motel-trailer.mp4
 												\*whatever*\House of Cards (US)\House of Cards (US)-trailer.mp4
@@ -30,10 +28,9 @@
 						+
 						example for Movies >	\*whatever*\12 Years a Slave (2013)\12 Years a Slave (2013)-trailer.mp4
 												\*whatever*\16 Uhr 50 ab Paddington (1961)\16 Uhr 50 ab Paddington (1961)-trailer.mp4
-			OST Themes
-				- improved the theme playback (hide currently playing bar)
-				
-				* if someone doesnt know about, the skin can play themes for shows and movies if there is a "theme.mp3" audio file inside of the root e.g. [*path*/movietitle (year)/theme.mp3]
+
+			NETFLIX WIDE - View(526)
+				- edjust labels Season and episodes seperate , to have no issues with custom names (had shifted labels before)
 			
 			KODI LEIA CHANGE
 				- kodi no longer supports digital sound processing addons. these two dialogs were removed:
@@ -43,6 +40,7 @@
 			
 			VIDEOINFO AND SKINSETTING
 				-  removed autoplay trailer option for videoinfo screen (temporally?) - beacuse playing in loop if not stop by keybord with "x"
+
 				
 			OSD 
 				- make it slim again, if "Show Info on OSD" is toggled off (skinsetting /OSD Button to toggle) (SLIM)
