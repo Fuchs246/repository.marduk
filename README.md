@@ -1,4 +1,4 @@
-# The Base Repo for **T i t a n - M O D (BETA) and some other usefull KODI stuff**
+# The Base Repo for **T i t a n - M O D (BETA)**
 
 
 ### including its needed AddonOns **(K R Y P T O N**   &  **L E I A)**
@@ -17,7 +17,7 @@
 > - script TV Melody from  **smitchell6879** (used now in Titan MOD, OST Theme Playback ) -> https://forum.kodi.tv/showthread.php?tid=332890
 > - updated version of "script.skin.info.service" from **phil65** (krypton/leia compatible) -> https://forum.kodi.tv/showthread.php?tid=203196
 >
-### **misc**
+### misc or some other usefull KODI stuff
 > - **skin kodiflix** from **schism** [ just Krypton ]
 > - **skin Aeon Nox 5 Spin** from **manfeed**  [ just Krypton ] -> https://forum.kodi.tv/showthread.php?tid=308624
 > - **skin.lucid** from Rantanplan-1  [ just Krypton ] -> https://forum.kodi.tv/showthread.php?tid=256302
