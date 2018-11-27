@@ -566,7 +566,7 @@
 			<news>[B]Based on [I]v6.0.3[/I] of Aeon Nox 5 SiLVO[/B]</news>
 		</extension>
 	</addon>
-	<addon id="skin.Lucid" version="0.3.25" name="Lucid" provider-name="TK.One aka. Rantanplan-1">
+	<addon id="skin.lucid" version="0.3.25" name="Lucid" provider-name="TK.One aka. Rantanplan-1">
 		<requires>
 			<import addon="xbmc.gui" version="5.12.0"/>
 			<import addon="script.favourites" version="5.0.0"/>

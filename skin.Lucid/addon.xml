@@ -1,19 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon
-	id="skin.Lucid" version="0.3.25" name="Lucid" provider-name="TK.One aka. Rantanplan-1">
+<addon id="skin.lucid" version="0.3.25" name="Lucid" provider-name="TK.One aka. Rantanplan-1">
 	<requires>
 		<import addon="xbmc.gui" version="5.12.0"/>
 		<import addon="script.favourites" version="5.0.0"/>
 		<import addon="script.skinshortcuts" version="0.6.5"/>
-		<import addon="script.playalbum" version="1.0.1"/>		
-		<import addon="script.extendedinfo" version="1.0.0"/>		
+		<import addon="script.playalbum" version="1.0.1"/>
+		<import addon="script.extendedinfo" version="1.0.0"/>
 		<import addon="script.skin.helper.service" version="1.0.0"/>
-        <import addon="script.skin.helper.backgrounds" version="1.0.0"/>		
+        <import addon="script.skin.helper.backgrounds" version="1.0.0"/>
 		<import addon="script.image.resource.select" version="0.1.1"/>
 		<import addon="service.kn.switchtimer" version="2.0.3"/>
-		<import addon="plugin.program.autocompletion" version="1.0"/>				
-		<import addon="resource.images.studios.white" version="0.0.1"/>		
-		<import addon="resource.images.weatherfanart.multi" version="0.0.1"/>		
+		<import addon="plugin.program.autocompletion" version="1.0"/>
+		<import addon="resource.images.studios.white" version="0.0.1"/>
+		<import addon="resource.images.weatherfanart.multi" version="0.0.1"/>
 		<import addon="script.libraryeditor" version="0.0.1" optional="true"/>
 	</requires>
 	<extension point="xbmc.gui.skin" defaultthemename="Textures.xbt" effectslowdown="1.00" debugging="false">
