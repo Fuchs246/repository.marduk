@@ -20,7 +20,7 @@
 ### misc or some other usefull KODI stuff
 > - **skin kodiflix** from **schism** [ just Krypton ]
 > - **skin Aeon Nox 5 Spin** from **manfeed**  [ just Krypton ] -> https://forum.kodi.tv/showthread.php?tid=308624
-> - **skin.lucid** from Rantanplan-1  [ just Krypton ] -> https://forum.kodi.tv/showthread.php?tid=256302
+> - **skin.lucid** from **Rantanplan-1**  [ just Krypton ] -> https://forum.kodi.tv/showthread.php?tid=256302
 
 
 ## actual skin files
