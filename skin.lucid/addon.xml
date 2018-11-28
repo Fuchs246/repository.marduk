@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="skin.lucid" version="0.3.25" name="Lucid" provider-name="TK.One aka. Rantanplan-1">
+	<requires>
+		<import addon="xbmc.gui" version="5.12.0"/>
+		<import addon="script.favourites" version="5.0.0"/>
+		<import addon="script.skinshortcuts" version="0.6.5"/>
+		<import addon="script.playalbum" version="1.0.1"/>
+		<import addon="script.extendedinfo" version="1.0.0"/>
+		<import addon="script.skin.helper.service" version="1.0.0"/>
+        <import addon="script.skin.helper.backgrounds" version="1.0.0"/>
+		<import addon="script.image.resource.select" version="0.1.1"/>
+		<import addon="service.kn.switchtimer" version="2.0.3"/>
+		<import addon="plugin.program.autocompletion" version="1.0"/>
+		<import addon="resource.images.studios.white" version="0.0.1"/>
+		<import addon="resource.images.weatherfanart.multi" version="0.0.1"/>
+		<import addon="script.libraryeditor" version="0.0.1" optional="true"/>
+	</requires>
+	<extension point="xbmc.gui.skin" defaultthemename="Textures.xbt" effectslowdown="1.00" debugging="false">
+		<res width="1920" height="1080" aspect="16:9" default="true" folder="16x9" />
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="en">Lucid a fast Feature rich Skin, with a modern "flat" design.</summary>
+		<disclaimer lang="en">Mouse and Touch device not supported</disclaimer>
+		<description lang="en">Lucid, a fast Featurerich Skin with a modern "flat" design and a "light" look, which is easy to setup and offers support for current Scripts and Addons.. [CR]The Goal of this Skin was for me to create something which is easy and intuitive to use and comes with a unclutterd unified "light" Design.[CR] Two Areas get therefore special Attention. The Settingsarea and the Addon Hub. Goal for the Setingsarea was to have all Settings available in one Settingswindow, this way it is easyer to become a good overview which Settiongs Kodi offers, its even possible to setup your Remote straight from the Settingsarea (menu item "more"). The "Addon Hub" also deserve some Attention, as you can access all your installed "content Addons" strait from one Place and Sort them according to your needs (even different Views are possible in the "Addon Hub".) [CR][CR]Original design: TR.One aka. Rantanplan-1[CR][CR]Thanks to Hitcher for "Conq", which i took as a base for this Skin, [CR][CR][CR]     [CR]Lucid a Modern Skin with a light look, which is easy to setup and offers support for current Scripts and Addons.</description>
+		<assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+            <screenshot>_screenshots/screenshot001.jpg</screenshot>
+            <screenshot>_screenshots/screenshot002.jpg</screenshot>
+            <screenshot>_screenshots/screenshot003.jpg</screenshot>
+            <screenshot>_screenshots/screenshot004.jpg</screenshot>
+            <screenshot>_screenshots/screenshot005.jpg</screenshot>
+            <screenshot>_screenshots/screenshot006.jpg</screenshot>
+			<screenshot>_screenshots/screenshot200.jpg</screenshot>
+            <screenshot>_screenshots/screenshot201.jpg</screenshot>
+            <screenshot>_screenshots/screenshot202.jpg</screenshot>
+            <screenshot>_screenshots/screenshot203.jpg</screenshot>
+        </assets>
+	</extension>
+</addon>
