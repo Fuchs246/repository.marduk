@@ -390,9 +390,9 @@
 			</news>
 		</extension>
 	</addon>
-	<addon id="skin.titan.mod.beta.leia" version="18.1.8" name="T i t a n - M O D (BETA) for LEIA" provider-name="mardukl,cartman.dos,marcelveldt,mgonzales">
+	<addon id="skin.titan.mod.beta.leia" version="18.1.9~alpha" name="T i t a n - M O D (BETA) for LEIA" provider-name="mardukl,cartman.dos,marcelveldt,mgonzales">
 		<requires>
-			<import addon="xbmc.gui" version="5.13.0" />
+			<import addon="xbmc.gui" version="5.14.0" />
 			<import addon="script.skinshortcuts" version="0.6.5"/>
 			<import addon="script.skin.helper.service" version="1.0.0"/>
 			<import addon="script.skin.helper.widgets" version="1.0.0"/>
@@ -466,7 +466,7 @@
 				Follow the forum thread about the latest news for the skin.
 			</news>
 		</extension>
-	</addon>
+</addon>
 	<addon id="skin.aeon.nox.spin" version="9.0.0" name="Aeon Nox 5 Spin" provider-name="manfeed">
 		<requires>
 			<import addon="xbmc.gui" version="5.12.0"/>
