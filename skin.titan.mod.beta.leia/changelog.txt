@@ -9,8 +9,29 @@
 ## Marduk : ~ **.1.9 (22-10-2018) - WIP
 
 		''LEIA'
+		
+			SCREEN CALIBRATION
+				- wasnt working, fixed trough missing xml
+		
+			CURRENTY PLAYING BAR
+				- no info if trailer is playing, info if theme is playing
+				- fixed some issues for PVR Video Preview
+				- adjust for Netflix views
+				
+				
+			DIALOG CONFIRM : 
+				- fixed, no focus on cancel/ok if its the only available option
+				
+			DIALOG VIDEO INFO
+				- use multiline for titles, reduced width due to overlay issues with revenue. etc
+				
+			FANART VIEW 507 - https://streamable.com/cjau0
+				- add/change layout if "show Info" enebled
+				- add some more view options (frames, info right)
+				- add play trailer method to on up, stop on down, go fullscreen if trailer is playing on up
+				- ? waiting for permission -> import bello showcase overlay ->  https://streamable.com/wfxdq
 			
-			VIEW - Horizontal Panel (52) -> https://streamable.com/crna1
+			PANEL VIEW 52 - https://streamable.com/crna1
 				- add layout for thumbs/fanart instead special info
 				- add toggle option for booth (Info & thumbs) to show info on bottom
 				- add auto play trailer, and the new trailer check method
@@ -18,7 +39,8 @@
 			SKINSEETING
 				- related to views (Netflix,525,523) - play locally stored trailers for tv shows, need to have "[TVSHOWTILTE=Foldername]-tvshowtrailer.mp4" in main directory of tvshow
 				- added addon support for "TV Melodys" (plays theme.** audia files in library for movies and TV shows), - if playing its hiding the currently playing bar
-			
+				- dont show "use gradient color effect" if using netflix OSD
+				
 			LOCALLY STORED TRAILERS AND FALLBACK 
 				
 				- The skin can check if local trailers exists on specific views (all with a preview window) but actual just playback with "on up" in  Netflix Views(525,523)
@@ -36,7 +58,7 @@
 
 			NETFLIX WIDE - View(526)
 				- edjust labels Season and episodes seperate , to have no issues with custom names (had shifted labels before)
-			
+				
 			KODI LEIA CHANGE
 				- kodi no longer supports digital sound processing addons. these two dialogs were removed:
 				- AudioDSPManager (DialogAudioDSPManager.xml) ;  OSDAudioDSPSettings
@@ -51,8 +73,12 @@
 				- make it slim again, if "Show Info on OSD" is toggled off (skinsetting /OSD Button to toggle) (SLIM)
 				- conditional [CR], default OSD, no ionfo, fixed high width title overlays (DEFAULT)
 				- fixed visible slider on OSD settings (ALL)
-			
+				- OSD Netflix : dim video when info /plot showing
+				- OSD Netflix : reduce size of ClearLogo and Titles by 50%
+				- OSD :  adjust clear art positions
+				
 			BINGIE HOME
+				- Home (Netflix2/Bingie) moved ratings 12 pixels up
 				- removed big menu layout
 				- improved focus spotlight on up, from 1st widget row
 				- fix stuck in button 53 (e.g. yt scraped trailer dleted/n/a) - click down to focus widgets again
