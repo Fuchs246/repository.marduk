@@ -29,7 +29,7 @@
 				- add/change layout if "show Info" enebled
 				- add some more view options (frames, info right)
 				- add play trailer method to on up, stop on down, go fullscreen if trailer is playing on up
-				- ? waiting for permission -> import bello showcase overlay ->  https://streamable.com/wfxdq
+				- add/import skin "bello" showcase overlay by User Nessus ->  https://streamable.com/wfxdq
 			
 			PANEL VIEW 52 - https://streamable.com/crna1
 				- add layout for thumbs/fanart instead special info
