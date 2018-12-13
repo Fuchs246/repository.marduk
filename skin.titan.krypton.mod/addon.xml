@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="skin.titan.krypton.mod" version="17.1.8" name="T i t a n - M O D (BETA) for KRYPTON" provider-name="marcelveldt,mgonzales,marduk,cartmandos">
+<addon id="skin.titan.krypton.mod" version="17.1.9~alpha" name="T i t a n - M O D (BETA) for KRYPTON" provider-name="marcelveldt,mgonzales,marduk,cartmandos">
 	<requires>
 		<import version="5.12.0" addon="xbmc.gui"/>		
 		<import addon="script.skinshortcuts" version="0.6.5"/>
@@ -72,7 +72,87 @@
 			<screenshot>_screenshots/screenshot019.jpg</screenshot>
 		</assets>
 		<news>
-            Follow the forum thread about the latest news for the skin.
-        </news>
+		[B][COLOR=FF00b8ff]Version -  17.1.9[/COLOR][/B]
+		
+		[B]LOCALLY STORED TRAILERS AND FALLBACK [/B]
+			- The skin can check if local trailers exists on specific views (all with a preview window) but actual just playback with "on up" in  Netflix Views(525,523)
+
+		[trailers need to be in ".mp4" format and named "(foldername)-trailer]
+
+		example -> [*path*/(tvshow/movietitle=FOLDERNAME)/FOLDERNAME-trailer.mp4]
+
+		example for Shows >		\*whatever*\Bates Motel\Bates Motel-trailer.mp4
+		\*whatever*\House of Cards (US)\House of Cards (US)-trailer.mp4
+
+		example for Movies >	\*whatever*\12 Years a Slave (2013)\12 Years a Slave (2013)-trailer.mp4
+		\*whatever*\16 Uhr 50 ab Paddington (1961)\16 Uhr 50 ab Paddington (1961)-trailer.mp4
+
+		[B]SCREEN CALIBRATION[/B]
+		- wasnt working, fixed trough missing xml
+
+		[B]CURRENTY PLAYING BAR[/B]
+		- no info if trailer is playing, info if theme is playing
+		- fixed some issues for PVR Video Preview
+		- adjust for Netflix views
+
+		[B]DIALOG CONFIRM :[/B]
+		- fixed, no focus on cancel/ok if its the only available option
+
+		[B]DIALOG VIDEO INFO[/B]
+		- use multiline for titles, reduced width due to overlay issues with revenue. etc
+
+		[B]FANART VIEW 507 - https://streamable.com/cjau0 [/B]
+		- add/change layout if "show Info" enebled
+		- add some more view options (frames, info right)
+		- add play trailer method to on up, stop on down, go fullscreen if trailer is playing on up
+		- add/import skin "bello" showcase overlay by User Nessus ->  https://streamable.com/wfxdq
+
+		[B]PANEL VIEW 52 - https://streamable.com/crna1 [/B]
+		- add layout for thumbs/fanart instead special info
+		- add toggle option for booth (Info and thumbs) to show info on bottom
+		- add toggle option for booth (Info and thumbs) to show info on bottom
+		- add auto play trailer, and the new trailer check method
+
+		[B]SKINSEETING[/B]
+		- related to views (Netflix,525,523) - play locally stored trailers for tv shows, need to have "[TVSHOWTILTE=Foldername]-tvshowtrailer.mp4" in main directory of tvshow
+		- added addon support for "TV Melodys" (plays theme.** audia files in library for movies and TV shows), - if playing its hiding the currently playing bar
+		- dont show "use gradient color effect" if using netflix OSD
+
+		[B]NETFLIX WIDE - View(526)[/B]
+		- edjust labels Season and episodes seperate , to have no issues with custom names (had shifted labels before)
+
+		[B]KODI LEIA CHANGE[/B]
+		- kodi no longer supports digital sound processing addons. these two dialogs were removed:
+		- AudioDSPManager (DialogAudioDSPManager.xml) ;  OSDAudioDSPSettings
+		- DialogMasterModeFreeSurround.xml , DialogParametricEQ.xml , DialogSpeakerDistance.xml, DialogSpeakerGain.xml
+		- this defaulticon is removed media/DefaultAddonAudioDSP.png 
+
+		[B]VIDEOINFO AND SKINSETTING[/B]
+		-  removed autoplay trailer option for videoinfo screen (temporally?) - beacuse playing in loop if not stop by keybord with "x"
+
+		[B]OSD[/B]
+		- make it slim again, if "Show Info on OSD" is toggled off (skinsetting /OSD Button to toggle) (SLIM)
+		- conditional [CR], default OSD, no ionfo, fixed high width title overlays (DEFAULT)
+		- fixed visible slider on OSD settings (ALL)
+		- OSD Netflix : dim video when info /plot showing
+		- OSD Netflix : reduce size of ClearLogo and Titles by 50%
+		- OSD :  adjust clear art positions
+
+		[B]BINGIE HOME[/B]
+		- Home (Netflix2/Bingie) moved ratings 12 pixels up
+		- removed big menu layout
+		- improved focus spotlight on up, from 1st widget row
+		- fix stuck in button 53 (e.g. yt scraped trailer dleted/n/a) - click down to focus widgets again
+		- click left to focus custom shutdown (main has focus) - keept also onback/return
+		- click left to focus main (custom shutdown has focus) - keept also onback/return
+		- use custom shutdown menu
+		- user can choose items via shortcut settings  (configure shortcuts -> customize powermenu)
+		- user can hide custom shutdown via skinsetting (Homescreen Layout -> Homescreen Options)
+		- removed uppercase from title , since uppercase tags inside the var is fine
+		- add condition for circular nav (@cscott1)
+		- on down from last main menu item the custom sd get focus...
+		- on up from first custom sd item the last main menu item get focus...
+		... if using circular navigation is enebled
+    </news>
 	</extension>
 </addon>
