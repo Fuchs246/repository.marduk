@@ -6,19 +6,16 @@
 
 
 
-## Marduk : ~ **.1.9 (22-10-2018) - WIP
+## Marduk : ~ **.1.9~alpha (14-12-2018)
 
-		''LEIA'
-		
-			SCREEN CALIBRATION
+			SCREEN CALIBRATION (Leia)
 				- wasnt working, fixed trough missing xml
 		
 			CURRENTY PLAYING BAR
 				- no info if trailer is playing, info if theme is playing
 				- fixed some issues for PVR Video Preview
 				- adjust for Netflix views
-				
-				
+			
 			DIALOG CONFIRM : 
 				- fixed, no focus on cancel/ok if its the only available option
 				
@@ -45,7 +42,7 @@
 				
 				- The skin can check if local trailers exists on specific views (all with a preview window) but actual just playback with "on up" in  Netflix Views(525,523)
 				
-				 [trailers need to be in ".mp4" format and named "(foldername)-trailer]
+				[trailers need to be in ".mp4" format and named "(foldername)-trailer]
 				
 				example -> [*path*/(tvshow/movietitle=FOLDERNAME)/FOLDERNAME-trailer.mp4]
 						
@@ -67,8 +64,7 @@
 			
 			VIDEOINFO AND SKINSETTING
 				-  removed autoplay trailer option for videoinfo screen (temporally?) - beacuse playing in loop if not stop by keybord with "x"
-
-				
+	
 			OSD 
 				- make it slim again, if "Show Info on OSD" is toggled off (skinsetting /OSD Button to toggle) (SLIM)
 				- conditional [CR], default OSD, no ionfo, fixed high width title overlays (DEFAULT)
@@ -96,17 +92,17 @@
 						
 ## Marduk : ~ **.1.8 (22-10-2018)
 	
-	# Repo related Stuff wich affect skin to work properly
-			
-			- fixed crash on load Skin Color Themes
-					-> script.skin.helper.skinbackup (Update)
-			
-			- add an skin icon resource addon to choose icons(set thumbnail in edit shortcut menu) for bingie home main menu	
-					-> resource.images.skinicons.whitesquare (WIP ,  https://github.com/marduklev/resource.images.skinicons.whitesquare/archive/master.zip)
-			
-			- add skin kodi flix for krypton
-			
-			- add netflix repo (just for use in leia only)
+		# Repo related Stuff wich affect skin to work properly
+				
+				- fixed crash on load Skin Color Themes
+						-> script.skin.helper.skinbackup (Update)
+				
+				- add an skin icon resource addon to choose icons(set thumbnail in edit shortcut menu) for bingie home main menu	
+						-> resource.images.skinicons.whitesquare (WIP ,  https://github.com/marduklev/resource.images.skinicons.whitesquare/archive/master.zip)
+				
+				- add skin kodi flix for krypton
+				
+				- add netflix repo (just for use in leia only)
 	
 	
 	
@@ -288,6 +284,7 @@
 		- fixed wrong Labels for Skin ShortCuts/widgets (db :Music and Videos) (not available , n/a, )
 
 ## Marduk : released version 	~	xx.1.4		(07-09-2018)
+	
 	- View Types :
 		- NEW Viewtype - Netflix Landscape(525) - also uniquie Slide Menu Settings (e.g. Cast and Trailer)
 		- NEW Viewtype - Netflix Wide(526) for Seasons, and Episodes at Once, also uniquie Slide Menu Settings
@@ -637,61 +634,62 @@
                                                                                                                     
 ## released version		~ xx.1.2
 
-   - Vertical Homemenu ( CONFLUENCE )
-        - slight widget positioning (move widget, panel and Main Menu more to center and a bit more to top)
-	- open submenu on left (instead of right)
-	- focus widget on right (instead of double right / move trough submenu )
-	- loop for submenu in line, instead of close sm and choose next/prev when at the last / first item
-	- hide main menu label when navigate in submenu, by
-	- disabled visibility of main menu item when navigate in non pop-up-submenu
-	- add "Back Easing InOut" Animations when choose widget/main menu, so  widget "fill" screen and main menu fade   :: 
-	enable in Setting -> Skinsetting -> 'Layout' -> 'Use Big Widget Area'  ::
-	- use larger fontsize
-   - View Type BIG PANEL DETAILS 59)
-	- Add Library Discart for Big Panel Details View (setup in sidemenu)
-	- Adjust Poster Layout for Discart
-   - View Type NETFLIX (523)
-	- Bigger ClearLogo
-	- Season Info and Episode info now always visible and uses ViewDetailsHighlightTextColor
-	- Textcolor for "Movie Motto" and Season / Episode Info Label changed to ViewDetailsHighlightTextColor -
-	- adjusted rating and codec info
-	- adjusted discart - seperate for focused and non focused layout
-	- less diffuse transp by using full fanart
-	- Show TV show Title and Movie Title if Clear LOGO N/A
-	- Add Consistent Stars Rating
-	- Auto Play Trailer working again
-	- add animation trough Trailer playing conditions (cast , rating, codec, discart)
-	- Play Trailer windowed when click UP, Stop Trailer by click "DOWN" or press "X"
-	- Search Trailer for TV Shows , it will open dialog, if you dont wanna watch fullscreen, press "TAB" , or "Back" 
-	utton, this way you can watch in Library
+		- Vertical Homemenu ( CONFLUENCE )
+			- slight widget positioning (move widget, panel and Main Menu more to center and a bit more to top)
+			- open submenu on left (instead of right)
+			- focus widget on right (instead of double right / move trough submenu )
+			- loop for submenu in line, instead of close sm and choose next/prev when at the last / first item
+			- hide main menu label when navigate in submenu, by
+			- disabled visibility of main menu item when navigate in non pop-up-submenu
+			- add "Back Easing InOut" Animations when choose widget/main menu, so  widget "fill" screen and main menu fade
+			  enable in Setting -> Skinsetting -> 'Layout' -> 'Use Big Widget Area'
+			- use larger fontsize
+		
+		- View Type BIG PANEL DETAILS 59)
+			- Add Library Discart for Big Panel Details View (setup in sidemenu)
+			- Adjust Poster Layout for Discart
+		
+		- View Type NETFLIX (523)
+			- Bigger ClearLogo
+			- Season Info and Episode info now always visible and uses ViewDetailsHighlightTextColor
+			- Textcolor for "Movie Motto" and Season / Episode Info Label changed to ViewDetailsHighlightTextColor -
+			- adjusted rating and codec info
+			- adjusted discart - seperate for focused and non focused layout
+			- less diffuse transp by using full fanart
+			- Show TV show Title and Movie Title if Clear LOGO N/A
+			- Add Consistent Stars Rating
+			- Auto Play Trailer working again
+			- add animation trough Trailer playing conditions (cast , rating, codec, discart)
+			- Play Trailer windowed when click UP, Stop Trailer by click "DOWN" or press "X"
+			- Search Trailer for TV Shows , it will open dialog, if you dont wanna watch fullscreen, press "TAB" , 
+			or "Back" Button, this way you can watch in Library
+		
+		- Dialog Video Info
+			- rearange Artwork and Infos
+			- add Cast into the Info (click up), you can scroll and look up Cast trough without go to the Big Pic Cast View
+			- disable the Auto Play of Trailer
+			- Tariler workig again
+			- adjust Video Info for TV shows, Episodes  and Movies Seperate
+			- show ratings and Info while watch Trailer
+			- add Artworkbeef Support
+			- adjust "similiar"  Infos - enebled plot and fanart for similiar window
+			- add Labels to Cast Members wich are not on Focus
+			- Bugfix : Trailer working again (Leia Issue)
 
-    - Dialog Video Info
-	- rearange Artwork and Infos
-	- add Cast into the Info (click up), you can scroll and look up Cast trough without go to the Big Pic Cast View
-	- disable the Auto Play of Trailer
-	- Tariler workig again
-	- adjust Video Info for TV shows, Episodes  and Movies Seperate
-	- show ratings and Info while watch Trailer
-	- add Artworkbeef Support
-	- adjust "similiar"  Infos - enebled plot and fanart for similiar window
-	- add Labels to Cast Members wich are not on Focus
-	- Bugfix : Trailer working again (Leia Issue)
+		- Improvement / Bugfixes 
+			- Duration Labels -> Duration Format changed from "**":"**"   to  "**" h "**" mins 
+				(if TITAN SETTING DONT SHOW HOURS enebled it wont show booth [default was = "**":"**
+				(total mins)])
+			- fixed missing premiered/ year in Dialog VideoInfo
+			- Music OSD BUG (Default Playlist starts at 0 instead of 1 in OSD )
 
-	- Improvement / Bugfixes 
-	- Duration Labels -> Duration Format changed from "**":"**"   to  "**" h "**" mins 
-		(if TITAN SETTING DONT SHOW HOURS enebled it wont show booth [default was = "**":"**
-		(total mins)])
-	- fixed missing premiered/ year in Dialog VideoInfo
-	- Music OSD BUG (Default Playlist starts at 0 instead of 1 in OSD )
+		- OSD 	
+			- adjusted DISCART and Album Cover
+			- add 2 Titles to OSD Playlist
+			- adjusted Infos in General
+			- modern Slim and def OSD get Discart
 
-
-     - OSD 	
-	- adjusted DISCART and Album Cover
-	- add 2 Titles to OSD Playlist
-	- adjusted Infos in General
-	- modern Slim and def OSD get Discart
-
-     - Skinsettings
-        - add Ratings TMdb and Tvdb Ratings (Video Info and Footer)
-        - added Artworkbeef Support; available via Extras in Skinsettings
-- removed TV-Tunes completly 
+		- Skinsettings
+			- add Ratings TMdb and Tvdb Ratings (Video Info and Footer)
+			- added Artworkbeef Support; available via Extras in Skinsettings
+			- removed TV-Tunes completly 
