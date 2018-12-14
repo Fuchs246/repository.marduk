@@ -1,4 +1,4 @@
-		
+	
 	
 ## actual skin files
 		> [skin.titan - krypton]	**=17	https://github.com/marduklev/skin.titan.krypton.mod/
@@ -694,4 +694,4 @@
      - Skinsettings
         - add Ratings TMdb and Tvdb Ratings (Video Info and Footer)
         - added Artworkbeef Support; available via Extras in Skinsettings
-        - removed TV-Tunes completly                                                                    
+- removed TV-Tunes completly 
