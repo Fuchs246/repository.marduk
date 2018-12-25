@@ -1,69 +1,108 @@
-TO DO LIST : / https://kodi.wiki/view/Kodi_v18_(Leia)_changelog
-		
-		https://forum.kodi.tv/showthread.php?tid=298565&pid=2785910#pid2785910
-		
-		
-		Notes/issues:
-			
-			- autoplay trailer in videoinfo screen (play in loop if not stop with x key, lost button focus in netflix layout)- temp disabled autoplay
-			
-			- https://forum.kodi.tv/showthread.php?tid=330749&pid=2787227#pid2787227
-			
-			- widget refreshing on playback, generell refresh on video/trailer playback, instead of just needed (movie,episode,....) https://forum.kodi.tv/showthread.php?tid=330749&pid=2787978#pid2787978
-						(it's fine, only issue i can think off that widgets tries to change based on trailer streams (yt) -> shw)
-			- krypton (dark overlay) music OSD
-			- krypton only? - reported overlay of multiple lines of artist info 
-			
-			- behaviour of play / resume in netflix info dialog
-			
-			- behaviour resume in extended info dialog -> seems related to extended info, failded to load /set focus on media (just uses close function)
-			
-			- uppercase issue in title label (eg weather)
-			- pvr  - previewwindow overlay (left / right info panel ) in view (?)
-			- more buttons to navigate touch support (e.g. sidepanel, trailer) / fix overlay trough mod (e.g. osd)
-			- view 526 - make var as optional show unwatched items (season level) $season : episodes 
-			(unwatched episodes)
-			- trailers should always use system lang instead be optional
-			- osd disable info if settings dialog is visible (krypton) , leia need add osdsubtitledialog 
-			as condition
-			- fanart :  stretch (view info panel [ eg. stream thubs] ,  check fallback spotlight images var
-			if empty , spotlight image (eg stream shows other thumb than focused, need test)
-			- bingie home - rating position if not 1st row/ (widget header count into widget height)
-							
-			- sometimes still stuck in spotlight? - no way to mav out (happend on krypton android)
-				
-			- krypton : autoplay trailer issues (non spotlight)
-								
-			- ost themes manfeed or addon based ?
-			- monochrome ratings for bingie home, option , need look at
-			
 
-			https://forum.kodi.tv/showthread.php?tid=298565&pid=2553240#pid2553240 - for use in subheader, to have betteruse for secondary color ?
+my repo ddl:
+		http://marduklev.github.io/repository.marduk/repository.marduk/repository.marduk-1.0.3.zip
+		
+infos : 	https://kodi.wiki/view/Kodi_v18_(Leia)_changelog
+		https://forum.kodi.tv/showthread.php?tid=298565&pid=2785910#pid2785910
+
+
+## BUGS open / to do
+
+Header :
+						- finish header var for secondary header color
+						- https://forum.kodi.tv/showthread.php?tid=298565&pid=2553240#pid2553240 - for use in subheader, to have betteruse for secondary color ?
+
+footer : 
+						- add $INFO[ListItem.Top250] as first check for var
+						- remove footer from panel wall view (520)/(519)
+						- Studio Logos not visible for Movie-Sets in Netflix View, but in default Footer of other views everything is good 
+						
+dialog videoinfo : 
+						- addon video source play/replay/resume issues ( need generell revisit )	https://forum.kodi.tv/showthread.php?tid=330749&pid=2787227#pid2787227
+						- toggle button can have altlabel, so var in dialog info isnt needed (trailer fs toggle)
+						- disabled - autoplay trailer in videoinfo screen (play in loop if not stop with x key, lost button focus in netflix layout)- temp disabled autoplay
+						- Director missing in dialogvideoinfo tv shows? 
+OSD :
+						- no info + no poster avail = fanart position not at "bottom" -> recheck (default + slim)
+						- pvr remaining time dont show correct ??? - couldnt reproduce
+						- add "fake" toggle windowed button to osd
+
+home :
+						- bingie: 						- investigate spotlight refresh (1508, bingie)
+						- horizontal layout :	-  nav issues in widgets
+						- vertical layout : 	 	- option to disable slide and dont hide main
+playlist 
+						- bug / playlist creation bug - need investigative
+
+views : 
+						- with 1 row of items : add trailer navigation to force play on click
+						- view 526 - make var as optional show unwatched items (season level) $season : episodes  (unwatched episodes)
+
+Home / skinsettings :
+						- monochrome ratings for bingie home, option , need recheck settings (divide for home and views?)
+						
+view (?) / include infoleft :
+						- stretched fanart thumbs (e.g. twitch , yt)
+
+myvideonav.xml : 
+						- bg video (issue due to re positioning myvideonav.xml - need smarter solution
+
+wide netflix (526):
+						- check kodi wiki set context for content
+										
+touch support 	
+						- more buttons to navigate touch support (e.g. sidepanel, trailer)
+						- check where adjustents needed (e.g. OSD)
+							
+'fanart' 			  	- stretch (view info panel [ eg. stream thubs] ,  check fallback spotlight images var if empty , spotlight image (eg stream shows other thumb than focused, need test, but seems random)
+						- just home ? addon video source fanart stuck on prev items sometimes (e.g. yt thumbs ) - seems random (seen it too on android, e.g. update fanart/library and browsing at same time)
+
+widget layouts :
+						- widget details (landsc.d, posterd) - default use list item frames color instead widget frames, looks not bad but irritating
+
+script.globalsearch :
+						- adjust global search script and textures
+
+script.extendedinfo.dialogvideoinfo :
+						- default kodi buttons id s not working as intended
+
+misc :  
+							- <variable name="AudioChannelsVar"> - causing unwanted result in <!-- audo codec group --> 
+								of netflix views(Bingie Home when using 
+								Skin.String(mediaflagsstyle,classic) ;  Skin.String(mediaflagsstyle,classic) ;  
+								Skin.String(osdmediaflagsstyle,classic); Skin.String(osdmediaflagsstyle,classic) 
+				
+							
+							- pvr  - previewwindow overlay (left / right info panel ) in view (?) - check, 1.9. should've solved it
+							
+							- lookup <!-- check, search for Property(TrailerPlaying)), need to set for autoplay --> , 
+							
+							- need check : update of script.nextup.notification (skin folder and relevance)
+							
+							# krypton only #  music OSD : dark overlay texture
+					 			 				 music OSD : overlay of multiple lines of artist info 
+								  				 autoplay trailer for widget (non spotlight)
+								
+							- autoplay trailer issues : just respect one variable for consistence , more broke it
+							
+							- need verifixarion, reported in Forum: I use the setting titan tiles (1 row small tiles).
+								On Movies tiles in options , view options I try to change View list to Netflix
+								But it each time I try this it crash kodi.
+								
+							- check overlay (currently over view(50) in views if "Player.hasvideo" seen on krypton android
+								( panel detail view, overlay with an list view, unsure wich appears, also slide panel options of thst view occur)
+								
+							- investigate mysterious crashing leia ( fixed trough settings.xml ?  ) e.g. switch estuary before update,  home switch if sublevels, choose resource addons, switch colorthemes ) all lead to that same reason
+								 the workaraound was working on android... but the reason is still unknown to me
+								
+							- gameosd.xml , need add and adjustments
 			
-			- remove footer from panel wall view (520)/(519)
-			- lookup <!-- check, search for Property(TrailerPlaying)), need to set for autoplay --> , 
-			- gameosd.xml , need add and adjustments
-			
-			- Krypton : investigate and fix autoplay trailer behaviours (non netflixhome/netfixhome)
-			
-			- adjust some layouts for touch mode (e.g OSD overlays)
-			
-			- add "fake" toggle windowed button to osd
-			
-			- toggle button can have altlabel, so var in dialog info isnt needed (trailer fs toggle)
-			
-			- if someone want use details widget in netflix home screens, than i need a var, for details panel bg (home 
-				netflix), but using deatils in netflix could be obsolte since info is in spotlight
-			
-			- investigate -> bg / overlay behaviour, maybe also re switch to view(50) list behaviuor
-			
-			- widget details (landsc.d, posterd) - default use list item frames color instead widget frames, looks not bad but irritating
-			
-			- adjust global search script and textures
-			
-			- investigate spotlight refresh (1508, bingie)
-			
-			- Media Flag layouts netflix  - since a/v is on top detail row in netflix view 
+							- open shutdown menu via "onback"  do autoclose choosen setting after open it - kodi "issue"
+
+
+## suggestions / wishes to change ##
+
+			Media Flag layouts netflix  - since a/v is on top detail row in netflix view :
 				a) MOVIES / EPISODES :
 					- 523/525 - classic, all info on top (except video codec,aspect), 
 					(- idea, marcel did great boxed info in classic (a/v with image), give optin skinsetting option, to use it as replacement for the simple details a/v flags)				
@@ -78,38 +117,15 @@ TO DO LIST : / https://kodi.wiki/view/Kodi_v18_(Leia)_changelog
 							- classic, fit if removed  mpaa, and frame status
 							- textbased,large,colored fit if removed  mpaa
 					- 525	- fixed layout can use the custom include for status/lastepisode
-			
-			
-			- no true fallback image "spotlight" - netflix views, (var=netflixhumb)spotlight image ,if 
-				empty its fallback, change to a fixed image if empty( instead of last focus or whatever)	
-			
-			- music info : full witdh dialog, album thumbs dicography and some other layout improvements
-			
-			- finish header var for secondary header color
-			
-			- finish 3d view option and layout (https://streamable.com/4kn7g , ), later focus a viewtype for  albums/artists ()
-			
-			- cutom color needs revisit 31829
-			
-			- slide menu needs custom focuspanle/focus text color ?, depending to skinbutton, + extra slide menu color 
-				causing issues	IF: SideBladePanelColor(31601) near same as ButtonFocusColor(31233)	??
-			
-			- Director missing in dialogvideoinfo tv shows? 
-			
-			- need of 41633, should 41633 always set ?, check 31710 sh, 31796 yt lookup
+
+			music info dialog :
+				-  full witdh dialog, album thumbs dicography and some other layout improvements
+
 		
-	[B]BUGS OPEN :[/B]	
-			[B]MISC :[/B]
-				a) Studio Logos not visible for Movie-Sets in Netflix View, but in default Footer of other views everything is good 
-				
-				b )<variable name="AudioChannelsVar"> - causing unwanted result in <!-- audo codec group --> 
-					of netflix views(Bingie Home when using 
-					Skin.String(mediaflagsstyle,classic) ;  Skin.String(mediaflagsstyle,classic) ;  
-					Skin.String(osdmediaflagsstyle,classic); Skin.String(osdmediaflagsstyle,classic) 
-				
-				c) MOD uniquie, choose settings from power menu  auto close settings in vertical home layouts, caused by onback instead of onleft (includeshomevertical.xml)
-			
-			[B]PVR Stuff L E I A  O N L Y  :[/B]
+
+-------------------------------------------------------- not sorted in yet
+
+[B]PVR Stuff L E I A  O N L Y  :[/B]
 			
 				https://forum.kodi.tv/showthread.php?tid=298565&pid=2762100#pid2762100 ; pull-request: 
 				https://github.com/xbmc/xbmc/pull/14316
