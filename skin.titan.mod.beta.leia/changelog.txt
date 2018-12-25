@@ -13,33 +13,34 @@
 ## Marduk : ~ **.1.9.~beta - 25.12.2018
 
 		OSD :	
-						- cleanup code
-						- slightly smaller buttons
-						- fixed some visibility conditions (if settings visible)
-						- adjusted layout if info "off" (default osd)
-						- adjustment for "clear art" in netflix views (unhappy with pos , but leave it atm)
+			- slightly smaller buttons
+			- fixed some visibility conditions (if settings visible)
+			- adjusted layout if info "off" (default osd)
+			- adjustment for "clear art" in netflix views (still unhappy with pos , but leave it atm)
 
 		VIEW 507 :
-						- adjust slide animation (wider video visability )on trailer playback (bello layout setting)
-						- fixed "non-focusable" alphabet nav bar
+			- adjust slide animation (wider video visability )on trailer playback (bello layout setting)
+			- fixed "non-focusable" alphabet nav bar
 						
 		VIEW 52 :
-						- fixed nav slider bar (position, and vis condition )
-						- little cleanup code
-						- fixed visab. preview window
+			- fixed nav slider bar (position, and vis condition )
+			- little cleanup code
+			- fixed visab. preview window
+			
 		VIEWS (ALL) :
-						- fixed/deleted unwanted "stop playback" commands
-						- library content "studios" - will shown as thumb/landscape image based on choosen resource addon
-						- fixed currently playing video bg overlay bug (caused by needed changes for currently playing bar in  1.9~alpha)
+			- fixed/deleted unwanted "stop playback" commands
+			- library content "studios" - will shown as thumb/landscape image based on choosen resource addon
+			- fixed currently playing video bg overlay bug (caused by needed changes for currently playing bar in  1.9~alpha)
 						
 		VIEW 523/525 : 
-						- available view type for all content now, (except 523: intentionally not for episodes)
+			- available view type for all content now, (except 523: intentionally not for episodes)
 						
 		Skinsettings :
-						- assorted Settings with new Headlines for better radability (Media Library Settings)
+			- Media Library Settings ~ assorted Settings with new Headlines for better radability (Media Library Settings)
+									 ~ add option for "dont use Skinhelper for studio Logos" (faster logo show up, some will be missing maybe)
 						
 		Footer : 
-						- removed text value label of stars rating
+			- removed text value label (right beside stars rating)
 
 
 ## Marduk : ~ **.1.9~alpha (14-12-2018)
