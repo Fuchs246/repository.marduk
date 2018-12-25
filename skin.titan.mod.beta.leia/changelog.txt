@@ -12,7 +12,6 @@
 		
 ## Marduk : ~ **.1.9.~beta - 25.12.2018
 
-	# LEIA 
 		OSD :	
 						- cleanup code
 						- slightly smaller buttons
