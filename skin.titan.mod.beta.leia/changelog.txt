@@ -1,12 +1,49 @@
-		
+		my repo ddl:	http://marduklev.github.io/repository.marduk/repository.marduk/repository.marduk-1.0.3.zip
+			
+		info : 			https://kodi.wiki/view/Kodi_v18_(Leia)_changelog
+						https://forum.kodi.tv/showthread.php?tid=298565&pid=2785910#pid2785910
+
 	
 ## actual skin files
 		> [skin.titan - krypton]	**=17	https://github.com/marduklev/skin.titan.krypton.mod/
  		> [skin.titan - leia]		**=18	https://github.com/marduklev/skin.titan.mod.beta.leia/
 
 
+		
+## Marduk : ~ **.1.9.~beta - 25.12.2018
 
-## Marduk : ~ **.1.9 (22-10-2018) - WIP
+	# LEIA 
+		OSD :	
+						- cleanup code
+						- slightly smaller buttons
+						- fixed some visibility conditions (if settings visible)
+						- adjusted layout if info "off" (default osd)
+						- adjustment for "clear art" in netflix views (unhappy with pos , but leave it atm)
+
+		VIEW 507 :
+						- adjust slide animation (wider video visability )on trailer playback (bello layout setting)
+						- fixed "non-focusable" alphabet nav bar
+						
+		VIEW 52 :
+						- fixed nav slider bar (position, and vis condition )
+						- little cleanup code
+						- fixed visab. preview window
+		VIEWS (ALL) :
+						- fixed/deleted unwanted "stop playback" commands
+						- library content "studios" - will shown as thumb/landscape image based on choosen resource addon
+						- fixed currently playing video bg overlay bug (caused by needed changes for currently playing bar in  1.9~alpha)
+						
+		VIEW 523/525 : 
+						- available view type for all content now, (except 523: intentionally not for episodes)
+						
+		Skinsettings :
+						- assorted Settings with new Headlines for better radability (Media Library Settings)
+						
+		Footer : 
+						- removed text value label of stars rating
+
+
+## Marduk : ~ **.1.9~alpha (14-12-2018)
 
 		''LEIA'
 		
