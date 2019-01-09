@@ -4,7 +4,64 @@
 		> [skin.titan - krypton]	**=17	https://github.com/marduklev/skin.titan.krypton.mod/
  		> [skin.titan - leia]		**=18	https://github.com/marduklev/skin.titan.mod.beta.leia/
 
+## Marduk : ~git~ version **.1.9. - **.**.2019
 
+		MISC :
+			- removed [allowoverlay] tags (removed in Jarvis )-> https://forum.kodi.tv/showthread.php?tid=231270&pid=2084427#pid2084427
+			- re add missing include "NowPlayingModern"
+	
+		SHUTDOWN MENU / VERTICAL HOME LAYOUTs :
+			- add custom/fake shutdown menu, because open shutdown menu via <onback> triggers some kodi core behaviour which will autoclose any choosen windows after opening it 
+						(personal sidenote : could be related to /skinshortcuts/**.xml's or the addon itself, idk atm )
+		
+		
+		BINGIE HOME / NETFLIX2 HOME :
+			- profile/skin logo fix
+			- quick fix for custom skin logo in netflix home2/bingie,  add fallback (Kodi Logo)
+						(personal sidenote : need add new skinsettings and/or adjust sh dialog setting (header home -> clock,logo,profile etc)
+						
+		OSD - PVR
+			- switched channel label with title label in Variables
+			- add visible channel number input (when switch channels via number input)
+		
+		SKINSHORTCUT SELECTION
+			- show move thumb left beside depending main menu entry
+			- show bg image bottom right (removed from bg fusslscreen)
+			- make whole 8 possible widgets visible, if empty or not
+			- make the "click action" path info a fadelabel control, better to read whats set
+			- fixed overlay if using strong
+						
+## Marduk : ~ **.1.9.~beta - 25.12.2018
+
+			OSD :	
+				- slightly smaller buttons
+				- fixed some visibility conditions (if settings visible)
+				- adjusted layout if info "off" (default osd)
+				- adjustment for "clear art" in netflix views (still unhappy with pos , but leave it atm)
+
+			VIEW 507 :
+				- adjust slide animation (wider video visability )on trailer playback (bello layout setting)
+				- fixed "non-focusable" alphabet nav bar
+							
+			VIEW 52 :
+				- fixed nav slider bar (position, and vis condition )
+				- little cleanup code
+				- fixed visab. preview window
+				
+			VIEWS (ALL) :
+				- fixed/deleted unwanted "stop playback" commands
+				- library content "studios" - will shown as thumb/landscape image based on choosen resource addon
+				- fixed currently playing video bg overlay bug (caused by needed changes for currently playing bar in  1.9~alpha)
+							
+			VIEW 523/525 : 
+				- available view type for all content now, (except 523: intentionally not for episodes)
+							
+			Skinsettings :
+				- Media Library Settings ~ assorted Settings with new Headlines for better radability (Media Library Settings)
+										 ~ add option for "dont use Skinhelper for studio Logos" (faster logo show up, some will be missing maybe)
+							
+			Footer : 
+				- removed text value label (right beside stars rating)
 
 ## Marduk : ~ **.1.9~alpha (14-12-2018)
 
