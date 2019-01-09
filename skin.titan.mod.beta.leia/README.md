@@ -9,7 +9,8 @@
 		MISC :
 			- removed [allowoverlay] tags (removed in Jarvis )-> https://forum.kodi.tv/showthread.php?tid=231270&pid=2084427#pid2084427
 			- re add missing include "NowPlayingModern"
-	
+			- correct variable "SquarePosterThumb" - fixed also music thumbs in square panel views (509,510)
+			
 		SHUTDOWN MENU / VERTICAL HOME LAYOUTs :
 			- add custom/fake shutdown menu, because open shutdown menu via <onback> triggers some kodi core behaviour which will autoclose any choosen windows after opening it 
 						(personal sidenote : could be related to /skinshortcuts/**.xml's or the addon itself, idk atm )
@@ -19,12 +20,15 @@
 			- profile/skin logo fix
 			- quick fix for custom skin logo in netflix home2/bingie,  add fallback (Kodi Logo)
 						(personal sidenote : need add new skinsettings and/or adjust sh dialog setting (header home -> clock,logo,profile etc)
-						
-		OSD - PVR
+		
+		WIN10 Home :
+		- revert submenu back to titan default (1 to default 2 column)
+		
+		OSD - PVR :
 			- switched channel label with title label in Variables
 			- add visible channel number input (when switch channels via number input)
 		
-		SKINSHORTCUT SELECTION
+		SKINSHORTCUT SELECTION :
 			- show move thumb left beside depending main menu entry
 			- show bg image bottom right (removed from bg fusslscreen)
 			- make whole 8 possible widgets visible, if empty or not
