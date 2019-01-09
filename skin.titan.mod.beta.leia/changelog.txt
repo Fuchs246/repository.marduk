@@ -8,7 +8,7 @@
 		> [skin.titan - krypton]	**=17	https://github.com/marduklev/skin.titan.krypton.mod/
  		> [skin.titan - leia]		**=18	https://github.com/marduklev/skin.titan.mod.beta.leia/
 		
-## Marduk : ~ **.1.9. - **.**.2019
+## Marduk : unreleased version **.1.9. - xx.xx.2019
 
 		MISC :
 		- removed [allowoverlay] tags (removed in Jarvis )-> https://forum.kodi.tv/showthread.php?tid=231270&pid=2084427#pid2084427
