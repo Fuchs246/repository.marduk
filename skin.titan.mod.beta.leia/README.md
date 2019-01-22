@@ -4,23 +4,39 @@
 		> [skin.titan - krypton]	**=17	https://github.com/marduklev/skin.titan.krypton.mod/
  		> [skin.titan - leia]		**=18	https://github.com/marduklev/skin.titan.mod.beta.leia/
 
-## Marduk : unreleased version **.1.9. - xx.xx.2019
-
+## Marduk : version **.1.9. - 22.01.2019
+		
+		UP Next Support (Next Up is broken in KODI LEIA and is now replaced by Up Next) :
+			- added 3 Layouts for each (Fancy & Simple) ->  https://imgur.com/a/eZSaecJ
+			- use custom Colors
+			- choose if you want opacity/color on thumbs (still there/triangle layout)
+			- choose if you want tinted panel panel or or just tinted left border on a black panel for triangle fancy layout 
+			- choose if you want a Up Next Countdown image on Thumb (Netflix and Triangle Fancy Layout)
+					
 		MISC :
 			- removed [allowoverlay] tags (removed in Jarvis )-> https://forum.kodi.tv/showthread.php?tid=231270&pid=2084427#pid2084427
 			- re add missing include "NowPlayingModern"
 			- correct variable "SquarePosterThumb" - fixed also music thumbs in square panel views (509,510)
 			
+		CURRENTLY PLAYING BAR :
+			- fix some positions, artwork visability [Views(523,525,526)]
+		
+		DIALOGVIDEOINFO :
+			- made local trailer (tvshows) playable
+		
 		SHUTDOWN MENU / VERTICAL HOME LAYOUTs :
 			- add custom/fake shutdown menu, because open shutdown menu via <onback> triggers some kodi core behaviour which will autoclose any choosen windows after opening it 
 						(personal sidenote : could be related to /skinshortcuts/**.xml's or the addon itself, idk atm )
-		
-		
+				
 		BINGIE HOME / NETFLIX2 HOME :
 			- profile/skin logo fix
 			- quick fix for custom skin logo in netflix home2/bingie,  add fallback (Kodi Logo)
-						(personal sidenote : need add new skinsettings and/or adjust sh dialog setting (header home -> clock,logo,profile etc)
-		
+					[	- skin logo and profile on bingie home (independent from header show/dont show)
+						- adjust visib home header settings (choose...xy dialog)	]
+
+			- fixed "dont show clear logo" setting
+			- fixed visible conditions for rating / studio logo settings
+			
 		WIN10 Home :
 		- revert submenu back to titan default (1 to default 2 column)
 		
@@ -34,7 +50,18 @@
 			- make whole 8 possible widgets visible, if empty or not
 			- make the "click action" path info a fadelabel control, better to read whats set
 			- fixed overlay if using strong
-						
+			
+		VIEW (52)
+			- enebled "hide panel" settings when sing fanart
+			- fixed fanart position
+			
+		KRYPTON ONLY : 
+			- MUSIC OSD :
+				- fixed dark overlay when Music OSD active
+			
+			- DIALOG VIDEOINFO, NETFLIX VIEWS (523,525) 
+				- added Cast Name Labels to non focused Cast Thumbs
+		
 ## Marduk : ~ **.1.9.~beta - 25.12.2018
 
 			OSD :	

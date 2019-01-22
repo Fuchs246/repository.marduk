@@ -13,13 +13,11 @@ Header :
 						- https://forum.kodi.tv/showthread.php?tid=298565&pid=2553240#pid2553240 - for use in subheader, to have betteruse for secondary color ?
 
 footer : 
-						- add $INFO[ListItem.Top250] as first check for var
 						- remove footer from panel wall view (520)/(519)
 						- Studio Logos not visible for Movie-Sets in Netflix View, but in default Footer of other views everything is good 
 						
 dialog videoinfo : 
 						- addon video source play/replay/resume issues ( need generell revisit )	https://forum.kodi.tv/showthread.php?tid=330749&pid=2787227#pid2787227
-						- toggle button can have altlabel, so var in dialog info isnt needed (trailer fs toggle)
 						- disabled - autoplay trailer in videoinfo screen (play in loop if not stop with x key, lost button focus in netflix layout)- temp disabled autoplay
 						- Director missing in dialogvideoinfo tv shows? 
 OSD :
