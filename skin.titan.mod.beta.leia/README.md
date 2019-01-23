@@ -6,7 +6,7 @@
 
 ## Marduk : version **.1.9. - 22.01.2019
 		
-		UP Next Support (Next Up is broken in KODI LEIA and is now replaced by Up Next) :
+		UP NEXT SUPPORT (Next Up is broken in KODI LEIA and is now replaced by Up Next) :
 			- added 3 Layouts for each (Fancy & Simple) ->  https://imgur.com/a/eZSaecJ
 			- use custom Colors
 			- choose if you want opacity/color on thumbs (still there/triangle layout)
