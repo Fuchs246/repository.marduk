@@ -4,6 +4,33 @@
 		> [skin.titan - krypton]	**=17	https://github.com/marduklev/skin.titan.krypton.mod/
  		> [skin.titan - leia]		**=18	https://github.com/marduklev/skin.titan.mod.beta.leia/
 
+		
+## Marduk : version **.1.10. - **.**.2019		
+	
+		VIEWS :
+			a) SIDEBLADEMENUTABS ("Options" Button in ViewTypes,which open sidemenu) :
+				- fixed visablity, now always visable, if not disabled via setting
+			b) SLIDEPANEL
+				- fixed "hidden visability" on horizontal layouts
+			c) changed focus & scroll animations (actual just View(52) for test)
+			
+			d) Netflix(523,525) - changed color on Genre Icon/Image
+								- slightly decrease of plot width
+								
+			e) fixed overlay, of header with side menu (m) 
+			
+			f) VIEW (52)		- enabled "hide panel" setting when using fanart setting
+								- fixed fanart position
+			
+		MISC
+			- added missing defaultskinsettings (e.g. Custom Colours for UpNext)
+			- removed unneded busydialog open/close actions
+			(needed for leia using latest skinhelper.serice, due to a change for busydialog/busydialognocancel on leia)
+			
+		NOW PLAYING BAR
+			- fixed "small width" of panel
+			
+		
 ## Marduk : version **.1.9. - 22.01.2019
 		
 		UP NEXT SUPPORT (Next Up is broken in KODI LEIA and is now replaced by Up Next) :
