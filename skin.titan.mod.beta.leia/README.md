@@ -4,8 +4,16 @@
 		> [skin.titan - krypton]	**=17	https://github.com/marduklev/skin.titan.krypton.mod/
  		> [skin.titan - leia]		**=18	https://github.com/marduklev/skin.titan.mod.beta.leia/
 
-		
-## Marduk : version **.1.10. - **.**.2019		
+
+## Marduk : version **.1.10. - **.**.2019	
+		VIEWS :
+			a) SIDEBLADEMENUTABS ("Options" Button in ViewTypes,which open sidemenu) :
+				- temp fixed visablity, now always visable, if not disabled via setting (could be issue if logo in top header)
+				
+			b) 3 in 1 
+				- fixed poster thumbs for seasons (show season thumbs again, krypton wasnt affected)
+				
+## Marduk : version **.1.10. - 02.02.2019		
 	
 		VIEWS :
 			a) SIDEBLADEMENUTABS ("Options" Button in ViewTypes,which open sidemenu) :
