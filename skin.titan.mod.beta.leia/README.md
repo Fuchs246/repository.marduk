@@ -12,7 +12,43 @@
 				
 			b) 3 in 1 
 				- fixed poster thumbs for seasons (show season thumbs again, krypton wasnt affected)
+		
+		HOME :
+				- Win10,Netflix,NetflixBingie Layouts share same Menu again (all using NetflixBingie Menu)
+					( - you can disable main menu icons,Profile,skin logo via skin settings -> homescreen layout )
+			
+				- Win10 - fixed overlay of profile, when like to use profile in header and not using slim/win10 header
 				
+				- fixed Large Widget Panel and Infos will was shown when PosterDetail,Landscape Details has focused
+				
+		COLORMANAGEMENT (Homemenu and Widgets)
+		
+			- Titan Tiles - fixed issue with custom colors,and visible conditions 
+		
+			- HomeViewDetailsFocusColor : Needed a Change as it was cofusing (label "focus color for home tiles and widgets")
+				
+				# because it was used for...
+					
+	
+	/solved			*unwanted	- dialogs (DialogSelect.xml, FileBrowser.xml):	-> bg(frame)
+					*unwanted	- Header										-> as focus color for touch controls, when enebled compact header 
+					*unwanted	- Header (Home)									-> Profile Info focused Color (ProfileInfoCompact)
+	
+	/solved			*wished		- widget : single box widget, wide box,  		-> as Background
+	/solved			*wished		- HOME : 				- Titan Tiles 			-> as Background !!JUST  IF using submenu inside  tiles
+														- HomeBigVertical 		-> BG Focused Main/Sub items
+														- ModernHorizontal 		-> BG Focused Main/Sub items
+							
+				# what has changed...
+						- (win10,Netflix1) Bingie Mode focuse main/sub menu items			-> changed (MainMenuFocusButtonColor) to deafult (HomeViewDetailsFocusColor)
+						- Tiles,Widgets(PosterDetails,LandscapeDetail,SingleBox,WideBox)	-> use Custom Focus Textcolor (MainMenuFocusTextColor) 
+																							(e.g. vertical sub labels are no longer hardcoded)
+																							-> use Custom Unfocused Textcolor (MainMenuFocusText) 
+																							(e.g. vertical sub labels are no longer hardcoded)
+																							-> use custom Background on focus (HomeViewDetailsFocusColor) 
+																							
+						- ALL WIDGETS now use the default focused and unfocused frame
+					
 ## Marduk : version **.1.10. - 02.02.2019		
 	
 		VIEWS :
