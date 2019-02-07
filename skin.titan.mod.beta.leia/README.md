@@ -10,19 +10,27 @@
 			a) SIDEBLADEMENUTABS ("Options" Button in ViewTypes,which open sidemenu) :
 				- temp fixed visablity, now always visable, if not disabled via setting (could be issue if logo in top header)
 				
-			b) 3 in 1 
-				- fixed poster thumbs for seasons (show season thumbs again, krypton wasnt affected)
+			b) 3 in 1 (527)
+				- fixed poster thumbs for seasons (show correct season thumbs on focus again, krypton wasnt affected)
+			
+			c) Fanart (507)
+				- added option to use Overlay Texture (which is set via in skin settings)
+				
+		OSD PVR :
+			-added pvr thumb ,but untestted (thx to angelinas) https://forum.kodi.tv/showthread.php?tid=235676&pid=2809690#pid2809690
 		
 		HOME :
-				- Win10,Netflix,NetflixBingie Layouts share same Menu again (all using NetflixBingie Menu)
-					( - you can disable main menu icons,Profile,skin logo via skin settings -> homescreen layout )
-			
-				- Win10 - fixed overlay of profile, when like to use profile in header and not using slim/win10 header
-				
-				- fixed Large Widget Panel and Infos will was shown when PosterDetail,Landscape Details has focused
-				
-		COLORMANAGEMENT (Homemenu and Widgets)
+			- Win10,Netflix,NetflixBingie Layouts share same Menu again (all using NetflixBingie Menu)
+				( - you can disable main menu icons,Profile,skin logo via skin settings -> homescreen layout )
 		
+			- Win10 - fixed overlay of profile, when like to use profile in header and not using slim/win10 header
+			
+			- fixed Large Widget Panel and Infos will was shown when PosterDetail,Landscape Details has focused
+		
+		SKINSEETING :
+			- fixed "Artwork Beef Button" couldnt be en/disabled for VideoInfo Dialog
+
+		COLORMANAGEMENT (Homemenu and Widgets)
 			- Titan Tiles - fixed issue with custom colors,and visible conditions 
 		
 			- HomeViewDetailsFocusColor : Needed a Change as it was cofusing (label "focus color for home tiles and widgets")
