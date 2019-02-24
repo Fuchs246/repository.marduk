@@ -12,13 +12,26 @@
 				
 			b) 3 in 1 (527)
 				- fixed poster thumbs for seasons (show correct season thumbs on focus again, krypton wasnt affected)
+				- add scrollbar for shows  - click left from shows (you need click left again to focus slidepanel menu)
 			
 			c) Fanart (507)
 				- added option to use Overlay Texture (which is set via in skin settings)
 				
+			d) Netflix Wide 
+				- add scrollbar for episodes - click right from episodes
+				- add an "scroll" animation to imitate netflix scolltime anim
+				
 		OSD PVR :
 			-added pvr thumb ,but untestted (thx to angelinas) https://forum.kodi.tv/showthread.php?tid=235676&pid=2809690#pid2809690
 		
+		MUSICINFO
+			- added option to use NEW enhanced fullsceen Info or Default Titan Layout
+					
+				# NEW enhanced fullsceen Musicifo https://imgur.com/a/3QbIS3Y#2VRAjxK				
+					ARTISTINFO - scroll through albums, Info, added more Infos
+					ALBUMINFO - play album from info screen, more additional infos(including disc content), scroll trough album content
+					SONGIINFO - play album from info screen , scroll through contributors content if available
+										
 		HOME :
 			- Win10,Netflix,NetflixBingie Layouts share same Menu again (all using NetflixBingie Menu)
 				( - you can disable main menu icons,Profile,skin logo via skin settings -> homescreen layout )
