@@ -5,7 +5,7 @@
  		> [skin.titan - leia]		**=18	https://github.com/marduklev/skin.titan.mod.beta.leia/
 
 
-## Marduk : version **.1.10. - **.**.2019	
+## Marduk : version **.1.11. - **.**.2019	
 		VIEWS :
 			a) SIDEBLADEMENUTABS ("Options" Button in ViewTypes,which open sidemenu) :
 				- temp fixed visablity, now always visable, if not disabled via setting (could be issue if logo in top header)
