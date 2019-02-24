@@ -39,7 +39,9 @@
 			- Win10 - fixed overlay of profile, when like to use profile in header and not using slim/win10 header
 			
 			- fixed Large Widget Panel and Infos will was shown when PosterDetail,Landscape Details has focused
-		
+			
+			- Vertical Home - added option to use Titan Default Vertical Layout
+			
 		SKINSEETING :
 			- fixed "Artwork Beef Button" couldnt be en/disabled for VideoInfo Dialog
 
