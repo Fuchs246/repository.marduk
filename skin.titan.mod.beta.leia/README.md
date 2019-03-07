@@ -17,17 +17,25 @@
 			c) Fanart (507)
 				- added option to use Overlay Texture (which is set via in skin settings)
 				
-			d) Netflix Wide 
+			d) Netflix Wide (526)
 				- add scrollbar for episodes - click right from episodes
 				- add an "scroll" animation to imitate netflix scolltime anim
+			
+			e) Netflix Landscape (525)
+				- use "new" fixed focusframe, excluded from focuslayout
+				- changed w/h layout for thumbs
+				- non fixed view has vertical orientation, added needed sidebar on right side
 				
-		OSD PVR :
-			-added pvr thumb ,but untestted (thx to angelinas) https://forum.kodi.tv/showthread.php?tid=235676&pid=2809690#pid2809690
-		
+		OSD PVR (Leia):
+			- added pvr thumb ,but untestted (thx to angelinas) https://forum.kodi.tv/showthread.php?tid=235676&pid=2809690#pid2809690
+			- added PVR.EpgEventIcon for thumb
+			- fixed PVR Player - Time/Duration Labels ?
+			- Weather Info Labels, use custom color instead being hardcoded
+			
 		MUSICINFO
 			- added option to use NEW enhanced fullsceen Info or Default Titan Layout
 					
-				# NEW enhanced fullsceen Musicifo https://imgur.com/a/3QbIS3Y#2VRAjxK				
+				# NEW enhanced fullsceen Musicifo https://imgur.com/a/3QbIS3Y#2VRAjxK
 					ARTISTINFO - scroll through albums, Info, added more Infos
 					ALBUMINFO - play album from info screen, more additional infos(including disc content), scroll trough album content
 					SONGIINFO - play album from info screen , scroll through contributors content if available
@@ -50,27 +58,27 @@
 		
 			- HomeViewDetailsFocusColor : Needed a Change as it was cofusing (label "focus color for home tiles and widgets")
 				
-				# because it was used for...
+				# because it was used for much more than that ...
 					
 	
-	/solved			*unwanted	- dialogs (DialogSelect.xml, FileBrowser.xml):	-> bg(frame)
-					*unwanted	- Header										-> as focus color for touch controls, when enebled compact header 
-					*unwanted	- Header (Home)									-> Profile Info focused Color (ProfileInfoCompact)
+	/solved		*unwanted	- dialogs (DialogSelect.xml, FileBrowser.xml):	-> bg(frame)
+				*unwanted	- Header										-> as focus color for touch controls, when enebled compact header 
+				*unwanted	- Header (Home)									-> Profile Info focused Color (ProfileInfoCompact)
 	
-	/solved			*wished		- widget : single box widget, wide box,  		-> as Background
-	/solved			*wished		- HOME : 				- Titan Tiles 			-> as Background !!JUST  IF using submenu inside  tiles
-														- HomeBigVertical 		-> BG Focused Main/Sub items
-														- ModernHorizontal 		-> BG Focused Main/Sub items
+	/solved		*wished		- widget : single box widget, wide box,  		-> as Background
+	/solved		*wished		- HOME : 				- Titan Tiles 			-> as Background !!JUST  IF using submenu inside  tiles
+													- HomeBigVertical 		-> BG Focused Main/Sub items
+													- ModernHorizontal 		-> BG Focused Main/Sub items
 							
 				# what has changed...
-						- (win10,Netflix1) Bingie Mode focuse main/sub menu items			-> changed (MainMenuFocusButtonColor) to deafult (HomeViewDetailsFocusColor)
-						- Tiles,Widgets(PosterDetails,LandscapeDetail,SingleBox,WideBox)	-> use Custom Focus Textcolor (MainMenuFocusTextColor) 
+					- (win10,Netflix1) Bingie Mode focuse main/sub menu items			-> changed (MainMenuFocusButtonColor) to deafult (HomeViewDetailsFocusColor)
+					- Tiles,Widgets(PosterDetails,LandscapeDetail,SingleBox,WideBox)	-> use Custom Focus Textcolor (MainMenuFocusTextColor) 
 																							(e.g. vertical sub labels are no longer hardcoded)
 																							-> use Custom Unfocused Textcolor (MainMenuFocusText) 
 																							(e.g. vertical sub labels are no longer hardcoded)
 																							-> use custom Background on focus (HomeViewDetailsFocusColor) 
 																							
-						- ALL WIDGETS now use the default focused and unfocused frame
+				- ALL WIDGETS now use the default focused and unfocused frame color
 					
 ## Marduk : version **.1.10. - 02.02.2019		
 	
