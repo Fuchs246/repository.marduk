@@ -25,10 +25,11 @@
 				- use "new" fixed focusframe, excluded from focuslayout
 				- changed w/h layout for thumbs
 				- non fixed view has vertical orientation, added needed sidebar on right side
+				- changed depening slide-panel option (button/label; toggle horizantal nav)
 				
 		OSD PVR (Leia):
 			- added pvr thumb ,but untestted (thx to angelinas) https://forum.kodi.tv/showthread.php?tid=235676&pid=2809690#pid2809690
-			- added PVR.EpgEventIcon for thumb
+			- added PVR.EpgEventIcon for thumb fallback
 			- fixed PVR Player - Time/Duration Labels ?
 			- Weather Info Labels, use custom color instead being hardcoded
 			
@@ -62,24 +63,24 @@
 					
 	
 	/solved		*unwanted	- dialogs (DialogSelect.xml, FileBrowser.xml):	-> bg(frame)
-				*unwanted	- Header										-> as focus color for touch controls, when enebled compact header 
-				*unwanted	- Header (Home)									-> Profile Info focused Color (ProfileInfoCompact)
-	
-	/solved		*wished		- widget : single box widget, wide box,  		-> as Background
-	/solved		*wished		- HOME : 				- Titan Tiles 			-> as Background !!JUST  IF using submenu inside  tiles
-													- HomeBigVertical 		-> BG Focused Main/Sub items
-													- ModernHorizontal 		-> BG Focused Main/Sub items
+	/solved			*unwanted	- Header										-> as focus color for touch controls, when enebled compact header 
+	/solved			*unwanted	- Header (Home)									-> Profile Info focused Color (ProfileInfoCompact)
+	/solved			*wished		- widget : single box widget, wide box,  		-> as Background
+	/solved			*wished		- HOME : 				- Titan Tiles 			-> as Background !!JUST  IF using submenu inside  tiles
+														- HomeBigVertical 		-> BG Focused Main/Sub items
+														- ModernHorizontal 		-> BG Focused Main/Sub items
 							
-				# what has changed...
-					- (win10,Netflix1) Bingie Mode focuse main/sub menu items			-> changed (MainMenuFocusButtonColor) to deafult (HomeViewDetailsFocusColor)
-					- Tiles,Widgets(PosterDetails,LandscapeDetail,SingleBox,WideBox)	-> use Custom Focus Textcolor (MainMenuFocusTextColor) 
-																							(e.g. vertical sub labels are no longer hardcoded)
-																							-> use Custom Unfocused Textcolor (MainMenuFocusText) 
-																							(e.g. vertical sub labels are no longer hardcoded)
-																							-> use custom Background on focus (HomeViewDetailsFocusColor) 
-																							
-				- ALL WIDGETS now use the default focused and unfocused frame color
-					
+		# what has changed...
+				- (win10,Netflix1) Bingie Mode focuse main/sub menu items			-> changed (MainMenuFocusButtonColor) to deafult (HomeViewDetailsFocusColor)
+				- Tiles,Widgets(PosterDetails,LandscapeDetail,SingleBox,WideBox)	-> use Custom Focus Textcolor (MainMenuFocusTextColor) 
+																					(e.g. vertical sub labels are no longer hardcoded)
+																					-> use Custom Unfocused Textcolor (MainMenuFocusText) 
+																					(e.g. vertical sub labels are no longer hardcoded)
+																					-> use custom Background on focus (HomeViewDetailsFocusColor) 
+																					
+				- ALL WIDGETS now use the default focused and unfocused frame
+				- touch buttons, and profile compact using "SecondaryHeaderTextColor" as focused color
+				
 ## Marduk : version **.1.10. - 02.02.2019		
 	
 		VIEWS :
