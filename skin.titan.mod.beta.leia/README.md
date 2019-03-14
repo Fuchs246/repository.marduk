@@ -20,7 +20,8 @@
 			d) Netflix Wide (526)
 				- add scrollbar for episodes - click right from episodes
 				- add an "scroll" animation to imitate netflix scolltime anim
-			
+				- add tick mark (if season watched), Netflix Wide (view526)
+				
 			e) Netflix Landscape (525)
 				- use "new" fixed focusframe, excluded from focuslayout
 				- changed w/h layout for thumbs
