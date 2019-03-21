@@ -12,6 +12,8 @@
 >
 > - included "Rector Stuff Repo" - from **rmrector**
 > - included "Marcelveldt's BETA repository" from **Marcelveldt**
+> - included "SualFreds's repository" from **SualFred**
+> - included "Bingie" repository" from **Cartman.Dos**
 > - included "netflix repository" from **asciiDisco**
 > - resource.images.skinicons.whitesquare from **myself**
 > - script TV Melody from  **smitchell6879** (used now in Titan MOD, OST Theme Playback ) -> https://forum.kodi.tv/showthread.php?tid=332890
