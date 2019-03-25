@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="skin.titan.krypton.mod" version="17.1.11~alpha" name="T i t a n - M O D (BETA) for KRYPTON" provider-name="marcelveldt,mgonzales,marduk,cartmandos">
+<addon id="skin.titan.krypton.mod" version="17.1.11" name="T i t a n - M O D (BETA) for KRYPTON" provider-name="marcelveldt,mgonzales,marduk,cartmandos">
 	<requires>
 		<import version="5.12.0" addon="xbmc.gui"/>
 		<import addon="script.skinshortcuts" version="0.6.5"/>
@@ -14,7 +14,7 @@
         <import addon="resource.images.skinicons.wide" version="1.0.0"/>
         <import addon="resource.images.backgroundoverlays.basic" version="1.0.0"/>
 	</requires>
-	<extension point="xbmc.gui.skin" debugging="false">		
+	<extension point="xbmc.gui.skin" debugging="false">
 		<res width="1920" height="1080" aspect="16:9" default="true" folder="1080i" />
 		<res width="1920" height="1200" aspect="16:10" default="false" folder="1080i" />
 	</extension>
@@ -72,34 +72,7 @@
 			<screenshot>_screenshots/screenshot019.jpg</screenshot>
 		</assets>
 		<news>
-        OSD :	
-						- cleanup code
-						- slightly smaller buttons
-						- fixed some visibility conditions (if settings visible)
-						- adjusted layout if info "off" (default osd)
-						- adjustment for "clear art" in netflix views (unhappy with pos , but leave it atm)
-
-		VIEW 507 :
-						- adjust slide animation (wider video visability )on trailer playback (bello layout setting)
-						- fixed "non-focusable" alphabet nav bar
-						
-		VIEW 52 :
-						- fixed nav slider bar (position, and vis condition )
-						- little cleanup code
-						- fixed visab. preview window
-		VIEWS (ALL) :
-						- fixed/deleted unwanted "stop playback" commands
-						- library content "studios" - will shown as thumb/landscape image based on choosen resource addon
-						- fixed currently playing video bg overlay bug (caused by needed changes for currently playing bar in  1.9~alpha)
-						
-		VIEW 523/525 : 
-						- available view type for all content now, (except 523: intentionally not for episodes)
-						
-		Skinsettings :
-						- assorted Settings with new Headlines for better radability (Media Library Settings)
-						
-		Footer : 
-						- removed text value label of stars rating
-		</news>
+            Follow the forum thread about the latest news for the skin.
+        </news>
 	</extension>
 </addon>

@@ -5,7 +5,7 @@
  		> [skin.titan - leia]		**=18	https://github.com/marduklev/skin.titan.mod.beta.leia/
 
 
-## Marduk : version **.1.11. - **.**.2019	
+## Marduk : version **.1.11. - 25.03.2019	
 		VIEWS :
 			a) SIDEBLADEMENUTABS ("Options" Button in ViewTypes,which open sidemenu) :
 				- temp fixed visablity, now always visable, if not disabled via setting (could be issue if logo in top header)
@@ -31,7 +31,7 @@
 		OSD PVR (Leia):
 			- added pvr thumb ,but untestted (thx to angelinas) https://forum.kodi.tv/showthread.php?tid=235676&pid=2809690#pid2809690
 			- added PVR.EpgEventIcon for thumb fallback
-			- fixed PVR Player - Time/Duration Labels ?
+			- fixed PVR Player - Time/Duration Labels
 			- Weather Info Labels, use custom color instead being hardcoded
 			
 		MUSICINFO
