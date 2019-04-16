@@ -14,7 +14,7 @@
 		<platform>all</platform>
 		<license>GNU GENERAL PUBLIC LICENSE Version 2</license>
 		<assets>
-			<icon></icon>
-		</assets>
+            <icon>icon.png</icon>
+        </assets>
 	</extension>
 </addon>
