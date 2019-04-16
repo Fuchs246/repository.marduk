@@ -684,13 +684,16 @@
 			</assets>
 		</extension>
 	</addon>
-	<addon id="script.check.tvtrailer" name="Local TV Trailer check" version="1.0.0" provider-name="marduk">
+	<addon id="script.video.checktvtrailer" name="Lookup local TV Show - Trailer" version="1.0.0" provider-name="marduk">
 		<requires>
-			<import addon="xbmc.python" version="2.25.0"/>
+			<import addon="xbmc.python" version="2.25.0"/><!-- keep krypton compatibility -->
 		</requires>
-		<extension point="xbmc.python.library" library="default.py"/>
+		<extension point="xbmc.service" library="checkexist.py"/>
+		<!-- <extension point="xbmc.addon.video" library="checkexist.py"/>
+			<provides>video</provides>
+		</extension> -->
 		<extension point="xbmc.addon.metadata">
-			<summary lang="en_GB">Skin Script Addon to check if a local (tvshow)-trailer exists</summary>
+			<summary lang="en_GB">Skin Script Addon to check if a local (tvshow)-trailer exists[CR]You may need to [B]check your advancedsettings.xml to prevent Trailer Scrapping into Library[/B]</summary>
 			<description lang="en_GB">Script for skinners to check if a local (tvshow)-trailer exists</description>
 			<language></language>
 			<platform>all</platform>
