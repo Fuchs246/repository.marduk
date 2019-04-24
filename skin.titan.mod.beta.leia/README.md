@@ -4,6 +4,12 @@
 		> [skin.titan - krypton]	**=17	https://github.com/marduklev/skin.titan.krypton.mod/
  		> [skin.titan - leia]		**=18	https://github.com/marduklev/skin.titan.mod.beta.leia/
 
+## Marduk : version **.1.12. - 24.04.2019	
+
+			- add new search function 
+			- add AEL Game support , ALL CREDITS TO 'chrisism' - LEIA ONLY
+			- create addon script to replace skin/script for local tv show trailers
+			- add missing DialogGameControllers.xml
 
 ## Marduk : version **.1.11. - 25.03.2019	
 		VIEWS :
