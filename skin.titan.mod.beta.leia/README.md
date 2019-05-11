@@ -4,6 +4,84 @@
 		> [skin.titan - krypton]	**=17	https://github.com/marduklev/skin.titan.krypton.mod/
  		> [skin.titan - leia]		**=18	https://github.com/marduklev/skin.titan.mod.beta.leia/
 
+
+## Marduk : version **.1.12. - 24.04.2019	
+
+		SETTINGS WINDOW
+				- changed layout
+		
+		SKINSETTINGS	
+				- moved Skin.HasSetting(Home_TransParentTiles) setting to home section
+				- Trailers auto fallback to youtube, if not "never do online lookup" is enebled (WIP)
+				- add new color ' ViewListAndDetailPanelColorNF '
+						- intention - diffused color for non-/-focused items, without losing wished colors in other layouts -
+
+				- CHOOSE CAST PROVIDER for VideoInfo
+						- use native KODI (fastest, best for non-addon library use only)
+						- or skinhelper service
+						- or embuary
+						
+				- added CAST ACTION
+						- perform library search via Skin Serach on selcet in VideoInfo
+						
+		EXTENDED INFO
+				- fixed studio logo not showing
+		
+		FONT specific 
+				- FOR TAGS - add font Alcubierre Font by Matt Ellis / Ellis Design
+				- FOR NETFLIX(523) - CLEARLOGO TITLE FALLBACK - add font CircleC Font
+				 (http://allfont.net/download/circlec/ )
+			https://imgur.com/a/tebzuBh
+		
+		HOME
+				- added option - show widget header centered
+				- larger square submenu , removed outstanding label, add submenu label at item bottom (optional layouts WIP)
+		
+		HEADER
+				- slightly decreased height and adjusted labels/icons (comparison def vs. win10 style https://i.imgur.com/FfLnn2h.jpg)
+				- add content for skin search
+		
+		WIDGETS
+				- fixed several issues , when using multiple rows for some layout types
+				- cleanup some conditions
+				- landscapewidebox 	- slight edit of focus animation
+									- is always fixed now
+				- changed focus zoom for widgets
+				- add focus animation for detail widgets (posterdetails,landscapedetails) (always)
+				- removed tag OVERLAY, tags are now at bottom below widget, not inside artowrk
+				- added new widget type 'circle' https://streamable.com/jwzqt
+				- correction posterthumb position - posterdetails widget
+				
+		VIEWS	
+				- fixed issue where No/wrong viewtype label is shown (525,526,527)
+				- fixed color issues
+				
+				- Panel Low (521) replaced it with NEW viewtype 'Circle' kept the id (521)
+						https://imgur.com/a/q4ZkfOq
+				
+				- Panel Wall (520) 
+						- dont show header ( fixed overlay )
+				- List (50) 
+						- removed discart option
+				
+				- Netflix Potser - View (523)
+						- fixed discart animations
+						- fixed artwork + focusedlayout position 
+						
+				- 	removed tag OVERLAY, tags are now at bottom below widget, not inside artowrk
+					adjusted view types to use tags at bottom instead overlay (WIP)
+					overlay based on missing artwork is still in 
+						
+
+		SEARCH	- adjusted custom search (spotlight bg image unresolved)
+		
+		- some more minor stuff and fixes
+			
+		- alphabet scrollbar 'provider' is now embuaryhelper, seems faster
+		- cast provider is now 'embuary helper' ,  seems faster (also dont need predefined actions actions)
+			
+
+		
 ## Marduk : version **.1.12. - 24.04.2019	
 
 			- add new search function 
