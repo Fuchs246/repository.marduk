@@ -5,7 +5,7 @@
  		> [skin.titan - leia]		**=18	https://github.com/marduklev/skin.titan.mod.beta.leia/
 
 
-## Marduk : version **.1.12. - 24.04.2019	
+## Marduk : version **.1.13. - 24.04.2019	
 
 		SETTINGS WINDOW
 				- changed layout
@@ -34,7 +34,7 @@
 				- FOR TAGS - add font Alcubierre Font by Matt Ellis / Ellis Design
 				- FOR NETFLIX(523) - CLEARLOGO TITLE FALLBACK - add font CircleC Font
 				 (http://allfont.net/download/circlec/ )
-			https://imgur.com/a/tebzuBh
+					https://imgur.com/a/tebzuBh
 		
 		HOME
 				- Win10 - enebled option to use zoom animation
@@ -51,6 +51,7 @@
 				- cleanup some conditions
 				- landscapewidebox 	- slight edit of focus animation
 									- is always fixed now
+				- added option to use use "dimmed play button" on focus
 				- changed focus zoom for widgets
 				- add focus animation for detail widgets (posterdetails,landscapedetails) (always)
 				- removed tag OVERLAY, tags are now at bottom below widget, not inside artowrk
@@ -60,7 +61,7 @@
 		VIEWS	
 				- fixed issue where No/wrong viewtype label is shown (525,526,527)
 				- fixed color issues
-				
+				- added option to use use "dimmed play button" on focus
 				- Panel Low (521) replaced it with NEW viewtype 'Circle' kept the id (521)
 						https://imgur.com/a/q4ZkfOq
 				
@@ -72,6 +73,7 @@
 				- Netflix Potser - View (523)
 						- fixed discart animations
 						- fixed artwork + focusedlayout position 
+						- optional font style for Titles if clearlogo not available (https://i.imgur.com/asXO5CQ.jpg)
 						
 				- 	removed tag OVERLAY, tags are now at bottom below widget, not inside artowrk
 					adjusted view types to use tags at bottom instead overlay (WIP)
