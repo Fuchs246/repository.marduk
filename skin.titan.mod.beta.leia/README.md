@@ -15,14 +15,17 @@
 				- Trailers auto fallback to youtube, if not "never do online lookup" is enebled (WIP)
 				- add new color ' ViewListAndDetailPanelColorNF '
 						- intention - diffused color for non-/-focused items, without losing wished colors in other layouts -
-
+				
+				- choose if you wann use skinhelper service or native(Non-Addon) for showing ExtraFanart
+						- when not using skinhelper, you will have rotating fanart avail for musicvideos
+				
 				- CHOOSE CAST PROVIDER for VideoInfo
-						- use native KODI (fastest, best for non-addon library use only)
+						- use native KODI (fastest, best fast show up, but CANT USE CUSTOM SEARCH/EXTENDED INFO SEARCH)
 						- or skinhelper service
 						- or embuary
 						
 				- added CAST ACTION
-						- perform library search via Skin Serach on selcet in VideoInfo
+						- perform library search via Skin Serach by selceting a cast member in VideoInfo (actual just non netflix)
 						
 		EXTENDED INFO
 				- fixed studio logo not showing
@@ -34,6 +37,8 @@
 			https://imgur.com/a/tebzuBh
 		
 		HOME
+				- Win10 - enebled option to use zoom animation
+				- win10 - fixed scrollbar, now could be focused
 				- added option - show widget header centered
 				- larger square submenu , removed outstanding label, add submenu label at item bottom (optional layouts WIP)
 		
@@ -76,9 +81,8 @@
 		SEARCH	- adjusted custom search (spotlight bg image unresolved)
 		
 		- some more minor stuff and fixes
-			
-		- alphabet scrollbar 'provider' is now embuaryhelper, seems faster
-		- cast provider is now 'embuary helper' ,  seems faster (also dont need predefined actions actions)
+		- cast provider on Netflix Trailer Playback in is now 'embuary helper' , faster (also dont need predefined actions actions)
+		- alphabet scrollbar 'provider' is now embuaryhelper, seems faster, also hiding 'empty' letter content
 			
 
 		
