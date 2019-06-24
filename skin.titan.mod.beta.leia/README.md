@@ -5,28 +5,35 @@
  		> [skin.titan - leia]		**=18	https://github.com/marduklev/skin.titan.mod.beta.leia/
 
 
-## Marduk : version **.1.13. - 24.04.2019	
+## Marduk : version **.1.13. - xx.xx.2019	
 
 		SETTINGS WINDOW
 				- changed layout
 		
 		SKINSETTINGS	
 				- moved Skin.HasSetting(Home_TransParentTiles) setting to home section
+				
 				- Trailers auto fallback to youtube, if not "never do online lookup" is enebled (WIP)
+				
 				- add new color ' ViewListAndDetailPanelColorNF '
 						- intention - diffused color for non-/-focused items, without losing wished colors in other layouts -
 				
 				- choose if you wann use skinhelper service or native(Non-Addon) for showing ExtraFanart
-						- when not using skinhelper, you will have rotating fanart avail for musicvideos
+						- when not using skinhelper, you will also have rotating fanart available for musicvideos
 				
 				- CHOOSE CAST PROVIDER for VideoInfo
-						- use native KODI (fastest, best fast show up, but CANT USE CUSTOM SEARCH/EXTENDED INFO SEARCH)
 						- or skinhelper service
 						- or embuary
 						
-				- added CAST ACTION
-						- perform library search via Skin Serach by selceting a cast member in VideoInfo (actual just non netflix)
-						
+						- added CAST ACTION
+								- perform library search via Skin Search by selceting a cast member in VideoInfo (actual just non netflix videoinfo)
+				
+		NEW VIDEOINFO SCREEN
+				- 3 pages, start at default, 
+					-> ondown show item containers (cast,similiar,setitems,nextepisode,local artwork...)
+					-> onup will show some additional info
+					
+				
 		EXTENDED INFO
 				- fixed studio logo not showing
 		
@@ -35,8 +42,10 @@
 				- FOR NETFLIX(523) - CLEARLOGO TITLE FALLBACK - add font CircleC Font
 				 (http://allfont.net/download/circlec/ )
 					https://imgur.com/a/tebzuBh
+				- add new font helvetica neue for netflix layouts
 		
-		HOME
+		HOME	
+				- solved issues with "dont showing Widget Header" when scroll up again
 				- Win10 - enebled option to use zoom animation
 				- win10 - fixed scrollbar, now could be focused
 				- added option - show widget header centered
