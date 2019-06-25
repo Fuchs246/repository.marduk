@@ -7,96 +7,119 @@
 
 ## Marduk : version **.1.13. - xx.xx.2019	
 
-		SETTINGS WINDOW
-				- changed layout
+	SETTINGS WINDOW
+		- changed layout
 		
-		SKINSETTINGS	
-				- moved Skin.HasSetting(Home_TransParentTiles) setting to home section
+	SKINSETTINGS	
+		
+		- moved Skin.HasSetting(Home_TransParentTiles) setting to corresponding home section
 				
-				- Trailers auto fallback to youtube, if not "never do online lookup" is enebled (WIP)
+		- Trailers will auto fallback to youtube, if not "never do online lookup" is enebled (WIP)
+		
+		- add new color ' ViewListAndDetailPanelColorNF '
+				- intention - diffused color for non-/-focused items, without losing wished colors in other layouts -
+		
+		- choose if you wann use skinhelper service or native(Non-Addon) for showing ExtraFanart
+				- when not using skinhelper, you will also have rotating fanart available for musicvideos
+		
+		- CHOOSE CAST PROVIDER for VideoInfo
+				- or skinhelper service
+				- or embuary
 				
-				- add new color ' ViewListAndDetailPanelColorNF '
-						- intention - diffused color for non-/-focused items, without losing wished colors in other layouts -
+				- added CAST ACTION
+						- perform library search via Skin Search by selceting a cast member in VideoInfo (actual just non netflix videoinfo)
 				
-				- choose if you wann use skinhelper service or native(Non-Addon) for showing ExtraFanart
-						- when not using skinhelper, you will also have rotating fanart available for musicvideos
-				
-				- CHOOSE CAST PROVIDER for VideoInfo
-						- or skinhelper service
-						- or embuary
-						
-						- added CAST ACTION
-								- perform library search via Skin Search by selceting a cast member in VideoInfo (actual just non netflix videoinfo)
-				
-		NEW VIDEOINFO SCREEN
-				- 3 pages, start at default, 
-					-> ondown show item containers (cast,similiar,setitems,nextepisode,local artwork...)
-					-> onup will show some additional info
+		- add new setting to use new "enhanced VideoInfo Screen" https://streamable.com/r969u
+			( it uses - 3 scrollable 'pages' (options for toggle some unwanted containers show/dont show will come next update) )
 					
 				
-		EXTENDED INFO
-				- fixed studio logo not showing
+	EXTENDED INFO
+		- fixed studio logo not showing
 		
-		FONT specific 
-				- FOR TAGS - add font Alcubierre Font by Matt Ellis / Ellis Design
-				- FOR NETFLIX(523) - CLEARLOGO TITLE FALLBACK - add font CircleC Font
-				 (http://allfont.net/download/circlec/ )
-					https://imgur.com/a/tebzuBh
-				- add new font helvetica neue for netflix layouts
+	FONT specific 
+		- FOR TAGS - add font Alcubierre Font by Matt Ellis / Ellis Design
+		- FOR NETFLIX(523) - CLEARLOGO TITLE FALLBACK - add font CircleC Font
+		 (http://allfont.net/download/circlec/ )
+			https://imgur.com/a/tebzuBh
+		- add new font helvetica neue for netflix layouts
 		
-		HOME	
-				- solved issues with "dont showing Widget Header" when scroll up again
-				- Win10 - enebled option to use zoom animation
-				- win10 - fixed scrollbar, now could be focused
-				- added option - show widget header centered
-				- larger square submenu , removed outstanding label, add submenu label at item bottom (optional layouts WIP)
+	HOME	
+		- solved issues with "dont showing Widget Header" when scroll up again
+		- Win10 - enebled option to use zoom animation
+		- win10 - fixed scrollbar, now could be focused
+		- added option - show widget header centered
+		- larger square submenu , removed outstanding label, add submenu label at item bottom (optional layouts WIP)
+	
+	HEADER
+		- slightly decreased height and adjusted labels/icons (comparison def vs. win10 style https://i.imgur.com/FfLnn2h.jpg)
+				(there will a decision , to just use 1 header header layout in future)
+		- add label/content for skin search
 		
-		HEADER
-				- slightly decreased height and adjusted labels/icons (comparison def vs. win10 style https://i.imgur.com/FfLnn2h.jpg)
-				- add content for skin search
+	WIDGETS
+		- widget header are no longer hidden, when scroll up to previous widgets (all vertical home layouts)
+		- fixed several issues , when using multiple rows for some layout types
+		- cleanup some conditions
+		- landscapewidebox 	- slight edit of focus animation
+							- is always fixed-list now
+		- added option to use use "dimmed play button" on focus
+		- changed focus zoom for widgets
+		- add focus animation for detail widgets (posterdetails,landscapedetails) (always)
+		- removed tag OVERLAY, tags are now at bottom below widget, not inside artowrk
+		- added new widget type 'circle' https://streamable.com/jwzqt
+		- correction posterthumb position - posterdetails widget
 		
-		WIDGETS
-				- fixed several issues , when using multiple rows for some layout types
-				- cleanup some conditions
-				- landscapewidebox 	- slight edit of focus animation
-									- is always fixed now
-				- added option to use use "dimmed play button" on focus
-				- changed focus zoom for widgets
-				- add focus animation for detail widgets (posterdetails,landscapedetails) (always)
-				- removed tag OVERLAY, tags are now at bottom below widget, not inside artowrk
-				- added new widget type 'circle' https://streamable.com/jwzqt
-				- correction posterthumb position - posterdetails widget
+	VIEWS	
+		- fixed issue where No/wrong viewtype label is shown (525,526,527)
+		- fixed color issues
+		- added option to use use "dimmed play button" on focus (Credits for the Idea and the the playbutton belongs to @SualFred)
+		
+		- add NEW viewtype 'Circle' kept the id (529)
+				https://imgur.com/a/q4ZkfOq
+		
+		- Panel Wall (520) 
+				- dont show header ( fixed overlay )
+		
+		- List (50) 
+				- removed discart option
+		
+		- Netflix Potser - View (523)
+				- fixed discart animations
+				- fixed artwork + focusedlayout position 
+				- optional font style for Titles if clearlogo not available (https://i.imgur.com/asXO5CQ.jpg)
+				- adjusted layouts in generell
 				
-		VIEWS	
-				- fixed issue where No/wrong viewtype label is shown (525,526,527)
-				- fixed color issues
-				- added option to use use "dimmed play button" on focus
-				- Panel Low (521) replaced it with NEW viewtype 'Circle' kept the id (521)
-						https://imgur.com/a/q4ZkfOq
-				
-				- Panel Wall (520) 
-						- dont show header ( fixed overlay )
-				- List (50) 
-						- removed discart option
-				
-				- Netflix Potser - View (523)
-						- fixed discart animations
-						- fixed artwork + focusedlayout position 
-						- optional font style for Titles if clearlogo not available (https://i.imgur.com/asXO5CQ.jpg)
-						
-				- 	removed tag OVERLAY, tags are now at bottom below widget, not inside artowrk
-					adjusted view types to use tags at bottom instead overlay (WIP)
-					overlay based on missing artwork is still in 
-						
-
-		SEARCH	- adjusted custom search (spotlight bg image unresolved)
+	TAGS
+		- 	removed tag OVERLAY, tags are now at bottom below widget, not inside artowrk
+			adjusted view types to use tags at bottom instead overlay (WIP)
+			overlay based on missing artwork is still in 
 		
-		- some more minor stuff and fixes
+		-	toggle them on off via Slidemenu Setting in Viewtypes, or in Shortcut Section for Widgets
+		
+		
+	SHORTCUTS
+		- fix some paths to windows
+		- fix not working submenu for "Music" Entry
+		- fix not working subsection for Shows: recentlyaddedepisodes, inprogresstvshows 
+		- add some default Submenu entry for "TV Shows", "Musicvideos", "Movies"
+		- use xsp/native path (just) for sub sections instead skinhelper.service.widgets for : recentlyaddedmovies , InProgressMovies, UnwatchedMovies
+		
+	SEARCH	
+		- adjusted custom search (spotlight bg image unresolved)
+	
+	MISC
+		- some more minor stuff and fixes, to improve performance
 		- cast provider on Netflix Trailer Playback in is now 'embuary helper' , faster (also dont need predefined actions actions)
 		- alphabet scrollbar 'provider' is now embuaryhelper, seems faster, also hiding 'empty' letter content
+				
+				["	 - started some code overhaul,
+					
+					the goal for the future will be, that 
+					script.skin.helper.service , 
+					script.skin.helper.widgets, 
+					script.skin.helper.backgrounds (pretty resource hungry)
+					will not be neccessary dependencie addons, 
+					Rotating Section Backgrounds will be replaced with a 'native' method, "]
 			
-
-		
 ## Marduk : version **.1.12. - 24.04.2019	
 
 			- add new search function 
