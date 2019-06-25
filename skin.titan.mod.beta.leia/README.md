@@ -49,7 +49,9 @@
 		- win10 - fixed scrollbar, now could be focused
 		- added option - show widget header centered
 		- larger square submenu , removed outstanding label, add submenu label at item bottom (optional layouts WIP)
-	
+		- Netflix2 - decide between 2 spotlight button layouts (frame bg, panel bg)
+		- 
+		
 	HEADER
 		- slightly decreased height and adjusted labels/icons (comparison def vs. win10 style https://i.imgur.com/FfLnn2h.jpg)
 				(there will a decision , to just use 1 header header layout in future)
@@ -66,6 +68,8 @@
 		- add focus animation for detail widgets (posterdetails,landscapedetails) (always)
 		- removed tag OVERLAY, tags are now at bottom below widget, not inside artowrk
 		- added new widget type 'circle' https://streamable.com/jwzqt
+		- added new widget type 'netflix spotlight' , replacement for current spotlight WIP, improvements needed
+		
 		- correction posterthumb position - posterdetails widget
 		
 	VIEWS	
@@ -81,6 +85,8 @@
 		
 		- List (50) 
 				- removed discart option
+		
+		- Netflix generell, choose between Mpaa 2 Flag Layouts (diffuse frame, panel bg)
 		
 		- Netflix Potser - View (523)
 				- fixed discart animations
