@@ -6,7 +6,14 @@
 
 
 ## Marduk : version **.1.13. - xx.xx.2019	
-
+					## to do for final  - resolve clearlogo for spotlight trailer playing (temp use text label instead of logo for trailer playback due to widget refresh on playback start )
+										- find/make better diffuse texture / or use overlay for fanart spotlight focus
+										- repack images for themes (get rid of some [!]Skin.HasTheme([themename]))
+										- check issues with circle widgets/ViewItems (go over visibilitry conditions)
+										- ??
+										- resolve issues for Netflix Hubs
+										
+										
 	SETTINGS WINDOW
 		- changed layout
 		
@@ -31,7 +38,11 @@
 				
 		- add new setting to use new "enhanced VideoInfo Screen" https://streamable.com/r969u
 			( it uses - 3 scrollable 'pages' (options for toggle some unwanted containers show/dont show will come next update) )
-					
+			
+		- Netflix2 Home - decide between 2 spotlight button layouts (frame bg, panel bg)
+							- check your Colors in Custom Color Section	because they are need to handle colors differently
+		
+		- Netflix Layouts - choose between Mpaa 2 Flag Layouts (default = diffuse frame , Alternative Layout = panel bg (Netflix Style))
 				
 	EXTENDED INFO
 		- fixed studio logo not showing
@@ -49,7 +60,7 @@
 		- win10 - fixed scrollbar, now could be focused
 		- added option - show widget header centered
 		- larger square submenu , removed outstanding label, add submenu label at item bottom (optional layouts WIP)
-		- Netflix2 - decide between 2 spotlight button layouts (frame bg, panel bg)
+		
 		- 
 		
 	HEADER
@@ -85,8 +96,6 @@
 		
 		- List (50) 
 				- removed discart option
-		
-		- Netflix generell, choose between Mpaa 2 Flag Layouts (diffuse frame, panel bg)
 		
 		- Netflix Potser - View (523)
 				- fixed discart animations
