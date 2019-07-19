@@ -9,9 +9,14 @@
 					## to do for final  - resolve clearlogo for spotlight trailer playing (temp use text label instead of logo for trailer playback due to widget refresh on playback start )
 										- find/make better diffuse texture / or use overlay for fanart spotlight focus
 										- repack images for themes (get rid of some [!]Skin.HasTheme([themename]))
-										- check issues with circle widgets/ViewItems (go over visibilitry conditions)
-										- ??
+										- check issues with circle widgets/ViewItems (e.g. album thumbs homewidgets, go over visibilitry conditions)
+										- resolve/improve spotlight widget behaviour
+										- fix issues on netflix home
+										- fix setting, widget (header) left,right,center align
 										- resolve issues for Netflix Hubs
+										- 
+										- improve skin search layouts ( + setting to en/disable containers)
+										- improve enhanced videoinfo layout ( + setting to en/disable containers)
 										
 										
 	SETTINGS WINDOW
