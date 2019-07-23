@@ -9,20 +9,26 @@
 					## to do for final  - resolve clearlogo for spotlight trailer playing (temp use text label instead of logo for trailer playback due to widget refresh on playback start )
 										- find/make better diffuse texture / or use overlay for fanart spotlight focus
 										- repack images for themes (get rid of some [!]Skin.HasTheme([themename]))
-										- check issues with circle widgets/ViewItems (e.g. album thumbs homewidgets, go over visibilitry conditions)
 										- resolve/improve spotlight widget behaviour
 										- fix issues on netflix home
 										- fix setting, widget (header) left,right,center align
-										- resolve issues for Netflix Hubs
-										- 
+										- add musicvideo title below clearlogo ,netlix lyout,needs cond height adjust for plot
 										- improve skin search layouts ( + setting to en/disable containers)
 										- improve enhanced videoinfo layout ( + setting to en/disable containers)
-										
+										- change tag overlay if logo empty circle layouts (cyrillic compatibility)
+										- artwork,container adjustments 523
+										- skinstring as prefix for mpaa certs ?
+										- check studiologo image var (remove sh fallback depending to setting)
+										- remove unneded overlay in videonav clearlogo over episodethumb
+										-
 										
 	SETTINGS WINDOW
 		- changed layout
 		
 	SKINSETTINGS	
+		
+		- use optional helveticaneue font for netflixlayouts (doesnt support cyrillic), 
+				- en/disable option in artwork setting-section
 		
 		- moved Skin.HasSetting(Home_TransParentTiles) setting to corresponding home section
 				
@@ -53,11 +59,8 @@
 		- fixed studio logo not showing
 		
 	FONT specific 
-		- FOR TAGS - add font Alcubierre Font by Matt Ellis / Ellis Design
-		- FOR NETFLIX(523) - CLEARLOGO TITLE FALLBACK - add font CircleC Font
-		 (http://allfont.net/download/circlec/ )
-			https://imgur.com/a/tebzuBh
-		- add new font helvetica neue for netflix layouts
+		- add new font helvetica neue for netflix layouts https://imgur.com/a/44UVJQo#xEHxgmp
+		
 		
 	HOME	
 		- solved issues with "dont showing Widget Header" when scroll up again
@@ -107,12 +110,14 @@
 				- fixed artwork + focusedlayout position 
 				- optional font style for Titles if clearlogo not available (https://i.imgur.com/asXO5CQ.jpg)
 				- adjusted layouts in generell
+		
+		- Netflix Potser - View (525)
+				- improved layouts in generell
 				
 	TAGS
 		- 	removed tag OVERLAY, tags are now at bottom below widget, not inside artowrk
-			adjusted view types to use tags at bottom instead overlay (WIP)
+			adjusted view types to use tags at bottom instead overlay (WIP, sizing)
 			overlay based on missing artwork is still in 
-		
 		-	toggle them on off via Slidemenu Setting in Viewtypes, or in Shortcut Section for Widgets
 		
 		
