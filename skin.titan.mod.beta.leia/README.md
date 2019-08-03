@@ -29,6 +29,9 @@
 		
 	SKINSETTINGS	
 		
+		
+		- added new custom color -> widget header color (was needed to keep details color and widget header color different)
+		
 		- use optional helveticaneue font for netflixlayouts (doesnt support cyrillic), 
 				- en/disable option in artwork setting-section
 		
