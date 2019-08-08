@@ -26,9 +26,19 @@
 										
 	SETTINGS WINDOW
 		- changed layout
+	
+	FOOTER
+		- Clearlogo (if used in footer) always centered
+		- adjusted rating images
+		- recode
+		
 		
 	SKINSETTINGS	
 		
+		- toogle each ratings seperate (imdb,top250,rottencritics,rottrenaudience,metacritic,tvdb,themoviedb), 
+				* Skinhelper no longer needed, make use of scraped/nfo ratings
+				* fixed wrong rating variable (recode footer)
+				* make use of skinhelper just if wanted as fallback if scraped ratings missing (using simplecache)
 		
 		- added new custom color -> widget header color (was needed to keep details color and widget header color different)
 		
