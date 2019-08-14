@@ -29,7 +29,8 @@
 				
 	SETTINGS WINDOW
 		- changed layout
-	
+		- removed some needless settings,removed depreciated/broken addons support (incl. artwork downloader)
+
 	FOOTER
 		- Clearlogo (if used in footer) always centered
 		- adjusted rating images
@@ -37,6 +38,12 @@
 		
 		
 	SKINSETTINGS	
+		
+		- removed :
+				- dont show clear logo netflix home
+				- dont show plot for unwatched/in-progress episodes
+				- removed dontshowfooterbar on home
+				
 		
 		- toogle each ratings seperate (imdb,top250,rottencritics,rottrenaudience,metacritic,tvdb,themoviedb), 
 				* Skinhelper no longer needed, make use of scraped/nfo ratings
