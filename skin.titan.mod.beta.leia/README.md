@@ -22,8 +22,11 @@
 										- improve enhanced videoinfo layout ( + setting to en/disable containers)
 										- artwork,container adjustments 523
 										
-										
-										
+	
+	CONEXT MENU
+		- add 'run artwork beef addon' button
+		- add run Themovie DB Info (script.embuary.info) Addon (WIP TESTING, just basic window)
+				
 	SETTINGS WINDOW
 		- changed layout
 	
@@ -128,7 +131,9 @@
 		
 		- Netflix Potser - View (525)
 				- improved layouts in generell
-				
+		
+		- Adjustments for PVR layouts (Thanks to @'Fuchs2468')
+		
 	TAGS
 		- 	removed tag OVERLAY, tags are now at bottom below widget, not inside artowrk
 			adjusted view types to use tags at bottom instead overlay (WIP, sizing)
@@ -147,6 +152,9 @@
 		- adjusted custom search (spotlight bg image unresolved)
 	
 	MISC
+		- REMOVED THEME 'CLASSIC' completly
+		- come small fixes/resolve kodi log errors, and performance improvements
+		
 		- some more minor stuff and fixes, to improve performance
 		- cast provider on Netflix Trailer Playback in is now 'embuary helper' , faster (also dont need predefined actions actions)
 		- alphabet scrollbar 'provider' is now embuaryhelper, seems faster, also hiding 'empty' letter content

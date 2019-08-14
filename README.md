@@ -14,7 +14,7 @@
 > - included "Marcelveldt's BETA repository" from **Marcelveldt**
 > - included "SualFreds's repository" from **SualFred**
 > - included "Bingie" repository" from **Cartman.Dos**
-> - included "netflix repository" from **asciiDisco**
+> - included "netflix repository" from **asciiDisco**, also add plugin.video.netflix-0.13.23 cause repo is actual not accessible within kodi
 > - resource.images.skinicons.whitesquare from **myself**
 > - script TV Melody from  **smitchell6879** (used now in Titan MOD, OST Theme Playback ) -> https://forum.kodi.tv/showthread.php?tid=332890
 > - updated version of "script.skin.info.service" from **phil65** (krypton/leia compatible) -> https://forum.kodi.tv/showthread.php?tid=203196
