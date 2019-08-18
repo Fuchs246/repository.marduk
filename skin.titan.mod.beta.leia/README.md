@@ -25,7 +25,7 @@
 	
 	CONEXT MENU
 		- add 'run artwork beef addon' button
-		- add run Themovie DB Info (script.embuary.info) Addon (WIP TESTING, just basic window)
+		
 				
 	SETTINGS WINDOW
 		- changed layout
@@ -159,9 +159,11 @@
 		- adjusted custom search (spotlight bg image unresolved)
 	
 	MISC
+		- fixed animated art behaviour, removed skinhelper as source, use native 
+		  (may require refresh of movie ,need set art for movies ['animatedposter' 'animatedfanart' in advancedsettings.xml], need kyradb api/user key to use it with artwork beef)
 		- REMOVED THEME 'CLASSIC' completly
 		- come small fixes/resolve kodi log errors, and performance improvements
-		
+		- removed 'resource addon check' on first settings visit -> set them manualy if wished 
 		- some more minor stuff and fixes, to improve performance
 		- cast provider on Netflix Trailer Playback in is now 'embuary helper' , faster (also dont need predefined actions actions)
 		- alphabet scrollbar 'provider' is now embuaryhelper, seems faster, also hiding 'empty' letter content
