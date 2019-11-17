@@ -9,15 +9,10 @@
 					## to do for next version  
 					
 										- resolve clearlogo for spotlight trailer playing (temp use text label instead of logo for trailer playback due to widget refresh on playback start )
-										- find/make better diffuse texture / or use overlay for fanart spotlight / bigpicure focus
 										- repack images for themes (get rid of some [!]Skin.HasTheme([themename]))
-										- fix setting, widget (header) left,right,center align
 										- add musicvideo title below clearlogo ,netlix lyout,needs cond height adjust for plot
-										- skinstring as prefix for mpaa certs ? https://forum.kodi.tv/showthread.php?tid=330749&pid=2871255#pid2871255
-										
-										- resolve/improve spotlight widget behaviour
-										- fix issues on netflix home
-										
+										- fix scrollbars (need reload, check ids vert vs hor)
+										- resolve/improve/remove? spotlight widget behaviour
 										- improve skin search layouts ( + setting to en/disable containers)
 										- improve enhanced videoinfo layout ( + setting to en/disable containers)
 										- artwork,container adjustments 523
