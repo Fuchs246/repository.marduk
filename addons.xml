@@ -87,21 +87,23 @@
 			<disclaimer />
 		</extension>
 	</addon>
-	<addon id="repository.netflix" name="Netflix Addon Repository" version="1.0.1" provider-name="libdev + jojo + asciidisco">
-		<extension point="xbmc.addon.repository" name="Netflix Addon Repository">
-			<info compressed="false">https://johtru.com/repo/repo.php</info>
-			<checksum>https://johtru.com/repo/repo.php?md5=true</checksum>
-			<datadir zip="true">https://johtru.com/repo/repo_files</datadir>
+	<addon id="repository.castagnait" name="CastagnaIT Repository" version="1.0.0" provider-name="castagnait">
+		<extension point="xbmc.addon.repository" name="CastagnaIT Repository">
+			<dir>
+				<info>https://github.com/CastagnaIT/repository.castagnait/raw/master/addons.xml</info>
+				<checksum>https://github.com/CastagnaIT/repository.castagnait/raw/master/addons.xml.md5</checksum>
+				<datadir zip="true">https://github.com/CastagnaIT/repository.castagnait/raw/master/zip</datadir>
+			</dir>
 		</extension>
 		<extension point="xbmc.addon.metadata">
-			<summary>The Repository for the Kodi Netflix Addon</summary>
-			<summary lang="de">Das Repository für das Kodi Netflix Addon</summary>
-			<description>Provides the Netflix Addons fpr kodi.</description>
-			<description lang="de">Stellt das Kodi Netflix Addon bereit</description>
-			<disclaimer>Some parts of this Repository may not be legal in your country of residence - please check with your local laws before installing.</disclaimer>
+			<summary>CastagnaIT Repository</summary>
+			<description>Castagna IT repository for addons</description>
 			<platform>all</platform>
+			<assets>
+				<icon>icon.jpg</icon>
+			</assets>
 		</extension>
-		</addon>
+	</addon>
 	<addon id="resource.images.busyspinners.basic" name="Animated Busy Spinners Pack" version="1.0.5" provider-name="marcelveldt,marduk">
 		<extension point="kodi.resource.images" compile="false" type="busyspinners" />
 		<requires>
@@ -122,85 +124,6 @@
 			<summary lang="en">Skin Icons Pack - Square</summary>
 			<description lang="en">Skin Icons Pack - Square</description>
 			<platform>all</platform>
-		</extension>
-	</addon>
-	<addon id="script.artwork.downloader" name="Artwork Downloader" version="18.4.0" provider-name="Martijn,Burekas">
-		<requires>
-			<import addon="xbmc.python"                 version="2.1.0"/>
-			<import addon="xbmc.json"                   version="6.0.0"/>
-			<import addon="xbmc.addon"                  version="12.0.0"/>
-			<import addon="script.module.simplejson"    version="3.3.0"/>
-			<import addon="script.common.plugin.cache"  version="1.3.0"/>
-		</requires>
-		<extension point="xbmc.python.script"         library="default.py">
-			<provides>executable</provides>
-		</extension>
-		<extension point="xbmc.addon.metadata">
-			<summary lang="be">Downloads Artwork for TV shows, Movies and Musicvideos in your library</summary>
-			<summary lang="da">Downloader grafik til TV-serier, Film og Musikvideoer i dit bibliotek</summary>
-			<summary lang="de">Lade Artworks fÃ¼r Filme, Serien und Musikvideos deiner Bibliothek herunter</summary>
-			<summary lang="el">Κατεβάζει Εικόνες για τις Τηλεοπτικές Σειρές, τις Ταινίες και τα Μουσικά Βίντεο της συλλογής σας</summary>
-			<summary lang="en">Downloads Artwork for TV shows, Movies and Musicvideos in your library</summary>
-			<summary lang="es">Descargue Artwork de Series, Pelí­culas y Videoclips a su biblioteca</summary>
-			<summary lang="fr">Téléchargez les Artworks pour les séries TV, les films et les clip vidéo de votre médiathèque</summary>
-			<summary lang="gl">Descargue na súa biblioteca Ilustracións para as Series de TV, Filmes e Vídeos Musicais</summary>
-			<summary lang="he">מורי עטיפות לתוכניות טלויזיה,סרטים,וסרטי מוסיקה בספריה שלך</summary>
-			<summary lang="hr">Preuzimte slike omota TV serija, filmova i glazbenih spotova u vašoj kolekciji</summary>
-			<summary lang="hu">Művészképek letöltése TV műsorok, filmek és videóklipek számára</summary>
-			<summary lang="it">Scarica artwork per Serie TV, Film e Video musicali della tua libreria</summary>
-			<summary lang="ko">라이브러리의 TV 쇼, 영화, 뮤직비디오의 아트워크 다운로드</summary>
-			<summary lang="nl">Download Artwork voor TV series, Films en Muziekvideos in jouw bibliotheek</summary>
-			<summary lang="pl">Pobiera grafiki dla Seriali TV, FilmÃ³w i TeledyskÃ³w z twojej biblioteki</summary>
-			<summary lang="pt">Transfira Artwork de Séries TV, Filmes e Concertos para sua biblioteca</summary>
-			<summary lang="pt_BR">Transferências Artes de Seriados, Filmes e Concertos para suas Coleções.</summary>
-			<summary lang="sk">Sťahuje umeleckú grafiku k TV seriálom, filmom a hudobným videám vo Vašej knižnici</summary>
-			<summary lang="sv">Laddar ner bilder och extramaterial för TV-serierna, filmerna och musikvideorna i ditt bibliotek</summary>
-			<summary lang="zh">下载剧集、电影和音乐电视艺术图片到资料库</summary>
-			<description lang="be">Downloads all available artwork for TV shows, Movies and Musicvideos in your library. Check the options for supported artwork[CR]Artwork sources:[CR]www.fanart.tv[CR]www.thetvdb.com[CR]www.themoviedb.org[CR]Remark:[CR]Check your skin to see what type of artwork is supported![CR]Each TV Show/Movie must have its own folder![CR]Skin integration:[CR]See readme file</description>
-			<description lang="da">Henter alle tilgængelige illustrationer til TV-serier, Film og Musikvideoer i dit bibliotek. Tjek indstillingerne for at se understøttede illustrationer.[CR]Kilder til illustrationer[CR]www.fanart.tv[CR]www.thetvdb.com[CR]www.themoviedb.org[CR]Bemærk:[CR]Tjek dit skin for at se, hvilke typer illustrationer, der understøttes![CR]Hver TV-serie/Film skal have sin egen mappe![CR]Skin-integration:[CR]Se 'readme' fil</description>
-			<description lang="de">Downloadet alle verfügbaren Artworks für TV Sendungen, Filme und Musikvideos in deine Datenbank. Überprüfe die Optionen für nicht unterstützte Artwork[CR]Artworkquellen: [CR]www.fanart.tv[CR]www.thetvdb.com[CR]www.themoviedb.org[CR]Remark:[CR]Überprüfe dein Skin ob Artwork unterstützt wird![CR]Jede TV Sendung/Film braucht seinen eigenen Ordner![CR]Skin Integration:[CR]Siehe Readme Datei</description>
-			<description lang="el">Κατεβάζει όλες τις διαθέσιμες εικόνες για τις Τηλεοπτικές Σειρές, τις Ταινίες και τα Μουσικά Βίντεο της συλλογής σας. Ελέγξτε τις επιλογές για υποστηριζόμενες εικόνες[CR]&#10;Πηγές Εικόνων:[CR]www.fanart.tv[CR]www.thetvdb.com[CR]www.themoviedb.org[CR]&#10;Σημείωση:[CR]Ελέγξτε το κέλυφός σας για να δείτε τι είδους εικόνες υποστηρίζονται![CR]Κάθε Σειρά/Ταινία πρέπει να έχει το δικό της φάκελο![CR]&#10;Για ενσωμάτωση στο κέλυφος:[CR]Δείτε το αρχείο readme</description>
-			<description lang="en">Downloads all available artwork for TV shows, Movies and Musicvideos in your library. Check the options for supported artwork[CR]Artwork sources:[CR]www.fanart.tv[CR]www.thetvdb.com[CR]www.themoviedb.org[CR]Remark:[CR]Check your skin to see what type of artwork is supported![CR]Each TV Show/Movie must have its own folder![CR]Skin integration:[CR]See readme file</description>
-			<description lang="es">Descarga artwork de programas de televisión, películas y videos musicales en su biblioteca. Marque las opciones correspondientes compatible d artwork[CR]Artwork:[CR]www.fanart.tv[CR]www.thetvdb.com[CR]www.themoviedb.org[CR]Remark:[CR]Check su piel para ver qué tipo de obra de arte es compatible![CR]Cada Show de TV\/película debe tener su propia carpeta![CR]Integración de la piel: [CR] consulte el archivo Léame</description>
-			<description lang="fr">Téléchargez tous les artworks disponibles pour les séries TV, les films et les vidéos musicales de votre médiathèque. Regardez les options pour les artsworks supportés[CR]Sources des Artworks : [CR]www.fanart.tv[CR]www.thetvdb.com[CR]www.themoviedb.org[CR]Remarques : [CR]Véifiez votre thême pour savoir quel type d'artwork est supporté ![CR]Chaque Série TV/Film doit avoir son propre dossier ![CR]Intégration dans un thême :[CR]Regardez le fichier readme.txt</description>
-			<description lang="gl">Descarga todas as ilustracións dispoñíbeis para as series de TV, filmes e vídeos musicais da súa biblioteca. Verifique as opcións de soporte de ilustracións[CR]Fontes das ilustracións:[CR]www.fanart.tv[CR]www.thetvdb.com[CR]www.themoviedb.org[CR]Lembre:[CR]Verifique o seu tema para ver que tipo de ilustración é soportada.[CR]Cada Serie de TV/Filme debe ter o seu propio cartafol.[CR]Integración no tema:[CR]Ver o ficheiro readme</description>
-			<description lang="hr">Preuzmi sve dostupne slike omota za TV serije, filmove i glazbene spotove u vašoj zbirci. Provjerite mogućnosti za podržane slike omota[CR]Izvori slika omota:[CR]www.fanart.tv[CR]www.thetvdb.com[CR]www.themoviedb.org[CR]Napomena:[CR]Provjerite vašu presvlaku da bi vidjeli koja vrsta presvlake je podržana![CR]Svaka TV serija/Film mora imati svoju vlastitu mapu![CR]Integracija presvlake:[CR]Pogledajte datoteku uputa</description>
-			<description lang="hu">Letölti az összes rendelkezésre álló művészképet az adatbázisában található TV-műsorokhoz, filmekhez és videóklipekhez. Ellenőrizze a beállításokat a támogatott művészképekhez[CR]Művészkép források:[CR]www.fanart.tv[CR]www.thetvdb.com[CR]www.themoviedb.org[CR]Megjegyzés:[CR]Ellenőrizze, hogy az alkalmazott skin miyen művészképeket támogat![CR]Minden filmnek/TV-műsornak saját mappában kell lennie![CR]Skin integráció:[CR]Olvassa fel a readme fájlt</description>
-			<description lang="it">Scarica tutti gli artwork disponibili per le serie TV, i film ed i video musicali presenti nella libreria. Controlla le opzioni per gli artwork supportati[CR]Fonti artwork:[CR]www.fanart.tv[CR]www.thetvdb.com[CR]www.themoviedb.org[CR]Nota:[CR]Controlla la tua skin per vedere che tipi artwork sono supportati![CR]Ogni Serie TV/Film deve avere una cartella propria![CR]Integrazione skin:[CR]Vedi file readme</description>
-			<description lang="ko">라이브러리에 있는 TV 쇼, 영화, 뮤직비디오의 사용 가능한 모든 아트워크를 다운로드합니다. 지원하는 아트워크는 옵션을 확인하세요[CR]아트워크 소스:[CR]www.fanart.tv[CR]www.thetvdb.com[CR]www.themoviedb.org[CR] 참고:[CR]사용하는 스킨이 어떤 형식의 아트워크를 지원하는지 확인하세요![CR]각 TV 쇼/영화는 자신의 폴더에 있어야 합니다![CR]스킨 통합:[CR]readme 파일 참고</description>
-			<description lang="nl">Download alle beschikbare artwork voor TV series, Films en Muziekvideos in jouw bibliotheek. Bekijk de opties voor ondersteunde artwork[CR]Artwork bronnen:[CR]www.fanart.tv[CR]www.thetvdb.com[CR]www.themoviedb.org[CR]Opmerking:[CR]Controleer jouw skin om te bepalen welke artwork deze ondersteund![CR]Elke TV serie/Film moet zich in zijn eigen folder bevinden![CR]Skin integratie:[CR]Kijk in de readme bestand</description>
-			<description lang="pl">Pobierz wszystkie dostępne grafiki dla seriali TV, filmów i teledysków ze swojej biblioteki. Sprawdź ustawienia aby zobaczyć wszystkie dostępne grafiki[CR]&#10;    Źródła grafik:[CR]www.fanart.tv[CR]www.thetvdb.com[CR]www.themoviedb.org[CR]&#10;    Uwaga:[CR]Sprawdź jakie rodzaje grafik wspiera twoja skóra![CR]Każdy Serial TV/Film musi być w osobnym folderze![CR]&#10;    Integracja ze skórą:[CR]Przeczytaj plik readme&#10;    </description>
-			<description lang="pt">Transfere toda a artwork disponível para Séries TV, Filmes e Vídeoclipes na sua biblioteca. Verifique a artwork suportada nas opções.[CR]Fontes de Artwork:[CR]www.fanart.tv[CR]www.thetvdb.com[CR]www.themoviedb.org[CR]Lembre-se:[CR]Verifique o seu tema para ver que tipo de artwork é suportada![CR]Cada Série TV/Filme deve ter a sua própria pasta![CR]Integração no tema:[CR]veja o ficheiro readme</description>
-			<description lang="pt_BR">Download todas as artworks disponíveis para Seriados, Filmes e Concertos em sua coleção. Verifique as opções de artes suportadas. &#10;Artwork fontes:[CR]www.fanart.tv[CR]www.thetvdb.com[CR]www.themoviedb.org[CR]Lembrete:[CR]Verifique se sua skin tem suporte para os tipos de artes disponíveis![CR]Cada Seriado/Filme ou Concerto deve estar em pastas próprias![CR]Skin integração:[CR]Veja o arquivo leia-me.</description>
-			<description lang="sk">Sťahuje umeleckú grafiku k TV seriálom, filmom a hudobným videám vo Vašej knižnici. Na overenie podporovanej umeleckej grafiky pozrite nastavenia.&#10;Zdroje umeleckej grafiky:&#10;www.fanart.tv&#10;www.thetvdb.com&#10;www.themoviedb.org&#10;Poznámka:&#10;Aby ste si overili aká umelecká grafika je podporovaná, skontrolujte Váš Vzhľad!&#10;Každý TV seriál / film musí byť v samostatnom priečinku!&#10;Integrácia so vzhľadom:&#10;Pozri readme súbor</description>
-			<description lang="sv">Laddar ner alla tillgängliga omslag, bakgrunder etc för TV-serier, Filmer och Musikvideos till ditt bibliotek. Kontrollera inställningar för vad som stöds[CR] Omslag, bakgrunder etc hämtas från följande resurser:[CR]www.fanart.tv[CR]www.thetvdb.com[CR]www.themoviedb.org[CR] Remark:[CR]Kontrollera skalinställningar för att ta reda på vad som stöds![CR]Varje TV-serie/Film måste ha sin egen mapp![CR] Skalintegration:[CR]See readme file</description>
-			<description lang="zh">下载剧集、电影和音乐电视的所有可用艺术图片到资料库。查看支持的艺术图片选项[CR]&#10;艺术图片来源：[CR]www.fanart.tv[CR]www.thetvdb.com[CR]www.themoviedb.org[CR]&#10; 备注：[CR]查看你的皮肤了解支持什么类型的艺术图片！[CR]每一个剧集/电影必须保存在单独的文件夹中！[CR]&#10; 皮肤集成：[CR]参见readme文件</description>
-			<disclaimer lang="be">For bugs, requests or general questions visit the Artwork Downloader thread on the XBMC forum.</disclaimer>
-			<disclaimer lang="da">Ved fejl, forespørgsler eller generelle spørgsmål besøg Artwork Downloader-tråden i XBMCs forum.</disclaimer>
-			<disclaimer lang="de">FÃ¼r Fehler, VorschlÃ¤ge oder alggemeine Fragen, besuche das Artwork Downloader-Thema im XBMC-Forum (englisch).</disclaimer>
-			<disclaimer lang="el">Για προβλήματα, αιτήματα ή γενικές ερωτήσεις επισκεφθείτε το θέμα του Artwork Downloader στο forum του XBMC.</disclaimer>
-			<disclaimer lang="en">For bugs, requests or general questions visit the Artwork Downloader thread on the XBMC forum.</disclaimer>
-			<disclaimer lang="es">Para informar de errores, hacer peticiones o preguntas visiten el hilo Artwork Downloader en el foro de XBMC.</disclaimer>
-			<disclaimer lang="fr">Pour bugs, demandes ou questions générales visiter le thread Artwork Downloader sur le forum XBMC.</disclaimer>
-			<disclaimer lang="gl">Para erros, solicitudes ou preguntas en xeral visite o fio do Artwork Downloader no foro do XBMC.</disclaimer>
-			<disclaimer lang="he">לדווח תקלות,בקשות או שאלות כלליות בקר ברשימת artwork downloader בפורום של XBMC.</disclaimer>
-			<disclaimer lang="hr">Za greške, zahtjeve ili uobičajena pitanja posjetite Artwork Downloader na XBMC forumu.</disclaimer>
-			<disclaimer lang="hu">Hibabejelentéshez, kérésekhez vagy általános kérdésekkel kapcsolatban keresse az Artwork Downloader témát az XBMC fórumon.</disclaimer>
-			<disclaimer lang="it">Per la segnalazione di bug, richieste o domande generali visita il thread Artwork Downloader sul forum di XBMC.</disclaimer>
-			<disclaimer lang="ko">버그, 요청사항 및 일반적인 질문은  XBMC 포럼의 Artwork Downloader 글타래를 찾아 주세요.</disclaimer>
-			<disclaimer lang="nl">Voor fouten, verzoeken of algemene vragen kan je terecht op Artwork Downloader thread op het XBMC forum.</disclaimer>
-			<disclaimer lang="pl">By zgÅ‚osiÄ‡ bÅ‚Ä…d, proÅ›bÄ™ lub zadaÄ‡ pytanie odwiedÅº wÄ…tek poÅ›wiÄ™cony Artwork Downladerowi na forum XBMC.</disclaimer>
-			<disclaimer lang="pt">Para reportar erros, requisitar algo ou perguntar algo sobre o add-on, visite o tópico do Artwork Downloader no fórum do XBMC.</disclaimer>
-			<disclaimer lang="pt_BR">Para erros, requisições ou questões gerais visite o tópico do Artwork Downloader no Fórum XBMC.org</disclaimer>
-			<disclaimer lang="sk">Pre chyby, požiadavky alebo všeobecné otázky navštívte "Artwork Downloader" vlákno na XBMC fóre.</disclaimer>
-			<disclaimer lang="sv">För buggar, önskemål och frågor, besök Artwork Downloader tråden på XBMCs forum.</disclaimer>
-			<disclaimer lang="zh">错误报告、功能需求及常见问题，请访问XBMC论坛的Artwork Downloader专贴。</disclaimer>
-			<language></language>
-			<platform>all</platform>
-			<website></website>
-			<source>https://github.com/XBMC-Addons/script.artwork.downloader</source>
-			<forum>http://forum.xbmc.org/showthread.php?tid=114633</forum>
-			<email></email>
 		</extension>
 	</addon>
 	<addon id="script.skin.helper.service" name="Skin Helper Service" version="1.1.25" provider-name="marcelveldt,cartmandos,marduk">
@@ -436,8 +359,8 @@
             Follow the forum thread about the latest news for the skin.
         </news>
 		</extension>
-</addon>
-	<addon id="skin.titan.mod.beta.leia" version="18.1.12" name="T i t a n - M O D (BETA) for LEIA" provider-name="mardukl,cartman.dos,marcelveldt,mgonzales">
+	</addon>
+	<addon id="skin.titan.mod.beta.leia" version="18.1.13" name="T i t a n - M O D (BETA) for LEIA" provider-name="mardukl,cartman.dos,marcelveldt,mgonzales">
 		<requires>
 			<import addon="xbmc.gui" version="5.14.0" />
 			<import addon="script.skinshortcuts" version="0.6.5"/>
@@ -511,292 +434,6 @@
 			</assets>
 			<news>
 				Follow the forum thread about the latest news for the skin.
-			</news>
-		</extension>
-	</addon>
-	<addon id="skin.aeon.nox.spin" version="9.0.0" name="Aeon Nox 5 Spin" provider-name="manfeed">
-		<requires>
-			<import addon="xbmc.gui" version="5.12.0"/>
-			<import addon="script.grab.fanart" version="0.12.8"/>
-			<import addon="script.skinshortcuts" version="1.0.10"/>
-			<import addon="service.library.data.provider" version="0.0.7"/>
-			<import addon="resource.images.studios.white" version="0.0.1"/>
-			<import addon="resource.images.recordlabels.white" version="0.0.1"/>
-			<import addon="script.skin.info.service" version="2.0.0"/>
-		</requires>
-		<extension point="xbmc.gui.skin" debugging="false" effectslowdown="0.75">
-			<res width="1920" height="1080" aspect="16:9" default="true" folder="1080" />
-		</extension>
-		<extension point="xbmc.addon.metadata">
-			<summary lang="de_DE">Erstellt von BigNoid, modifiziert von manfeed and SiLVO, Widgets von Mr. V</summary>
-			<summary lang="el_GR">Created by BigNoid, Modded by manfeed and SiLVO, and Widgets by Mr. V</summary>
-			<summary lang="en_AU">Created by BigNoid, Modded by manfeed and SiLVO, and Widgets by Mr. V</summary>
-			<summary lang="en_GB">Created by BigNoid, Modded by manfeed and SiLVO, and Widgets by Mr. V</summary>
-			<summary lang="en_NZ">Created by BigNoid, Modded by manfeed and SiLVO, and Widgets by Mr. V</summary>
-			<summary lang="en_US">Created by BigNoid, Modded by manfeed and SiLVO, and Widgets by Mr. V</summary>
-			<summary lang="es_ES">Creada por BigNoid, Modificada por manfeed and SiLVO, y Widgets por Mr. V</summary>
-			<summary lang="fi_FI">BigNoidin tekemä ja manfeed and SiLVOn muokkaama. Widgetit Mr. V:ltä</summary>
-			<summary lang="fr_CA">Créé par BigNoid, modifié by manfeed and SiLVO, et widgets par Mr. V</summary>
-			<summary lang="fr_FR">Créé par BigNoid, Moddé par manfeed and SiLVO, avec les widgets de Mr V</summary>
-			<summary lang="gl_ES">Created by BigNoid, Modded by manfeed and SiLVO, and Widgets by Mr. V</summary>
-			<summary lang="he_IL">Created by BigNoid, Modded by manfeed and SiLVO, and Widgets by Mr. V</summary>
-			<summary lang="hu_HU">Created by BigNoid, Modded by manfeed and SiLVO, and Widgets by Mr. V</summary>
-			<summary lang="is_IS">Created by BigNoid, Modded by manfeed and SiLVO, and Widgets by Mr. V</summary>
-			<summary lang="it_IT">Created by BigNoid, Modded by manfeed and SiLVO, and Widgets by Mr. V</summary>
-			<summary lang="ko_KR">Created by BigNoid, Modded by manfeed and SiLVO, and Widgets by Mr. V</summary>
-			<summary lang="lt_LT">Sukūrė BigNoid, modifikavo manfeed and SiLVO bei valdiklius pridėjo Mr. V</summary>
-			<summary lang="ms_MY">Created by BigNoid, Modded by manfeed and SiLVO, and Widgets by Mr. V</summary>
-			<summary lang="nb_NO">Skapt av BigNoid, modifisert av manfeed and SiLVO, og Widgets av Mr. V.</summary>
-			<summary lang="nl_NL">Ontwikkeld door BigNoid, aangepast door manfeed and SiLVO, en Widgets door Mr. V</summary>
-			<summary lang="pl_PL">Stworzona przez BigNoid, zmodyfikowana przez manfeed and SiLVO, a gadżety autorstwa Mr. V</summary>
-			<summary lang="pt_BR">Created by BigNoid, Modded by manfeed and SiLVO, and Widgets by Mr. V</summary>
-			<summary lang="pt_PT">Criado por BigNoid, Modded por manfeed and SiLVO, e Widgets por Mr. V</summary>
-			<summary lang="ro_RO">Created by BigNoid, Modded by manfeed and SiLVO, and Widgets by Mr. V</summary>
-			<summary lang="ru_RU">Created by BigNoid, Modded by manfeed and SiLVO, and Widgets by Mr. V</summary>
-			<summary lang="sk_SK">Created by BigNoid, Modded by manfeed and SiLVO, and Widgets by Mr. V</summary>
-			<summary lang="sv_SE">Created by BigNoid, Modded by manfeed and SiLVO, and Widgets by Mr. V</summary>
-			<summary lang="th_TH">Created by BigNoid, Modded by manfeed and SiLVO, and Widgets by Mr. V</summary>
-			<summary lang="tr_TR">BigNoid tarafından oluşturuldu; Modlar manfeed and SiLVO'dan, Widget'lar Mr. V'den.</summary>
-			<summary lang="vi_VN">Created by BigNoid, Modded by manfeed and SiLVO, and Widgets by Mr. V - Sự trở về</summary>
-			<summary lang="zh_CN">Created by BigNoid, Modded by manfeed and SiLVO, and Widgets by Mr. V</summary>
-			<description lang="de_DE">Komplett neu designed für ein modernes Aussehen und das klassische Aeon-Feeling beizubehalten.</description>
-			<description lang="el_GR">Πλήρως επανασχεδιασμένο για να προσφέρει μια μοντέρνα αισθητική, διατηρώντας ταυτόχρονα την κλασική ομορφιά του Aeon.</description>
-			<description lang="en_AU">Completely redesigned to create a modern look, while retaining the classic Aeon feel.</description>
-			<description lang="en_GB">Completely redesigned to create a modern look, while retaining the classic Aeon feel.</description>
-			<description lang="en_NZ">Completely redesigned to create a modern look, while retaining the classic Aeon feel.</description>
-			<description lang="en_US">Completely redesigned to create a modern look, while retaining the classic Aeon feel.</description>
-			<description lang="es_ES">Completamente rediseñado para crear un aspecto moderno, pero conservando el toque clásico Aeon.</description>
-			<description lang="fi_FI">Täysin uudelleensuunniteltu moderni ulkoasu, kuitenkin tuntuen klassiselta Aeonilta.</description>
-			<description lang="fr_CA">Complètement remanié pour créer une apparence moderne, tout en conservant l'esprit classique d'Aeon.</description>
-			<description lang="fr_FR">Totalement revu pour créer un look moderne, en gardant l'expérience Aeon.</description>
-			<description lang="he_IL">עיצוב חדש היוצר מראה מודרני אך משמר את ההרגשה של Aeon הקלאסי.</description>
-			<description lang="hr_HR">Potpuno preoblikovan moderan izgled, uz zadržani klasični Aeon osjećaj.</description>
-			<description lang="hu_HU">Teljesen áttervezett modern kinézet, de megtartva a klasszikus Aeon érzetet.</description>
-			<description lang="is_IS">Endurhannað nútímalegt útlit í anda Aeon.</description>
-			<description lang="it_IT">Completamente ridisegnato per creare un look moderno, mantenendo la consueta qualità Aeon.</description>
-			<description lang="ko_KR">고전적인 Aeon 느낌을 유지하면서 현대적인 모습으로 완전히 다시 디자인하여 만들었습니다.</description>
-			<description lang="lt_LT">Pilnai atnaujinta, kad sukurtų modernią išvaizdą, išlaikant klasikinio Aeon pojūtį.</description>
-			<description lang="ms_MY">Direka semula sepenuhnya untuk hasilkan penampilan modern, tetapi masih mengekalkan penampilan Aeon klasik.</description>
-			<description lang="nb_NO">Helt redesignet for å gi deg en moderne utforming, samtidig som man beholder den klassiske Aeon følelsen.</description>
-			<description lang="nl_NL">Volledig opnieuw ontworpen om een ​​moderne look te creëren, met behoud van het klassieke Aeon gevoel.</description>
-			<description lang="pl_PL">Całkowicie przeprojektowana skóra Aeon, o nowoczesnym wyglądzie, zachowując klasyczny układ skóry Aeon.</description>
-			<description lang="pt_BR">Design completamente novo para criar um look moderno, mantendo o feeling do Aeon Clássico.</description>
-			<description lang="pt_PT">Completamente redesenhado para criar um visual moderno enquanto retém o toque clássico Aeon.</description>
-			<description lang="ro_RO">Complet reproiectat pentru a crea o înfățișare modernă, dar totuși păstrând atmosfera clasică Aeon.</description>
-			<description lang="ru_RU">полностью переделенная, модернизированная классическая обложка Aeon.</description>
-			<description lang="sk_SK">Kompletne prepracovaný dizajn s moderným vzhľadom pri zachovaní klasického štýlu Aeon.</description>
-			<description lang="sv_SE">Totalt omarbetad för att skapa ett modernt utseende, samtidigt som man behåller den klassiska Aeon-känslan.</description>
-			<description lang="th_TH">การออกแบบใหม่หมดจด เพื่อสร้างรูปลักษณ์ทันสมัย, ​​ขณะที่ยังคงความรู้สึกคลาสสิคของ Aeon.</description>
-			<description lang="tr_TR">Modern görünüme kavuşturmak için baştan tasarlandı, klasik Aeon hissi korundu</description>
-			<description lang="vi_VN">Thiết kế lại hoàn toàn để tạo nên một phong cách hiện đại, trong khi đó vẫn duy trì một cảm giác Aeon cổ điển.</description>
-			<platform>all</platform>
-			<license>GNU GENERAL PUBLIC LICENSE Version 2, June 1991</license>
-			<forum></forum>
-			<website></website>
-			<source></source>
-			<assets>
-				<icon>resources/icon.png</icon>
-				<fanart>resources/fanart.jpg</fanart>
-				<screenshot>resources/screenshots/screenshot-01.jpg</screenshot>
-				<screenshot>resources/screenshots/screenshot-02.jpg</screenshot>
-				<screenshot>resources/screenshots/screenshot-03.jpg</screenshot>
-				<screenshot>resources/screenshots/screenshot-04.jpg</screenshot>
-				<screenshot>resources/screenshots/screenshot-05.jpg</screenshot>
-				<screenshot>resources/screenshots/screenshot-06.jpg</screenshot>
-				<screenshot>resources/screenshots/screenshot-07.jpg</screenshot>
-				<screenshot>resources/screenshots/screenshot-08.jpg</screenshot>
-				<screenshot>resources/screenshots/screenshot-09.jpg</screenshot>
-				<screenshot>resources/screenshots/screenshot-10.jpg</screenshot>
-				<screenshot>resources/screenshots/screenshot-11.jpg</screenshot>
-				<screenshot>resources/screenshots/screenshot-12.jpg</screenshot>
-			</assets>
-			<news>[B]Based on [I]v6.0.3[/I] of Aeon Nox 5 SiLVO[/B]</news>
-		</extension>
-	</addon>
-	<addon id="skin.lucid" version="0.3.25" name="Lucid" provider-name="TK.One aka. Rantanplan-1">
-		<requires>
-			<import addon="xbmc.gui" version="5.12.0"/>
-			<import addon="script.favourites" version="5.0.0"/>
-			<import addon="script.skinshortcuts" version="0.6.5"/>
-			<import addon="script.playalbum" version="1.0.1"/>
-			<import addon="script.extendedinfo" version="1.0.0"/>
-			<import addon="script.skin.helper.service" version="1.0.0"/>
-			<import addon="script.skin.helper.backgrounds" version="1.0.0"/>
-			<import addon="script.image.resource.select" version="0.1.1"/>
-			<import addon="service.kn.switchtimer" version="2.0.3"/>
-			<import addon="plugin.program.autocompletion" version="1.0"/>
-			<import addon="resource.images.studios.white" version="0.0.1"/>
-			<import addon="resource.images.weatherfanart.multi" version="0.0.1"/>
-			<import addon="script.libraryeditor" version="0.0.1" optional="true"/>
-		</requires>
-		<extension point="xbmc.gui.skin" defaultthemename="Textures.xbt" effectslowdown="1.00" debugging="false">
-			<res width="1920" height="1080" aspect="16:9" default="true" folder="16x9" />
-		</extension>
-		<extension point="xbmc.addon.metadata">
-			<platform>all</platform>
-			<summary lang="en">Lucid a fast Feature rich Skin, with a modern "flat" design.</summary>
-			<disclaimer lang="en">Mouse and Touch device not supported</disclaimer>
-			<description lang="en">Lucid, a fast Featurerich Skin with a modern "flat" design and a "light" look, which is easy to setup and offers support for current Scripts and Addons.. [CR]The Goal of this Skin was for me to create something which is easy and intuitive to use and comes with a unclutterd unified "light" Design.[CR] Two Areas get therefore special Attention. The Settingsarea and the Addon Hub. Goal for the Setingsarea was to have all Settings available in one Settingswindow, this way it is easyer to become a good overview which Settiongs Kodi offers, its even possible to setup your Remote straight from the Settingsarea (menu item "more"). The "Addon Hub" also deserve some Attention, as you can access all your installed "content Addons" strait from one Place and Sort them according to your needs (even different Views are possible in the "Addon Hub".) [CR][CR]Original design: TR.One aka. Rantanplan-1[CR][CR]Thanks to Hitcher for "Conq", which i took as a base for this Skin, [CR][CR][CR]     [CR]Lucid a Modern Skin with a light look, which is easy to setup and offers support for current Scripts and Addons.</description>
-			<assets>
-				<icon>icon.png</icon>
-				<fanart>fanart.jpg</fanart>
-				<screenshot>_screenshots/screenshot001.jpg</screenshot>
-				<screenshot>_screenshots/screenshot002.jpg</screenshot>
-				<screenshot>_screenshots/screenshot003.jpg</screenshot>
-				<screenshot>_screenshots/screenshot004.jpg</screenshot>
-				<screenshot>_screenshots/screenshot005.jpg</screenshot>
-				<screenshot>_screenshots/screenshot006.jpg</screenshot>
-				<screenshot>_screenshots/screenshot200.jpg</screenshot>
-				<screenshot>_screenshots/screenshot201.jpg</screenshot>
-				<screenshot>_screenshots/screenshot202.jpg</screenshot>
-				<screenshot>_screenshots/screenshot203.jpg</screenshot>
-			</assets>
-		</extension>
-	</addon>
-	<addon id="skin.kodiflix.krypton" version="2.10.0" name="Kodiflix for Krypton" provider-name="SchisM">
-		<requires>
-			<import addon="xbmc.gui" version="5.12.0"/>
-			<import version="0.4.0" addon="script.skinshortcuts"/>
-			<import version="0.1.0" addon="service.library.data.provider"/>
-			<import version="12.0.29" addon="script.artwork.downloader" />
-			<import version="1.0.0" addon="script.skin.helper.service" />
-			<import version="5.0.0" addon="script.globalsearch"/>
-			<import version="1.0.0" addon="script.toolbox"/>
-			<import version="1.0.1" addon="plugin.program.autocompletion"/>
-			<import addon="resource.images.studios.coloured" />
-		</requires>
-		<extension point="xbmc.gui.skin" debugging="false">
-			<res width="1920" height="1080" aspect="16:9" default="true" folder="1080i" />
-		</extension>
-		<extension point="xbmc.addon.metadata">
-			<summary lang="de_DE">Kodiflix for Krypton</summary>
-			<summary lang="en_GB">Kodiflix for Krypton</summary>
-			<description lang="de_DE">Kodiflix for Krypton - No banned Stuff</description>
-			<description lang="en_GB">Kodiflix for Krypton - No banned Stuff</description>
-		 <platform>all</platform>
-			<assets>
-				<icon>icon.png</icon>
-				<fanart>fanart.jpg</fanart>
-				<screenshot>resources/screenshot000.jpg</screenshot>
-				<screenshot>resources/screenshot001.jpg</screenshot>
-				<screenshot>resources/screenshot002.jpg</screenshot>
-				<screenshot>resources/screenshot003.jpg</screenshot>
-			</assets>
-		</extension>
-	</addon>
-	<addon id="script.video.checktvtrailer" name="Lookup local TV Show - Trailer" version="1.0.0" provider-name="marduk">
-		<requires>
-			<import addon="xbmc.python" version="2.25.0"/><!-- keep krypton compatibility -->
-		</requires>
-		<extension point="xbmc.service" library="checkexist.py"/>
-		<!-- <extension point="xbmc.addon.video" library="checkexist.py"/>
-			<provides>video</provides>
-		</extension> -->
-		<extension point="xbmc.addon.metadata">
-			<summary lang="en_GB">Skin Script Addon to check if a local (tvshow)-trailer exists[CR]You may need to [B]check your advancedsettings.xml to prevent Trailer Scrapping into Library[/B]</summary>
-			<description lang="en_GB">Script for skinners to check if a local (tvshow)-trailer exists</description>
-			<language></language>
-			<platform>all</platform>
-			<license>GNU GENERAL PUBLIC LICENSE Version 2</license>
-			<assets>
-				<icon>icon.png</icon>
-			</assets>
-		</extension>
-	</addon>
-	<addon id="plugin.video.netflix" name="Netflix" version="0.13.23" provider-name="libdev + jojo + asciidisco">
-		<requires>
-			<import addon="xbmc.python" version="2.25.0"/>
-			<import addon="script.module.requests" version="2.12.4"/>
-			<import addon="script.module.pycryptodome" version="3.4.3"/>
-			<import addon="script.module.inputstreamhelper" version="0.3.3"/>
-			<import addon="script.module.addon.signals" version="0.0.3"/>
-		</requires>
-		<extension point="xbmc.python.pluginsource" library="addon.py">
-			<provides>video</provides>
-		</extension>
-		<extension point="xbmc.service" library="service.py" start="login" />
-		<extension point="xbmc.addon.metadata">
-			<reuselanguageinvoker>true</reuselanguageinvoker>
-			<summary lang="de_DE">Netflix</summary>
-			<description lang="de_DE">Addon für Netflix VOD Services</description>
-			<disclaimer lang="de_DE">Möglicherweise sind einge Teile dieses Addons in Ihrem Land illegal, Sie sollten dies unbedingt vor der Installation überprüfen.</disclaimer>
-			<summary lang="en_GB">Netflix</summary>
-			<description lang="en_GB">Netflix VOD Services Addon</description>
-			<disclaimer lang="en_GB">Some parts of this addon may not be legal in your country of residence - please check with your local laws before installing.</disclaimer>
-			<assets>
-				<icon>resources/icon.png</icon>
-				<fanart>resources/fanart.jpg</fanart>
-				<screenshot>resources/screenshot-01.jpg</screenshot>
-				<screenshot>resources/screenshot-02.jpg</screenshot>
-				<screenshot>resources/screenshot-03.jpg</screenshot>
-			</assets>
-			<language>en de es he hr it nl pl pt sk sv</language>
-			<platform>all</platform>
-			<license>MIT</license>
-			<website>https://www.netflix.com</website>
-			<email>public at asciidisco dot com</email>
-			<forum>https://www.kodinerds.net/index.php/Thread/55612-PreRelease-Plugin-Netflix-Inputstream/</forum>
-			<source>https://github.com/asciidisco/plugin.video.netflix</source>
-			<news>
-		v0.13.23 (2019-06-19)
-		- Fix api_data change (credits @Jaker MX)
-
-		v0.13.22 (2019-03-08)
-		- Fix menu listing (credits @xLAva)
-
-		v0.13.21 (2018-12-03)
-		- More codec levels for FHD / UHD
-
-		v0.13.20 (2018-11-29)
-		- MSLv2 for manifest retrieval
-
-		v0.13.19 (2018-11-24)
-		- Fix VTT / VP9 issues
-
-		v0.13.18 (2018-11-17)
-		- Write correct codec into VP9 MPEG DAS profiles
-
-		v0.13.17 (2018-11-16)
-		- Add VP9 profiles to avoid PRK exception while downloading manifest
-		- Android ESN generation enhanced
-
-		v0.13.16 (2018-11-13)
-		- WebVTT subtitles
-
-		v0.13.13 (2018-09-13)
-		- Fix disabling of intro skipping not working
-
-		v0.13.12 (2018-08-21)
-		- Fix issues with timeline markers
-
-		v0.13.11 (2018-08-20)
-		- Fix login issues
-		- Fix fanarts for non-netflix originals
-		- Add Korean translation
-		- Update Italian translation
-		- Add query parameter widget_display to suppress setting custom view modes when called from a widget
-		- Skip intro and recap
-		- Remember audio settings across all episodes of a show
-
-		v0.13.9 (2018-06-14)
-		- fix login issues after typo fix in netflix login page
-
-		v0.13.8 (2018-06-07)
-		- fix proxy communication
-		- fix folder definition for image resources
-
-		v0.13.7 (2018-05-28)
-		- rework of login info parsing
-
-		v0.13.0 (2018-04-26)
-		- Android support WIDEVINE Cryptosession for MSL
-
-		v0.12.9 (2018-04-16)
-		- View for exported
-		- Support for inputstreamhelper
-		- Grab metadate for episodes on export
-		- Auto export new episodes for exported shows
-		- Auto update watched status inside kodi library
 			</news>
 		</extension>
 	</addon>
