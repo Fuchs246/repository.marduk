@@ -5,23 +5,32 @@
  		> [skin.titan - leia]		**=18	https://github.com/marduklev/skin.titan.mod.beta.leia/
 
 
-## Marduk : version **.1.13. - xx.xx.2019	
-					## to do for next version  
-					
-										- resolve clearlogo for spotlight trailer playing (temp use text label instead of logo for trailer playback due to widget refresh on playback start )
-										- repack images for themes (get rid of some [!]Skin.HasTheme([themename]))
-										- add musicvideo title below clearlogo ,netlix lyout,needs cond height adjust for plot
-										- fix scrollbars (need reload, check ids vert vs hor)
-										- resolve/improve/remove? spotlight widget behaviour
-										- improve skin search layouts ( + setting to en/disable containers)
-										- improve enhanced videoinfo layout ( + setting to en/disable containers)
-										- artwork,container adjustments 523
-										
-	
-	CONEXT MENU
-		- add 'run artwork beef addon' button
+
+	in progress
+		- resolve clearlogo for spotlight trailer playing (temp use text label instead of logo for trailer playback due to widget refresh on playback start )
+		- find/make better diffuse texture / or use overlay for fanart spotlight / bigpicure focus
+		- repack images for themes (get rid of some [!]Skin.HasTheme([themename]))
+		- plot variable spotlight content
 		
-				
+		- resolve/improve spotlight widget behaviour
+		- fix sevreavl issues on netflix home
+		- improve skin search layouts ( + setting to en/disable containers)
+		- improve enhanced videoinfo layout ( + setting to en/disable containers)
+		
+		- artwork,info adjustments,container adjustments 523,525 
+
+
+## Marduk : version 18.1.14. - 21.11.2019	
+
+		- add widget header textcolors to 'set color string' on first load
+		- add posibility to en/disable tags on netlix home
+		- add overlay for episode thumbs (view525)
+		- slightly smaller font default plot netflix views
+		- fix toggle botton (selected condition)
+		
+
+## Marduk : version 18.1.13. - 17.11.2019	
+						
 	SETTINGS WINDOW
 		- changed layout
 		- removed some needless settings,removed depreciated/broken addons support (incl. artwork downloader)
