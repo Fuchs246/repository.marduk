@@ -17,9 +17,20 @@
 		- improve skin search layouts ( + setting to en/disable containers)
 		- improve enhanced videoinfo layout ( + setting to en/disable containers)
 		
-		- artwork,info adjustments,container adjustments 523,525 
-
-
+		- artwork,info adjustments,container adjustments 523,525
+		
+		
+		
+		
+## Marduk : version 18.1.15. - 19.12.2019
+		
+		- add colortheme by fuchs2474
+		- add new ViewType - View529(NetflixInfo)
+		- add new Color - NetflixSecondary Highlight Color (default cyan,FF00FFFF)
+		- fix widgetslectionbutton (snlgewidget/singlewidgetlarge)
+		- fix widgetslectionbutton (snlgewidget/singlewidgetlarge)
+		- fix squaresubmenu widget align/overlay
+		
 ## Marduk : version 18.1.14. - 21.11.2019	
 
 		- add widget header textcolors to 'set color string' on first load
