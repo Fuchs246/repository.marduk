@@ -26,6 +26,11 @@
 		- myvideonav - fix touch support issues come from id="878678" (Let List Gain Focus if id is uncleared)
 		- myvideonav - fix container call issues (visible conditions)
 		
+		- PVR - toggle listitem.title/.episodename - toggle which listitem the skin uses for episode names based on which PVR backend you use ; Using the Tvheadend PVR plugin, recorded shows were not showing the episode name in the list, just the show name. 
+		by @'yeahme49'
+		- The 4k media flag image was different than other resolutions and did not display properly. This pull request fixes both of those issues. 
+		by @'yeahme49'
+		
 ## Marduk : version 18.1.15. - 19.12.2019
 		
 		- add colortheme by fuchs2474
