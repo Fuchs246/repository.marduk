@@ -19,8 +19,12 @@
 		
 		- artwork,info adjustments,container adjustments 523,525
 		
+
+## Marduk : version 18.1.16. - 20.12.2019
 		
-		
+		- view529 - use encoded title to esc issues with special characters in tvshowtitle
+		- myvideonav - fix touch support issues come from id="878678" (Let List Gain Focus if id is uncleared)
+		- myvideonav - fix container call issues (visible conditions)
 		
 ## Marduk : version 18.1.15. - 19.12.2019
 		
