@@ -19,7 +19,7 @@
 		
 		- artwork,info adjustments,container adjustments 523,525
 		
-## Marduk : version 18.1.16. - 23.12.2019
+## Marduk : version 18.1.17. - 23.12.2019
 		
 		- some fixes in view529 (trailer playing, contentpaths)
 		- fixes for respect alignment and height correction - squaresumenu widgets (removed widget slide animations)
