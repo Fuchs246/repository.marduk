@@ -1,2 +1,0 @@
-- removed : busy loader load, fixed crash on loading skinthemes
-- update for Kodi leia/krypton, not backwarads compatible
