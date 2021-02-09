@@ -1,4 +1,4 @@
-# The Base Repo for **T i t a n - M O D (BETA) and other Skins**
+# The Base Repo for **T i t a n - M O D (BETA) Stuff**
 
 
 ### including its needed AddonOns **(K R Y P T O N**   &  **L E I A)**
@@ -14,11 +14,4 @@
 > - included "repository.castagnait" from **castagnait**, source for netflix video plugin
 > - resource.images.skinicons.whitesquare from **myself**
 > - script TV Melody from  **smitchell6879** (used now in Titan MOD, OST Theme Playback ) -> https://forum.kodi.tv/showthread.php?tid=332890
-> - updated version of "script.skin.info.service" from **phil65** (krypton/leia compatible) -> https://forum.kodi.tv/showthread.php?tid=203196
->
 
-
-## actual skin files
-> [skin.titan MOD - krypton](https://github.com/marduklev/skin.titan.krypton.mod/)
-> 	
-> [skin.titan MOD - leia](https://github.com/marduklev/skin.titan.mod.beta.leia/)
