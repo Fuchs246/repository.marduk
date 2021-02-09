@@ -27,8 +27,8 @@
 		</dir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary lang="en">Kodi repository</summary>
-		<description lang="en">Kodi repository</description>
+		<summary lang="en">Kodi repository - Home of Titan M O D and Skin S W A N</summary>
+		<description lang="en">Kodi repository - Home of Titan M O D and Skin S W A N</description>
 		<platform>all</platform>
 		<assets>
 			<icon>resources/icon.png</icon>
