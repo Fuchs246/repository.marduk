@@ -1,0 +1,146 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<addons>
+	<addon id="repository.bingie" name="BINGIE Repository" provider-name="cartman.dos" version="1.0.2">
+		<requires>
+			<import addon="xbmc.addon" version="12.0.0"/>
+		</requires>
+		<extension name="bingie repository" point="xbmc.addon.repository">
+			<info compressed="false">https://raw.githubusercontent.com/cartmandos/repository.bingie/master/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/cartmandos/repository.bingie/master/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/cartmandos/repository.bingie/master/</datadir>
+		</extension>
+		<extension point="xbmc.addon.metadata">
+			<summary lang="en">Home of Titan BINGIE</summary>
+			<description lang="en">BINGIE repository</description>
+			<platform>all</platform>
+		</extension>
+	</addon>
+	<addon id="repository.castagnait" name="CastagnaIT Repository" version="1.0.0" provider-name="castagnait">
+		<extension point="xbmc.addon.repository" name="CastagnaIT Repository">
+			<dir>
+				<info>https://github.com/CastagnaIT/repository.castagnait/raw/master/addons.xml</info>
+				<checksum>https://github.com/CastagnaIT/repository.castagnait/raw/master/addons.xml.md5</checksum>
+				<datadir zip="true">https://github.com/CastagnaIT/repository.castagnait/raw/master/zip</datadir>
+			</dir>
+		</extension>
+		<extension point="xbmc.addon.metadata">
+			<summary>CastagnaIT Repository</summary>
+			<description>Castagna IT repository for addons</description>
+			<platform>all</platform>
+			<assets>
+				<icon>icon.jpg</icon>
+			</assets>
+		</extension>
+	</addon>
+	<addon id="repository.fredsrepo" name="Sualfreds Repo" version="1.0.9" provider-name="sualfred">
+		<requires>
+			<import addon="xbmc.addon" version="12.0.0"/>
+		</requires>
+		<extension point="xbmc.addon.repository" name="Sualfreds Repo">
+			<dir>
+				<info compressed="false">https://raw.githubusercontent.com/sualfred/my-kodi-repo/master/repositories/addons.xml</info>
+				<checksum>https://raw.githubusercontent.com/sualfred/my-kodi-repo/master/repositories/addons.xml.md5</checksum>
+				<datadir zip="true">https://raw.githubusercontent.com/sualfred/my-kodi-repo/master/repositories/</datadir>
+			</dir>
+			<dir minversion="18.9.0">
+				<info compressed="false">https://raw.githubusercontent.com/sualfred/my-kodi-repo/master/matrix/addons.xml</info>
+				<checksum>https://raw.githubusercontent.com/sualfred/my-kodi-repo/master/matrix/addons.xml.md5</checksum>
+				<datadir zip="true">https://raw.githubusercontent.com/sualfred/my-kodi-repo/master/matrix/</datadir>
+			</dir>
+			<dir minversion="17.9.0">
+				<info compressed="false">https://raw.githubusercontent.com/sualfred/my-kodi-repo/master/leia/addons.xml</info>
+				<checksum>https://raw.githubusercontent.com/sualfred/my-kodi-repo/master/leia/addons.xml.md5</checksum>
+				<datadir zip="true">https://raw.githubusercontent.com/sualfred/my-kodi-repo/master/leia/</datadir>
+			</dir>
+			<dir minversion="16.9.0">
+				<info compressed="false">https://raw.githubusercontent.com/sualfred/my-kodi-repo/master/krypton/addons.xml</info>
+				<checksum>https://raw.githubusercontent.com/sualfred/my-kodi-repo/master/krypton/addons.xml.md5</checksum>
+				<datadir zip="true">https://raw.githubusercontent.com/sualfred/my-kodi-repo/master/krypton/</datadir>
+			</dir>
+		</extension>
+		<extension point="xbmc.addon.metadata">
+			<summary>Sualfreds Kodi repository</summary>
+			<description>Personal repository of Sualfred and home of the Embuary skin</description>
+			<disclaimer></disclaimer>
+			<platform>all</platform>
+			<assets>
+				<icon>resources/icon.png</icon>
+				<fanart>resources/fanart.jpg</fanart>
+			</assets>
+		</extension>
+	</addon>
+	<addon id="repository.marcelveldt" version="1.0.1" name="Marcelveldt's BETA repository" provider-name="marcelveldt">
+		<extension point="xbmc.addon.repository" name="Marcelveldt's BETA repository">
+			<info compressed="false">https://raw.githubusercontent.com/marcelveldt/repository.marcelveldt/master/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/marcelveldt/repository.marcelveldt/master/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/marcelveldt/repository.marcelveldt/master/</datadir>
+		</extension>
+		<extension point="xbmc.addon.metadata">
+			<summary lang="en">Kodi repository for beta/test versions of Marcelveldt's addons</summary>
+			<description lang="en">Kodi repository for beta/test versions of Marcelveldt's addons, for stable versions please just use the official Kodi repository. This repo is for test/beta versions of my work only</description>
+			<platform>all</platform>
+		</extension>
+	</addon>
+	<addon id="repository.marduk" name="Marduk's KODI repository" provider-name="marduk" version="1.0.4">
+		<requires>
+			<import addon="xbmc.addon" version="12.0.0"/>
+		</requires>
+		<extension name="Marduk's KODI repository" point="xbmc.addon.repository">
+			<dir>
+				<info compressed="false">https://raw.githubusercontent.com/marduklev/repository.marduk/master/repositories/addons.xml</info>
+				<checksum>https://raw.githubusercontent.com/marduklev/repository.marduk/master/repositories/addons.xml.md5</checksum>
+				<datadir zip="true">https://raw.githubusercontent.com/marduklev/repository.marduk/master/repositories/</datadir>
+			</dir>
+			<dir minversion="18.9.0">
+				<info compressed="false">https://raw.githubusercontent.com/marduklev/repository.marduk/master/matrix/addons.xml</info>
+				<checksum>https://raw.githubusercontent.com/marduklev/repository.marduk/master/matrix/addons.xml.md5</checksum>
+				<datadir zip="true">https://raw.githubusercontent.com/marduklev/repository.marduk/master/matrix/</datadir>
+			</dir>
+			<dir minversion="17.9.0">
+				<info compressed="false">https://raw.githubusercontent.com/marduklev/repository.marduk/master/leia/addons.xml</info>
+				<checksum>https://raw.githubusercontent.com/marduklev/repository.marduk/master/leia/addons.xml.md5</checksum>
+				<datadir zip="true">https://raw.githubusercontent.com/marduklev/repository.marduk/master/leia/</datadir>
+			</dir>
+			<dir minversion="16.9.0">
+				<info compressed="false">https://raw.githubusercontent.com/marduklev/repository.marduk/master/krypton/addons.xml</info>
+				<checksum>https://raw.githubusercontent.com/marduklev/repository.marduk/master/krypton/addons.xml.md5</checksum>
+				<datadir zip="true">https://raw.githubusercontent.com/marduklev/repository.marduk/master/krypton/</datadir>
+			</dir>
+		</extension>
+		<extension point="xbmc.addon.metadata">
+			<summary lang="en">Kodi repository</summary>
+			<description lang="en">Kodi repository</description>
+			<platform>all</platform>
+			<assets>
+				<icon>resources/icon.png</icon>
+				<fanart>resources/fanart.jpg</fanart>
+			</assets>
+		</extension>
+	</addon>
+	<addon id="repository.rector.stuff" name="Rector Stuff" version="1.0.4" provider-name="rmrector">
+		<requires>
+			<import addon="xbmc.addon" version="12.0.0"/>
+		</requires>
+		<extension point="xbmc.addon.repository" name="Rector Repository">
+			<dir maxversion="18.9.0">
+				<info>https://raw.githubusercontent.com/rmrector/repository.rector.stuff/python2/addons.xml</info>
+				<checksum>https://raw.githubusercontent.com/rmrector/repository.rector.stuff/python2/addons.xml.md5</checksum>
+				<datadir zip="true">https://raw.githubusercontent.com/rmrector/repository.rector.stuff/python2/</datadir>
+			</dir>
+			<dir minversion="18.9.700">
+				<info>https://raw.githubusercontent.com/rmrector/repository.rector.stuff/python3/addons.xml</info>
+				<checksum>https://raw.githubusercontent.com/rmrector/repository.rector.stuff/python3/addons.xml.md5</checksum>
+				<datadir zip="true">https://raw.githubusercontent.com/rmrector/repository.rector.stuff/python3/</datadir>
+			</dir>
+		</extension>
+		<extension point="xbmc.addon.metadata">
+			<summary lang="en">A little place for my stuff.</summary>
+			<description lang="en">I'm Rector, I do stuff, I put it here.</description>
+			<platform>all</platform>
+			<disclaimer />
+			<assets>
+				<icon>icon.png</icon>
+			</assets>
+		</extension>
+	</addon>
+</addons>

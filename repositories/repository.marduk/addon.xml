@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.marduk" name="Marduk's KODI repository" provider-name="marduk" version="1.0.4">
+	<requires>
+		<import addon="xbmc.addon" version="12.0.0"/>
+	</requires>
+	<extension name="Marduk's KODI repository" point="xbmc.addon.repository">
+	
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/marduklev/repository.marduk/master/repositories/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/marduklev/repository.marduk/master/repositories/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/marduklev/repository.marduk/master/repositories/</datadir>
+		</dir>
+		<dir minversion="18.9.0">
+			<info compressed="false">https://raw.githubusercontent.com/marduklev/repository.marduk/master/matrix/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/marduklev/repository.marduk/master/matrix/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/marduklev/repository.marduk/master/matrix/</datadir>
+		</dir>
+		<dir minversion="17.9.0">
+			<info compressed="false">https://raw.githubusercontent.com/marduklev/repository.marduk/master/leia/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/marduklev/repository.marduk/master/leia/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/marduklev/repository.marduk/master/leia/</datadir>
+		</dir>
+		<dir minversion="16.9.0">
+			<info compressed="false">https://raw.githubusercontent.com/marduklev/repository.marduk/master/krypton/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/marduklev/repository.marduk/master/krypton/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/marduklev/repository.marduk/master/krypton/</datadir>
+		</dir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Kodi repository</summary>
+		<description lang="en">Kodi repository</description>
+		<platform>all</platform>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<fanart>resources/fanart.jpg</fanart>
+		</assets>
+	</extension>
+</addon>
