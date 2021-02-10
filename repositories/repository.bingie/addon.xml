@@ -12,5 +12,9 @@
 		<summary lang="en">Home of Titan BINGIE</summary>
 		<description lang="en">BINGIE repository</description>
 		<platform>all</platform>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<fanart>resources/fanart.jpg</fanart>
+		</assets>
 	</extension>
 </addon>
