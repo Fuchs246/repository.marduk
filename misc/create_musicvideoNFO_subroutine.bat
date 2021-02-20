@@ -11,9 +11,9 @@ PAUSE > NUL
 setlocal
 for /r %%A in (*.mkv *.avi *.mp4) do call :subroutine_createnfo "%%~nA"
 ECHO.
-ECHO Creatin is done
-ECHO Scroll up to chcek for errors.   Push key to exit
-ECHO   Push key to exit
+ECHO 	Creatin is done
+ECHO 	Scroll up to chcek for errors.   Push key to exit
+ECHO 	Push key to exit
 ECHO.
 PAUSE > NUL
 goto :EOF
@@ -21,9 +21,10 @@ goto :EOF
 :subroutine_createnfo
 set "filename=%~1"
 set "artist=%filename: - =" & set "title=%"
-echo ^
-echo ^	%artist% - %title%.nfo is created
-echo 		IS CREATED
+echo.
+echo 		%artist% - %title%.nfo
+echo 		Is Created
+echo.
 for /r %%a in (*.mkv *.avi *.mp4) do (
 (
 echo ^<?xml version="1.0" encoding="UTF-8" standalone="yes"?^>
