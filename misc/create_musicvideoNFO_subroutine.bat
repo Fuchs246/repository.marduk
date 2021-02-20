@@ -22,7 +22,7 @@ goto :EOF
 set "filename=%~1"
 set "artist=%filename: - =" & set "title=%"
 echo ^
-echo ^	^%artist% - %title%.nfo is created
+echo ^	%artist% - %title%.nfo is created
 echo 		IS CREATED
 for /r %%a in (*.mkv *.avi *.mp4) do (
 (
@@ -54,7 +54,7 @@ for /r %%a in (*-fanart.jpg) do echo ^		^<fanart^>%~dp0^%%~na^.jpg^</fanart^>
 for /r %%a in (*-poster.jpg) do echo ^		^<poster^>%~dp0^%%~na^.jpg^</poster^>
 for /r %%a in (*-artistthumb.jpg) do echo ^		^<artistthumb^>%~dp0^%%~na^.jpg^</artistthumb^>
 for /r %%a in (*-banner.jpg) do echo ^		^<banner^>%~dp0^%%~na^.jpg^</banner^>
-for /r %%a in (*-clearlogo.jpg) do echo ^		^<clearlogo^>%~dp0^%%~na^.jpg^</clearlogo^>
+for /r %%a in (*-clearlogo.png) do echo ^		^<clearlogo^>%~dp0^%%~na^.png^</clearlogo^>
 for /r %%a in (*-discart.jpg) do echo ^		^<discart^>%~dp0^%%~na^.jpg^</discart^>
 for /r %%a in (*-landscape.jpg) do echo ^		^<landscape^>%~dp0^%%~na^.jpg^</landscape^>
 echo ^	^</art^>
