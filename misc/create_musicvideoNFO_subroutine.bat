@@ -33,16 +33,12 @@ echo ^<musicvideo^>
 echo ^	^<title^>%title%^</title^>
 echo ^	^<rating^>^0.000000^</rating^>
 echo ^	^<userrating^>^8^</userrating^>
-echo ^	^<epbookmark^>^0.000000^</epbookmark^>
 echo ^	^<year^>^</year^>
 echo ^	^<track^>^-1^</track^>
 echo ^	^<album^>^</album^>
 echo ^	^<artist^>%artist%^</artist^>
 echo ^	^<genre^>^</genre^> 
-echo ^	^<outline^>^</outline^>
 echo ^	^<plot^>^</plot^>
-echo ^	^<tagline^>^</tagline^>
-echo ^	^<thumb^>^</thumb^>
 echo ^	^<status^>^</status^>
 echo ^	^<studio^>^</studio^>
 echo ^	^<art^>
