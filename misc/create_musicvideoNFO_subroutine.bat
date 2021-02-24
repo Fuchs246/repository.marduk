@@ -31,7 +31,7 @@ echo ^<?xml version="1.0" encoding="UTF-8" standalone="yes"?^>
 echo ^<^!-- end test https://kodi.wiki/view/NFO_files/Music_videos --^>
 echo ^<musicvideo^>
 echo ^	^<title^>%title%^</title^>
-echo ^	^<rating^>^0.000000^</rating^>
+echo ^	^<rating^>^8.000000^</rating^>
 echo ^	^<userrating^>^8^</userrating^>
 echo ^	^<year^>^</year^>
 echo ^	^<track^>^-1^</track^>
