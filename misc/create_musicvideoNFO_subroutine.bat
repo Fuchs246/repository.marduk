@@ -3,6 +3,7 @@ TITLE NFO creator Musicvideos
 COLOR B
 ECHO -------------------------------------------------------------------------
 ECHO  Create NFO for Musicvideos, all existing will be overwritten
+ECHO  Be sure you dont use any special characters like ( , ) , & ....  !
 ECHO  Push key to Start
 ECHO -------------------------------------------------------------------------
 ECHO.
@@ -21,11 +22,12 @@ goto :EOF
 set "filename=%~1"
 set "artist=%filename: - =" & set "title=%"
 echo.
-echo 		%artist% - %title%.nfo
-echo 		Is Created
+IF EXIST "%~dp0%artist% - %title%\%artist% - %title%.nfo" echo 		%artist% - %title%.nfo ALREADY existed - go to next
+IF NOT EXIST "%~dp0%artist% - %title%\%artist% - %title%.nfo" echo 		%artist% - %title%.nfo
+IF NOT EXIST "%~dp0%artist% - %title%\%artist% - %title%.nfo" echo 		is created
 echo.
 
-for /r %%a in (*.mkv *.avi *.mp4) do (
+IF NOT EXIST "%~dp0%artist% - %title%\%artist% - %title%.nfo" (
 (
 echo ^<?xml version="1.0" encoding="UTF-8" standalone="yes"?^>
 echo ^<^!-- end test https://kodi.wiki/view/NFO_files/Music_videos --^>
@@ -42,15 +44,15 @@ echo ^	^<plot^>^</plot^>
 echo ^	^<status^>^</status^>
 echo ^	^<studio^>^</studio^>
 echo ^	^<art^>
-for /r %%a in (*-thumb.jpg) do echo ^		^<thumb^>%~dp0%artist% - %title%\%artist% - %title%-thumb.jpg^</thumb^>
-for /r %%a in (*-fanart.jpg) do echo ^		^<fanart^>%~dp0%artist% - %title%\%artist% - %title%-fanart.jpg^</fanart^>
-for /r %%a in (*-poster.jpg) do echo ^		^<poster^>%~dp0%artist% - %title%\%artist% - %title%-poster.jpg^</poster^>
-for /r %%a in (*-artistthumb.jpg) do echo ^		^<artistthumb^>%~dp0%artist% - %title%\%artist% - %title%-poster.jpg^</artistthumb^>
-for /r %%a in (*-banner.jpg) do echo ^		^<banner^>%~dp0%artist% - %title%\%artist% - %title%-banner.jpg^</banner^>
-for /r %%a in (*-clearlogo.png) do echo ^		^<clearlogo^>%~dp0%artist% - %title%\%artist% - %title%-clearlogo.png^</clearlogo^>
-for /r %%a in (*-discart.jpg) do echo ^		^<discart^>%~dp0%artist% - %title%\%artist% - %title%-discart.jpg^</discart^>
-for /r %%a in (*-discart.png) do echo ^		^<discart^>%~dp0%artist% - %title%\%artist% - %title%-discart.png^</discart^>
-for /r %%a in (*-landscape.jpg) do echo ^		^<landscape^>%~dp0%artist% - %title%\%artist% - %title%-landscape.jpg^</landscape^>
+IF EXIST "%~dp0%artist% - %title%\%artist% - %title%-thumb.jpg" echo ^		^<thumb^>%~dp0%artist% - %title%\%artist% - %title%-thumb.jpg^</thumb^>
+IF EXIST "%~dp0%artist% - %title%\%artist% - %title%-landscape.jpg" echo ^		^<thumb^>%~dp0%artist% - %title%\%artist% - %title%-landscape.jpg^</thumb^>
+IF EXIST "%~dp0%artist% - %title%\%artist% - %title%-fanart.jpg" echo ^		^<thumb^>%~dp0%artist% - %title%\%artist% - %title%-fanart.jpg^</thumb^>
+IF EXIST "%~dp0%artist% - %title%\%artist% - %title%-poster.jpg" echo ^		^<thumb^>%~dp0%artist% - %title%\%artist% - %title%-thumb.jpg^</thumb^>
+IF EXIST "%~dp0%artist% - %title%\%artist% - %title%-artistthumb.jpg" echo ^		^<thumb^>%~dp0%artist% - %title%\%artist% - %title%-poster.jpg^</thumb^>
+IF EXIST "%~dp0%artist% - %title%\%artist% - %title%-banner.jpg" echo ^		^<thumb^>%~dp0%artist% - %title%\%artist% - %title%-banner.jpg^</thumb^>
+IF EXIST "%~dp0%artist% - %title%\%artist% - %title%-clearlogo.png" echo ^		^<thumb^>%~dp0%artist% - %title%\%artist% - %title%-clearlogo.png^</thumb^>
+IF EXIST "%~dp0%artist% - %title%\%artist% - %title%-discart.png" echo ^		^<thumb^>%~dp0%artist% - %title%\%artist% - %title%-discart.png^</thumb^>
+IF EXIST "%~dp0%artist% - %title%\%artist% - %title%-discart.jpg" echo ^		^<thumb^>%~dp0%artist% - %title%\%artist% - %title%-discart.jpg^</thumb^>
 echo ^	^</art^>
 echo ^</musicvideo^>
 )>"%~dp0%artist% - %title%\%artist% - %title%.nfo"
