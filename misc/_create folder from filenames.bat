@@ -11,6 +11,7 @@ for %%a in (*.mkv *.avi *.mp4 *.mpg *.nfo) do (
 md "%%~na" 2>nul
 move "%%a" "%%~na"
 )
-cd ..
-del %%~na
-pause
+ECHO.
+ECHO Push key to exit
+ECHO.
+PAUSE > NUL
