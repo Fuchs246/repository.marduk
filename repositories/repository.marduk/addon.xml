@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="repository.marduk" name="Marduk's KODI repository" provider-name="marduk" version="1.0.5">
+<!-- 
+Krypton 17.x 	2.25.0 (ABI 2.1.0) 	5.12.0 						7.0.0 (ABI 6.0.0) 	2.1.0 (ABI 1.0) 	17.0.0 (ABI 12.0.0)
+Leia 	18.x 	2.26.0 (ABI 2.1.0) 	5.14.0 						9.7.2 (ABI 6.0.0) 	2.1.0 (ABI 1.0) 	17.9.910 (ABI 12.0.0)
+Matrix 	19.x 	3.0.0 (ABI 3.0.0) 	5.15.0 (ABI 5.14.0) 		11.2.0 (ABI 6.0.0) 	2.1.0 (ABI 1.0) 	18.9.701 (ABI 12.0.0) 
+-->
 	<requires>
 		<import addon="xbmc.addon" version="12.0.0"/>
 	</requires>
@@ -9,17 +14,17 @@
 			<checksum>https://raw.githubusercontent.com/marduklev/repository.marduk/master/repositories/addons.xml.md5</checksum>
 			<datadir zip="true">https://raw.githubusercontent.com/marduklev/repository.marduk/master/repositories/</datadir>
 		</dir>
-		<dir minversion="19.0.0">
+		<dir minversion="18.9.701">
 			<info compressed="false">https://raw.githubusercontent.com/marduklev/repository.marduk/master/matrix/addons.xml</info>
 			<checksum>https://raw.githubusercontent.com/marduklev/repository.marduk/master/matrix/addons.xml.md5</checksum>
 			<datadir zip="true">https://raw.githubusercontent.com/marduklev/repository.marduk/master/matrix/</datadir>
 		</dir>
-		<dir minversion="18.0.0" maxversion="18.9.0">
+		<dir maxversion="18.9.000">
 			<info compressed="false">https://raw.githubusercontent.com/marduklev/repository.marduk/master/leia/addons.xml</info>
 			<checksum>https://raw.githubusercontent.com/marduklev/repository.marduk/master/leia/addons.xml.md5</checksum>
 			<datadir zip="true">https://raw.githubusercontent.com/marduklev/repository.marduk/master/leia/</datadir>
 		</dir>
-		<dir minversion="17.0.0" maxversion="17.6.0">
+		<dir maxversion="17.6.000">
 			<info compressed="false">https://raw.githubusercontent.com/marduklev/repository.marduk/master/krypton/addons.xml</info>
 			<checksum>https://raw.githubusercontent.com/marduklev/repository.marduk/master/krypton/addons.xml.md5</checksum>
 			<datadir zip="true">https://raw.githubusercontent.com/marduklev/repository.marduk/master/krypton/</datadir>
