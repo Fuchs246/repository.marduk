@@ -1,9 +1,8 @@
-# The Base Repo for the KODI Skins **S W A N** and **T i t a n - M O D (BETA) Stuff**
+# The Base Repo for the KODI Skins **S W A N** and **T i t a n - M O D (BETA)**
 
 ### including its needed AddonOns **(K R Y P T O N**   &  **L E I A)**
 
 > - updated version  of **marcelveldt's** busyspinners.basic just to have some new busyloader images
->
 > - included "Rector Stuff Repo" - from **rmrector**
 > - included "Marcelveldt's BETA repository" from **Marcelveldt**
 > - included "SualFreds's repository" from **SualFred**
